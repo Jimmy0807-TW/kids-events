@@ -1,81 +1,81 @@
 {
- "time": "2026-10-31 21:03",
+ "time": "2026-10-31 21:05",
  "sources": [
   {
    "source": "文化部",
    "status": "成功",
-   "fetched": 1179,
+   "fetched": 1192,
    "kept": 105,
-   "seconds": 4.5
+   "seconds": 3.4
   },
   {
    "source": "觀光署",
    "status": "成功",
    "fetched": 1174,
    "kept": 40,
-   "seconds": 2.9
+   "seconds": 2.7
   },
   {
    "source": "北市圖",
    "status": "成功",
    "fetched": 13,
    "kept": 6,
-   "seconds": 1.0
+   "seconds": 0.8
   },
   {
    "source": "新北圖",
    "status": "成功",
    "fetched": 14,
    "kept": 13,
-   "seconds": 9.6
+   "seconds": 9.7
   },
   {
    "source": "科教館",
    "status": "成功",
    "fetched": 102,
    "kept": 75,
-   "seconds": 38.8
+   "seconds": 48.5
   },
   {
    "source": "桃園市民卡",
    "status": "成功",
    "fetched": 0,
    "kept": 0,
-   "seconds": 2.1
+   "seconds": 1.5
   },
   {
    "source": "ACCUPASS",
    "status": "成功",
    "fetched": 143,
    "kept": 72,
-   "seconds": 8.4
+   "seconds": 6.6
   },
   {
    "source": "花博公園",
    "status": "成功",
    "fetched": 35,
    "kept": 8,
-   "seconds": 2.0
+   "seconds": 2.8
   },
   {
    "source": "華山1914",
    "status": "成功",
    "fetched": 45,
    "kept": 6,
-   "seconds": 5.8
+   "seconds": 4.9
   },
   {
    "source": "松山文創園區",
    "status": "成功",
    "fetched": 26,
    "kept": 1,
-   "seconds": 1.4
+   "seconds": 1.1
   },
   {
    "source": "新聞線索",
    "status": "成功",
-   "fetched": 102,
-   "kept": 102
+   "fetched": 119,
+   "kept": 119
   }
  ],
  "stats": {
