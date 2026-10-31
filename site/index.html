@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>親子活動清單</title>
+<meta name="description" content="全台 6～8 歲親子活動清單，每天自動更新">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎈</text></svg>">
+<style>
+:root{
+  --bg:#f6f5f1;--card:#fff;--ink:#1f2328;--muted:#5f6670;--line:#e3e1da;
+  --accent:#0b6e6e;--accent-ink:#fff;--chip:#ecebe5;
+  --t1:#0b6e6e;--t2:#2f7d32;--t3:#b26a00;--t4:#6b6f76;
+  --new:#c2185b;--wknd:#1565c0;--reg:#8e24aa;--want:#e65100;--done:#2e7d32;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15171a;--card:#1f2226;--ink:#e8e6e1;--muted:#a3a8b0;--line:#33373d;
+  --accent:#4fb3b3;--accent-ink:#0d1f1f;--chip:#2a2e33;
+  --t1:#4fb3b3;--t2:#7bc47f;--t3:#f0a83c;--t4:#9aa0a8;
+  --new:#f06292;--wknd:#64b5f6;--reg:#ce93d8;--want:#ffb74d;--done:#81c784;
+}}
+:root[data-theme="dark"]{
+  --bg:#15171a;--card:#1f2226;--ink:#e8e6e1;--muted:#a3a8b0;--line:#33373d;
+  --accent:#4fb3b3;--accent-ink:#0d1f1f;--chip:#2a2e33;
+  --t1:#4fb3b3;--t2:#7bc47f;--t3:#f0a83c;--t4:#9aa0a8;
+  --new:#f06292;--wknd:#64b5f6;--reg:#ce93d8;--want:#ffb74d;--done:#81c784;
+}
+*{box-sizing:border-box}
+html{font-size:16px}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Microsoft JhengHei","微軟正黑體","PingFang TC","Noto Sans TC",sans-serif;
+  font-size:1rem;line-height:1.6}
+a{color:var(--accent)}
+.wrap{max-width:920px;margin:0 auto;padding:0 16px 64px}
+header{padding:20px 0 8px}
+h1{font-size:1.6rem;margin:0}
+.sub{color:var(--muted);font-size:.9rem}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line)}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:4px 0}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;
+  padding:4px 12px;font:inherit;font-size:.95rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+select,input[type=search]{font:inherit;font-size:1rem;padding:6px 10px;border:1px solid var(--line);
+  border-radius:8px;background:var(--card);color:var(--ink)}
+input[type=search]{flex:1;min-width:160px}
+h2{font-size:1.25rem;margin:28px 0 8px;padding-left:10px;border-left:5px solid var(--accent)}
+h2 small{color:var(--muted);font-weight:normal;font-size:.9rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
+.card.mk-want{border-left:5px solid var(--want)}
+.card.mk-done{border-left:5px solid var(--done)}
+.top{display:flex;gap:8px;align-items:baseline}
+.no{font-weight:bold;color:var(--muted);min-width:2.6em}
+.title{font-weight:bold;font-size:1.08rem;word-break:break-word}
+.title a{color:var(--ink);text-decoration:none}
+.title a:hover{text-decoration:underline}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0}
+.tag{font-size:.8rem;padding:1px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.meta{display:grid;grid-template-columns:4.2em 1fr;gap:2px 8px;font-size:.95rem}
+.meta dt{color:var(--muted)}
+.meta dd{margin:0;word-break:break-word}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.btn{font:inherit;font-size:.9rem;padding:4px 12px;border-radius:8px;border:1px solid var(--line);
+  background:var(--chip);color:var(--ink);cursor:pointer;text-decoration:none}
+.btn.on-want{background:var(--want);color:#fff;border-color:var(--want)}
+.btn.on-done{background:var(--done);color:#fff;border-color:var(--done)}
+.btn.x{color:var(--muted)}
+.empty{color:var(--muted);padding:16px 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0;font-size:.95rem}
+.box li{margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+td,th{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left}
+.ok{color:var(--t2)}.bad{color:#d32f2f}
+details summary{cursor:pointer;font-weight:bold}
+.theme{float:right}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <button class="chip theme" id="theme" title="切換深淺色">🌓</button>
+  <h1>親子活動清單</h1>
+  <div class="sub" id="sub">載入中…</div>
+</header>
+
+<div class="bar">
+  <div class="row" id="regions"></div>
+  <div class="row">
+    <select id="city" aria-label="縣市"></select>
+    <input type="search" id="q" placeholder="輸入編號（例如 12）或名稱、地點" aria-label="搜尋">
+  </div>
+  <div class="row" id="toggles"></div>
+</div>
+
+<main id="list"></main>
+
+<section>
+  <h2>已排除的活動</h2>
+  <div class="box" id="excluded"></div>
+</section>
+<section>
+  <h2>新聞線索 <small>需自行確認</small></h2>
+  <div class="box" id="news"></div>
+</section>
+<section>
+  <h2>資料來源狀態</h2>
+  <div class="box" id="sources"></div>
+</section>
+</div>
+
+<script>
+const REPO = "Jimmy0807-TW/kids-events";
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+const state = Object.assign(
+  { region: "常用", city: "", weekend: false, fresh: false, reg: false, mine: false, long: false },
+  store.get("filters", {}));
+let marks = store.get("marks", {});
+let DATA = null, EXC = { items: [], series: [] };
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const norm = s => String(s || "").normalize("NFKC").replace(/台/g, "臺").toLowerCase();
+const WD = "日一二三四五六";
+const md = iso => {
+  const [y, m, d] = iso.split("-").map(Number);
+  return `${m}/${d}（${WD[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`;
+};
+
+// 主題
+(function () {
+  const t = store.get("theme", "");
+  if (t) document.documentElement.dataset.theme = t;
+  document.getElementById("theme").onclick = () => {
+    const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+    const cur = document.documentElement.dataset.theme || (dark ? "dark" : "light");
+    const next = cur === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next; store.set("theme", next);
+  };
+})();
+
+function issueUrl(title, lines) {
+  const body = lines.join("\n") + "\n\n（按右下角「Create」或「Submit new issue」送出，約 1～2 分鐘後清單會更新）";
+  return `https://github.com/${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+}
+
+function seriesGuess(t) {
+  // 去掉【分館】與「」裡的主題，留下系列名稱的猜測
+  let s = t.replace(/^【[^】]*】/, "").replace(/[《「“"].*?[》」”"]/g, "").replace(/[-－:：|｜].*$/, "").trim();
+  return s.length >= 3 ? s : t.slice(0, 12);
+}
+
+function buildControls() {
+  const regs = [["常用", "常用地區"], ...Object.keys(DATA.regions).map(r => [r, r]), ["全台", "全台"]];
+  const box = document.getElementById("regions");
+  box.innerHTML = regs.map(([k, l]) => `<button class="chip" data-r="${k}" aria-pressed="${state.region === k}">${l}</button>`).join("");
+  box.onclick = e => {
+    const b = e.target.closest("[data-r]"); if (!b) return;
+    state.region = b.dataset.r; state.city = ""; save(); buildControls(); render();
+  };
+  const cities = state.region === "常用" ? DATA.config["常用地區"]
+    : state.region === "全台" ? Object.values(DATA.regions).flat() : DATA.regions[state.region] || [];
+  const counts = {};
+  DATA.events.forEach(e => counts[e.city] = (counts[e.city] || 0) + 1);
+  const sel = document.getElementById("city");
+  sel.innerHTML = `<option value="">全部縣市</option>` +
+    cities.map(c => `<option value="${c}" ${state.city === c ? "selected" : ""}>${c}（${counts[c] || 0}）</option>`).join("");
+  sel.onchange = () => { state.city = sel.value; save(); render(); };
+
+  const tg = [["weekend", "這個週末"], ["fresh", "本週新增"], ["reg", "可報名／即將開放"], ["mine", "我標記的"], ["long", "顯示長期展覽"]];
+  const t = document.getElementById("toggles");
+  t.innerHTML = tg.map(([k, l]) => `<button class="chip" data-t="${k}" aria-pressed="${state[k]}">${l}</button>`).join("");
+  t.onclick = e => {
+    const b = e.target.closest("[data-t]"); if (!b) return;
+    state[b.dataset.t] = !state[b.dataset.t]; b.setAttribute("aria-pressed", state[b.dataset.t]); save(); render();
+  };
+}
+function save() { store.set("filters", state); }
+
+function inScope(e) {
+  if (state.city) return e.city === state.city;
+  if (state.region === "常用") return e.home;
+  if (state.region === "全台") return true;
+  return e.region === state.region;
+}
+
+function render() {
+  const raw = document.getElementById("q").value.trim();
+  const q = norm(raw);
+  const list = document.getElementById("list");
+  let evs;
+  if (/^#?\d+$/.test(raw)) {
+    const n = +raw.replace("#", "");
+    evs = DATA.events.filter(e => e.no === n);
+  } else {
+    evs = DATA.events.filter(e => {
+      if (!inScope(e)) return false;
+      if (q && !norm(e.title + e.venue + e.org + e.city).includes(q)) return false;
+      if (state.weekend && !e.weekend) return false;
+      if (state.fresh && !e.new) return false;
+      if (state.reg && !/報名中|即將/.test(e.reg_status)) return false;
+      if (state.mine && !marks[e.uid]) return false;
+      if (!state.long && e.long && !state.mine && !q) return false;
+      return true;
+    });
+  }
+  const hiddenLong = DATA.events.filter(e => inScope(e) && e.long).length;
+  if (!evs.length) { list.innerHTML = `<p class="empty">沒有符合條件的活動。</p>`; return; }
+  let html = "";
+  for (const t of [1, 2, 3, 4]) {
+    const g = evs.filter(e => e.tier === t);
+    if (!g.length) continue;
+    html += `<h2 style="border-color:var(--t${t})">${DATA.tiers[t]} <small>${g.length} 筆</small></h2>`;
+    html += g.map(card).join("");
+  }
+  if (!state.long && hiddenLong && !/^#?\d+$/.test(raw))
+    html += `<p class="empty">另有 ${hiddenLong} 筆長期展覽已隱藏，按上方「顯示長期展覽」可查看。</p>`;
+  list.innerHTML = html;
+}
+
+function card(e) {
+  const m = marks[e.uid] || "";
+  const tags = [];
+  if (m) tags.push(`<span class="tag" style="color:var(--${m === "想去" ? "want" : "done"})">${m}</span>`);
+  if (e.new) tags.push(`<span class="tag" style="color:var(--new)">NEW</span>`);
+  if (e.weekend) tags.push(`<span class="tag" style="color:var(--wknd)">本週末</span>`);
+  if (e.reg_status === "即將開放報名") tags.push(`<span class="tag" style="color:var(--reg)">${md(e.reg_start)} 開放報名</span>`);
+  else if (e.reg_status === "報名中") tags.push(`<span class="tag" style="color:var(--reg)">報名中${e.reg_end ? "，" + md(e.reg_end) + "截止" : ""}</span>`);
+  if (e.long) tags.push(`<span class="tag" style="color:var(--muted)">長期</span>`);
+  tags.push(`<span class="tag" style="color:var(--t${e.tier})">${e.sources.join("／")}</span>`);
+  const more = e.dates.length > 1 ? `，共 ${e.dates.length}${e.dates.length >= 12 ? "+" : ""} 個日期：${e.dates.slice(0, 6).map(md).join("、")}${e.dates.length > 6 ? "…" : ""}` : "";
+  const when = e.long ? `${md(e.start)} ～ ${md(e.end)}` : md(e.next) + more;
+  const title = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
+  const ex1 = issueUrl(`排除 #${e.no} ${e.title.slice(0, 30)}`, ["動作: 排除這場", `uid: ${e.uid}`, `key: ${e.key}`, `名稱: ${e.title}`, `日期: ${e.next}`]);
+  return `<article class="card ${m ? (m === "想去" ? "mk-want" : "mk-done") : ""}">
+  <div class="top"><span class="no">#${e.no}</span><span class="title">${title}</span></div>
+  <div class="tags">${tags.join("")}</div>
+  <dl class="meta">
+    <dt>日期</dt><dd>${when}</dd>
+    <dt>地點</dt><dd>${esc(e.city)}${e.venue ? "　" + esc(e.venue) : ""}</dd>
+    <dt>費用</dt><dd>${esc(e.price_label)}</dd>
+    <dt>適齡</dt><dd>${esc(e.age_label)}</dd>
+    ${e.org ? `<dt>主辦</dt><dd>${esc(e.org)}</dd>` : ""}
+  </dl>
+  <div class="acts">
+    <button class="btn ${m === "想去" ? "on-want" : ""}" data-mark="想去" data-uid="${esc(e.uid)}">想去</button>
+    <button class="btn ${m === "已報名" ? "on-done" : ""}" data-mark="已報名" data-uid="${esc(e.uid)}">已報名</button>
+    <a class="btn x" href="${ex1}" target="_blank" rel="noopener">排除這場</a>
+    <button class="btn x" data-series="${esc(e.title)}" data-no="${e.no}">排除系列</button>
+  </div>
+</article>`;
+}
+
+document.getElementById("list").addEventListener("click", ev => {
+  const b = ev.target.closest("[data-mark]");
+  if (b) {
+    const u = b.dataset.uid, m = b.dataset.mark;
+    if (marks[u] === m) delete marks[u]; else marks[u] = m;
+    store.set("marks", marks); render(); return;
+  }
+  const s = ev.target.closest("[data-series]");
+  if (s) {
+    const p = prompt("名稱含這段文字的活動都會排除（可修改，越短擋越多）：", seriesGuess(s.dataset.series));
+    if (p && p.trim().length >= 2)
+      window.open(issueUrl(`排除系列 ${p.trim()}`, ["動作: 排除系列", `系列文字: ${p.trim()}`, `來源活動: #${s.dataset.no} ${s.dataset.series}`]), "_blank");
+  }
+});
+document.getElementById("q").addEventListener("input", render);
+
+function renderSide(news) {
+  const ex = document.getElementById("excluded");
+  const items = EXC.items || [], series = EXC.series || [];
+  if (!items.length && !series.length) ex.innerHTML = "目前沒有排除的活動。";
+  else ex.innerHTML = `<p>共 ${items.length} 場、${series.length} 個系列。要恢復請按「恢復」，送出後下次更新就會重新列入。</p>
+    <details><summary>查看清單</summary><ul>` +
+    series.map(s => `<li>系列「${esc(s.pattern)}」 <a href="${issueUrl("恢復系列 " + s.pattern, ["動作: 恢復", "系列文字: " + s.pattern])}" target="_blank" rel="noopener">恢復</a></li>`).join("") +
+    items.map(i => `<li>${esc(i.title)}（${esc(i.date || "")}） <a href="${issueUrl("恢復 " + i.title.slice(0, 30), ["動作: 恢復", "key: " + i.key, "uid: " + i.uid])}" target="_blank" rel="noopener">恢復</a></li>`).join("") +
+    `</ul></details>`;
+  document.getElementById("news").innerHTML = news.length ? `<ul>` + news.slice(0, 20).map(n =>
+    `<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="sub">${esc(n.date)}</span></li>`).join("") + `</ul>` : "目前沒有新聞線索。";
+  document.getElementById("sources").innerHTML = `<table><tr><th>來源</th><th>狀態</th><th>抓到</th><th>期間內</th></tr>` +
+    DATA.sources.map(s => `<tr><td>${esc(s.source)}</td><td class="${s.status === "成功" ? "ok" : s.status === "關閉" ? "" : "bad"}">${esc(s.status)}</td><td>${s.fetched}</td><td>${s.kept}</td></tr>`).join("") +
+    `</table><p class="sub">「期間內」＝ ${DATA.config["往後看幾天"]} 天內有場次；之後再依年齡（${DATA.config["年齡下限"]}～${DATA.config["年齡上限"]} 歲）、價格（${DATA.config["價格上限"]} 元以內）與兒童關鍵字篩選，共收錄 ${DATA.events.length} 筆。</p>`;
+}
+
+Promise.all([
+  fetch("events.json", { cache: "no-store" }).then(r => r.json()),
+  fetch("news.json", { cache: "no-store" }).then(r => r.ok ? r.json() : []).catch(() => []),
+  fetch("excluded.json", { cache: "no-store" }).then(r => r.ok ? r.json() : { items: [], series: [] }).catch(() => ({ items: [], series: [] })),
+]).then(([d, news, exc]) => {
+  DATA = d; EXC = exc;
+  const home = d.events.filter(e => e.home).length, wk = d.events.filter(e => e.home && e.weekend).length, nw = d.events.filter(e => e.new).length;
+  document.getElementById("sub").textContent =
+    `更新：${d.generated}｜全台 ${d.events.length} 筆，常用地區 ${home} 筆（本週末 ${wk} 場）｜本週新增 ${nw} 筆｜編號每次更新重排`;
+  buildControls(); render(); renderSide(news);
+}).catch(err => {
+  document.getElementById("sub").textContent = "資料載入失敗：" + err;
+});
+</script>
+</body>
+</html>

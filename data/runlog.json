@@ -1,0 +1,69 @@
+{
+ "time": "2026-10-31 14:34",
+ "sources": [
+  {
+   "source": "文化部",
+   "status": "成功",
+   "fetched": 1222,
+   "kept": 96,
+   "seconds": 4.0
+  },
+  {
+   "source": "觀光署",
+   "status": "成功",
+   "fetched": 1174,
+   "kept": 7,
+   "seconds": 3.4
+  },
+  {
+   "source": "北市圖",
+   "status": "成功",
+   "fetched": 13,
+   "kept": 6,
+   "seconds": 1.0
+  },
+  {
+   "source": "新北圖",
+   "status": "成功",
+   "fetched": 16,
+   "kept": 15,
+   "seconds": 26.1
+  },
+  {
+   "source": "科教館",
+   "status": "成功",
+   "fetched": 102,
+   "kept": 75,
+   "seconds": 36.6
+  },
+  {
+   "source": "桃園市民卡",
+   "status": "成功",
+   "fetched": 0,
+   "kept": 0,
+   "seconds": 1.7
+  },
+  {
+   "source": "ACCUPASS",
+   "status": "成功",
+   "fetched": 67,
+   "kept": 46,
+   "seconds": 3.6
+  },
+  {
+   "source": "新聞線索",
+   "status": "成功",
+   "fetched": 99,
+   "kept": 99
+  }
+ ],
+ "stats": {
+  "原始": 245,
+  "排除字": 18,
+  "非兒童": 2,
+  "年齡不符": 16,
+  "超過價格": 2,
+  "已排除": 0,
+  "收錄": 168
+ }
+}

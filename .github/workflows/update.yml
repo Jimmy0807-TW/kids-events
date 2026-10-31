@@ -1,0 +1,98 @@
+name: 更新親子活動
+
+on:
+  schedule:
+    - cron: "23 11 * * *"   # 每天台灣時間 19:23
+  workflow_dispatch:
+    inputs:
+      send_weekly:
+        description: "立刻送出 LINE 週報"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["config.yml", "site/**", "scraper/**", ".github/workflows/**"]
+  issues:
+    types: [opened]
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    # 公開程式庫任何人都能開 Issue，只處理擁有者自己開的
+    if: github.event_name != 'issues' || github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: 處理排除／恢復指令
+        if: github.event_name == 'issues'
+        env:
+          REPLY_FILE: ${{ runner.temp }}/reply.txt
+        run: python scraper/issues.py
+
+      - name: 抓取並整理活動
+        run: |
+          if [ "${{ github.event_name }}" = "issues" ]; then
+            python scraper/build.py --no-fetch
+          else
+            python scraper/build.py
+          fi
+
+      - name: LINE 推播
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+        run: |
+          if [ "${{ inputs.send_weekly }}" = "true" ]; then
+            python scraper/line_push.py --force-weekly
+          else
+            python scraper/line_push.py
+          fi
+
+      - name: 存回資料
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "更新活動資料 $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+
+      - name: 準備網頁
+        run: |
+          mkdir -p _site
+          cp site/* _site/
+          cp data/events.json data/news.json data/excluded.json _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: 回覆並關閉 Issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }} --comment "$(cat ${{ runner.temp }}/reply.txt)"
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
