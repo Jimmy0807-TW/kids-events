@@ -1,69 +1,69 @@
 {
- "time": "2026-10-31 16:13",
+ "time": "2026-10-31 17:07",
  "sources": [
   {
    "source": "文化部",
    "status": "成功",
-   "fetched": 1211,
-   "kept": 96,
-   "seconds": 4.5
+   "fetched": 1192,
+   "kept": 98,
+   "seconds": 4.0
   },
   {
    "source": "觀光署",
    "status": "成功",
    "fetched": 1174,
-   "kept": 7,
-   "seconds": 2.3
+   "kept": 40,
+   "seconds": 3.6
   },
   {
    "source": "北市圖",
    "status": "成功",
    "fetched": 13,
    "kept": 6,
-   "seconds": 2.9
+   "seconds": 1.0
   },
   {
    "source": "新北圖",
    "status": "成功",
    "fetched": 15,
    "kept": 14,
-   "seconds": 8.1
+   "seconds": 18.1
   },
   {
    "source": "科教館",
    "status": "成功",
    "fetched": 102,
    "kept": 75,
-   "seconds": 47.7
+   "seconds": 63.2
   },
   {
    "source": "桃園市民卡",
    "status": "成功",
    "fetched": 0,
    "kept": 0,
-   "seconds": 1.0
+   "seconds": 1.4
   },
   {
    "source": "ACCUPASS",
    "status": "成功",
-   "fetched": 67,
-   "kept": 45,
-   "seconds": 7.2
+   "fetched": 144,
+   "kept": 95,
+   "seconds": 5.3
   },
   {
    "source": "新聞線索",
    "status": "成功",
-   "fetched": 83,
-   "kept": 83
+   "fetched": 81,
+   "kept": 81
   }
  ],
  "stats": {
-  "原始": 243,
-  "排除字": 18,
-  "非兒童": 2,
+  "原始": 328,
+  "排除字": 21,
+  "非兒童": 29,
   "年齡不符": 16,
   "超過價格": 2,
   "已排除": 0,
-  "收錄": 166
+  "收錄": 217
  }
 }

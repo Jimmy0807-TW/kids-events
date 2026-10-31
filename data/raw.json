@@ -1556,7 +1556,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-10-31",
+    "start": "2026-11-01",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -1933,6 +1933,40 @@
    }
   ],
   "text": "2026《再一次！唱歌旅行去》十週年親子演唱會 2200、1800、1500、1200、1000、800、600 2200、1800、1500、1200、1000、800、600 2200、1800、1500、1200、1000、800、600",
+  "kid_required": true
+ },
+ {
+  "source": "文化部",
+  "uid": "文化部:6a736fdc26b32427d0604358",
+  "title": "2026 正港雄有戲《功德嘉年華》",
+  "url": "https://www.opentix.life/program/2079024127582380033",
+  "org": "OPENTIX兩廳院文化生活",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-13",
+    "end": "2026-11-13",
+    "city": "高雄市",
+    "venue": "駁二正港小劇場"
+   },
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "city": "高雄市",
+    "venue": "駁二正港小劇場"
+   },
+   {
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "city": "高雄市",
+    "venue": "駁二正港小劇場"
+   }
+  ],
+  "text": "2026 正港雄有戲《功德嘉年華》",
   "kid_required": true
  },
  {
@@ -2357,6 +2391,34 @@
  },
  {
   "source": "文化部",
+  "uid": "文化部:6a91c05d26b32434f435807b",
+  "title": "《縱貫線嘉年華》ABO Fusion弦樂四重奏的黑白狂想",
+  "url": "https://www.opentix.life/program/2092148722984304640",
+  "org": "OPENTIX兩廳院文化生活",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-06",
+    "end": "2026-12-06",
+    "city": "臺北市",
+    "venue": "國家兩廳院演奏廳"
+   },
+   {
+    "start": "2026-12-11",
+    "end": "2026-12-11",
+    "city": "高雄市",
+    "venue": "衛武營國家藝術文化中心表演廳"
+   }
+  ],
+  "text": "《縱貫線嘉年華》ABO Fusion弦樂四重奏的黑白狂想",
+  "kid_required": true
+ },
+ {
+  "source": "文化部",
   "uid": "文化部:6a9857dd26b32434f43580b9",
   "title": "狂美親子音樂劇場《聖誕危機》",
   "url": "https://www.opentix.life/program/2088199390794928129",
@@ -2391,6 +2453,50 @@
  },
  {
   "source": "文化部",
+  "uid": "文化部:6aaacec026b324165c32e412",
+  "title": "2026黑白極致 巨擘對話-鋼琴嘉年華",
+  "url": "https://www.opentix.life/program/2089962901775663105",
+  "org": "OPENTIX兩廳院文化生活",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-08",
+    "end": "2026-11-08",
+    "city": "新竹市",
+    "venue": "新竹市文化局演藝廳音樂廳"
+   }
+  ],
+  "text": "2026黑白極致 巨擘對話-鋼琴嘉年華",
+  "kid_required": true
+ },
+ {
+  "source": "文化部",
+  "uid": "文化部:6ae4d18126b3245efc75374a",
+  "title": "欣響室內管樂團『聖誕音樂嘉年華II』",
+  "url": "https://www.opentix.life/program/2111029306841710593",
+  "org": "OPENTIX兩廳院文化生活",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-20",
+    "end": "2026-12-20",
+    "city": "新北市",
+    "venue": "新莊文化藝術中心演藝廳"
+   }
+  ],
+  "text": "欣響室內管樂團『聖誕音樂嘉年華II』",
+  "kid_required": true
+ },
+ {
+  "source": "文化部",
   "uid": "文化部:5b3dd544aaa378d7ca9a2e9a",
   "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
   "url": "http://www.nmns.edu.tw/ch/visit/price.htm",
@@ -2402,7 +2508,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-10-31",
+    "start": "2026-11-01",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -2551,31 +2657,6 @@
  },
  {
   "source": "文化部",
-  "uid": "文化部:69ebd95026b3242a48a9e681",
-  "title": "玩具用書共讀趣",
-  "url": "",
-  "org": "高雄市立圖書館總館、高雄市立圖書館新興民眾閱覽室",
-  "gov": true,
-  "price": null,
-  "age": [
-   0,
-   3
-  ],
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-04-10",
-    "end": "2026-10-31",
-    "city": "高雄市",
-    "venue": "高雄市立圖書館新興民眾閱覽室"
-   }
-  ],
-  "text": "玩具用書共讀趣 什麼是玩具用書呢？\n專為嬰幼兒設計，材質柔軟、安全好清潔，\n結合「玩」與「讀」的樂趣，超適合0～3歲及學齡前孩子💛\n現場展出觸摸書、洗澡書、拼圖書、音效書等，\n讓孩子在翻翻、摸摸、玩玩的過程中，\n自然培養感官、語言與認知能力✨\n👨‍👩‍👧 在陪伴共讀的時光裡，\n閱讀不只是學習，更是親子間最溫暖的連結。",
-  "kid_required": true
- },
- {
-  "source": "文化部",
   "uid": "文化部:69f7a63626b3243414ccc55c",
   "title": "玩家登入:兒童文學特展",
   "url": "https://event.culture.tw/mocweb/reg/NMTL/Detail.init.ctr?actId=60084",
@@ -2594,28 +2675,6 @@
    }
   ],
   "text": "玩家登入：兒童文學特展 臺灣兒童文學萌芽於百年前的日治時期，想像力的種子在當時便已悄悄埋入這片土地。從早期的口傳兒歌、童詩，演變至當代的少年小說與精美繪本，每一段文字都是島嶼生長的記憶。從展覽的脈絡中可以看見兒童文學從早期的純文字創作，到當代結合插畫的繪本創作中展現獨特的說故事技巧及深刻故事內涵，歡迎各位大小朋友一起來探索兒童文學的獨特魅力。",
-  "kid_required": true
- },
- {
-  "source": "文化部",
-  "uid": "文化部:6a022b2f26b3243414ccc764",
-  "title": "爸爸的友善茶園-沉浸式繪本動畫展",
-  "url": "",
-  "org": "桃園市立圖書館",
-  "gov": true,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-04-06",
-    "end": "2026-10-31",
-    "city": "桃園市",
-    "venue": "桃園市立圖書館龍潭分館"
-   }
-  ],
-  "text": "爸爸的友善茶園-沉浸式繪本動畫展 桃園市立圖書館龍潭分館4月6日至10月31日推出閱讀創新主題展覽《繪動新視界：沉浸式繪本動畫展》，透過動畫影像、聲音設計與沉浸式投影空間，將繪本故事從紙本閱讀延伸至立體影像世界，讓觀眾彷彿走入故事場景，在光影與聲音交織中感受全新的閱讀體驗。\n本次展覽以繪本《爸爸的友善茶園》為主要內容。該書由小魯文化出版，作者暨繪者張秀毓以溫暖筆觸描繪茶農與土地共生的生活樣貌，傳達友善農法與環境共好的理念。展覽將繪本畫面轉化為動畫影像，呈現茶園四季更迭的自然風景，帶領觀眾感受山林與土地文化。",
   "kid_required": true
  },
  {
@@ -3127,6 +3186,50 @@
  },
  {
   "source": "觀光署",
+  "uid": "觀光署:Event_371020000A_004200",
+  "title": "浦揪新創市集",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_371020000A_004200",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-04",
+    "end": "2026-12-06",
+    "city": "金門縣",
+    "venue": "金城鎮 後浦16藝文特區"
+   }
+  ],
+  "text": "浦揪新創市集 夏季開始每季季末，後浦藝文特區廣場將化身充滿創意與生活風格的新創市集。「浦揪新創市集」集結手作設計、文創品牌、特色美食、風格選物與在地創作，邀請旅客走進後浦街區，感受金門在地文化與新創能量。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_371020000A_004240",
+  "title": "2026後浦搞什麼鬼 萬聖節活動",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_371020000A_004240",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-10-31",
+    "city": "金門縣",
+    "venue": "金城鎮 金城市區"
+   }
+  ],
+  "text": "2026後浦搞什麼鬼 萬聖節活動 2026「後浦搞什麼鬼」將於10月31日晚間熱鬧登場，今年以「萬聖奇幻馬戲樂園」為主題，將後浦商圈打造為充滿奇幻氛圍的萬聖節慶場域，邀請大小朋友換上創意裝扮，一同感受後浦老街不一樣的夜間魅力。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
   "uid": "觀光署:Event_371020000A_004242",
   "title": "後浦草地野餐音樂節",
   "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_371020000A_004242",
@@ -3149,6 +3252,116 @@
  },
  {
   "source": "觀光署",
+  "uid": "觀光署:Event_371020000A_004243",
+  "title": "金沙聖誕",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_371020000A_004243",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-12",
+    "end": "2026-12-13",
+    "city": "金門縣",
+    "venue": "金沙鎮 沙美市區"
+   }
+  ],
+  "text": "金沙聖誕 以金沙鎮在地特色及聖誕節為主軸，規劃沙美商圈燈飾佈景，營造過節的歡樂氛圍，透過此節慶，融合本土市區樣貌，打造藝術美學的沙美市區，活躍沙美街道。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376420000A_000346",
+  "title": "二結王公文化祭|二結王公廟240週年系列活動",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376420000A_000346",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-09-19",
+    "end": "2026-12-24",
+    "city": "宜蘭縣",
+    "venue": "五結鄉 宜蘭境內"
+   }
+  ],
+  "text": "二結王公文化祭｜二結王公廟240週年系列活動 二結王公廟走過240年香火歲月，古公三王信仰長久守護地方，也承載著一代又一代居民與信徒的記憶。今年特別規劃三大慶典系列活動，結合祈安遶境、祈福法會、公益市集、平安福宴、王公論壇、音樂演出與煙火秀等，邀請全國信眾與鄉親朋友，共同迎接這場重要的文化盛會！",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376430000A_006687",
+  "title": "2026桃園萬聖城",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376430000A_006687",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-24",
+    "end": "2026-11-02",
+    "city": "桃園市",
+    "venue": "桃園區 桃園藝文廣場及藝文綠園道(中正路1188號)"
+   }
+  ],
+  "text": "2026桃園萬聖城 ￭相關細節可電洽本局旅遊行銷科03-3322101#6202",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376430000A_006854",
+  "title": "2026仙草嘉年華",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376430000A_006854",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-05",
+    "end": "2026-12-21",
+    "city": "桃園市",
+    "venue": "楊梅區 楊梅休閒農業區"
+   }
+  ],
+  "text": "2026仙草嘉年華 無",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376430000A_007059",
+  "title": "2026桃園客家音樂節",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376430000A_007059",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-15",
+    "city": "桃園市",
+    "venue": "八德區 桃園北區客家會館(崁頂路60號)"
+   }
+  ],
+  "text": "2026桃園客家音樂節 ￭相關細節可電洽客家事務局(03-4096682#1012)",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
   "uid": "觀光署:Event_376540000A_006252",
   "title": "跑吧!孩子|2026知本溫泉公益馬拉松",
   "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376540000A_006252",
@@ -3167,6 +3380,292 @@
    }
   ],
   "text": "跑吧！孩子｜2026知本溫泉公益馬拉松 知本溫泉公益馬拉松自創辦以來秉持「跑步也能做公益」的理念，長年攜手「孩子的書屋」，將跑者的每一步轉化為支持臺東弱勢兒少的力量。2026年適逢知本馬拉松十週年里程碑，賽事將以「十週年里程碑 × 公益同行× 永續升級 × 地方共榮」為核心，結合路跑賽事、永續行動、市集活動與溫泉觀光，打造東台灣最具代表性的節慶型公益路跑，持續帶動地方觀光與社區共好。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376540000A_006274",
+  "title": "2026南迴藝術季—山徑之流",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376540000A_006274",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-07-01",
+    "end": "2026-11-01",
+    "city": "臺東縣",
+    "venue": "臺東市 南迴公路"
+   }
+  ],
+  "text": "2026南迴藝術季—山徑之流 山徑-看見「斜坡上的子民」Drarepaq（啦里吧部落），之流-看見「向海而生」的部落-Kanadun（金崙），由大武山脈順著河流而下直至出海口。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376540000A_006290",
+  "title": "2026 Taiwan PASIWALI Festival 國際原住民音樂節",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376540000A_006290",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-02",
+    "city": "臺東縣",
+    "venue": "臺東市 臺東森林公園"
+   }
+  ],
+  "text": "2026 Taiwan PASIWALI Festival 國際原住民音樂節 雙腳不落地 乙定最出力",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376540000A_006524",
+  "title": "《共下食个福》田野新潮野餐 ✕ 客家味緒闖關",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376540000A_006524",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-08",
+    "city": "臺東縣",
+    "venue": "關山鎮 豐泉里昌林路24之1號(關山米國學校)"
+   }
+  ],
+  "text": "《共下食个福》田野新潮野餐 ✕ 客家味緒闖關 特別選於稻米收割的季節，搭配「新潮野餐 ✕ 味緒闖關」的形式，展現客家文化在鄉鎮間創新的無限可能！",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376550000A_000878",
+  "title": "2026縱谷 HAKKA 音樂節",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376550000A_000878",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-06-27",
+    "end": "2026-11-08",
+    "city": "花蓮縣",
+    "venue": "吉安鄉 客家文化會館(演藝堂)"
+   }
+  ],
+  "text": "2026縱谷 HAKKA 音樂節 為推廣客家音樂與文化，花蓮縣政府舉辦「2026縱谷HAKKA音樂節」歌唱比賽，提供客家鄉親及音樂愛好者展現才華的舞台。賽事分為個人、校園、一般與傳統四個組別，歡迎熱愛客家流行歌曲或傳統歌謠的朋友踴躍報名！",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376550000A_000887",
+  "title": "漂鳥197-縱谷大地藝術季",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376550000A_000887",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-07-01",
+    "end": "2026-11-01",
+    "city": "花蓮縣",
+    "venue": "花蓮市 鹿野、關山、池上、富里、瑞穗、光復"
+   }
+  ],
+  "text": "漂鳥197－縱谷大地藝術季 本屆藝術季以「流動的暖光」為主題，邀集7國藝術家於花東縱谷6鄉鎮打造12件地景作品。期盼以藝術陪伴曾受災的花蓮光復鄉走過重建之路，邀請您踏上花東之旅，用行動與停留支持地方，感受土地的韌性與溫暖。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376550000A_000988",
+  "title": "2026 花蓮國際石雕藝術季",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376550000A_000988",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-30",
+    "city": "花蓮縣",
+    "venue": "花蓮市 你來廣場"
+   }
+  ],
+  "text": "2026 花蓮國際石雕藝術季 「2026花蓮國際石雕藝術季」即將登場，本屆邀請策展人胡朝聖操刀規劃， 以《膚土之下：裂縫、痕跡與重生》為題，將視角由宇宙尺度轉向微觀、親密且深層的感知。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376550000A_000995",
+  "title": "石頭在呼吸— Iwagumi Air Scape 戶外光影裝置展",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376550000A_000995",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-09-24",
+    "end": "2026-11-09",
+    "city": "花蓮縣",
+    "venue": "花蓮市 日出大道F段、大農大富平地森林園區"
+   }
+  ],
+  "text": "石頭在呼吸— Iwagumi Air Scape 戶外光影裝置展 ※因受天候因素影響，大農大富展覽與接駁因應颱風暫停",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376550000A_001017",
+  "title": "2026 穀動日不落・曬秋音樂祭",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376550000A_001017",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-02",
+    "city": "花蓮縣",
+    "venue": "富里鄉 六十石山山腳下大草原"
+   }
+  ],
+  "text": "2026 穀動日不落・曬秋音樂祭 秋風吹進富里，一年一度的「穀動日不落・曬秋音樂祭」即將熱鬧登場！今年以「曬秋」為主題，我們將舞台搬進六十石山山腳下的大草原，完美結合音樂、優質農產、特色市集與秋收風景，邀請大家走入花東縱谷，感受富里豐收時節的獨特魅力。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376550000A_001023",
+  "title": "2026 山谷音樂節",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_376550000A_001023",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-16",
+    "city": "花蓮縣",
+    "venue": "秀林鄉 銅門村多用民宿、銅門部落大祭場(銅門多功能運動場)"
+   }
+  ],
+  "text": "2026 山谷音樂節 2026 山谷音樂節以太魯閣族語「（破曉）」為名，象徵走過沉靜與動盪後，迎來帶來重生的晨曦。今年活動伴隨著 GAYA 藝術計畫擴大登場，邀請大家來到花蓮銅門，走進土地與部落的擁抱，在破曉的光芒中重新與彼此、與山海相連。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_382000000A_004034",
+  "title": "2026新北濕地藝術季|萌芽之境",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_382000000A_004034",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-03",
+    "end": "2026-11-08",
+    "city": "新北市",
+    "venue": "板橋區 新月橋板橋端"
+   }
+  ],
+  "text": "2026新北濕地藝術季｜萌芽之境 2026新北濕地藝術季《萌芽之境》訂於10月3日（六）開幕，今年適逢新海二期人工濕地建置20週年，延續2025年《種籽之旅》的精神，從種籽落地到萌芽生長，帶領民眾重新認識濕地在城市中的生態價值與永續能量。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_382000000A_004062",
+  "title": "2026新北市玄天上帝文化祭",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_382000000A_004062",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-13",
+    "end": "2026-11-15",
+    "city": "新北市",
+    "venue": "五股區 新五路三段11號"
+   }
+  ],
+  "text": "2026新北市玄天上帝文化祭 玄天上帝是臺灣重要的宗教信仰，每年的玄天上帝文化祭，由新北市境內百家主祀玄天上帝的宮廟，於玄天上帝得道昇天紀念日(農曆九月九日)前後，共同合力舉辦，在本市各區平安遶境，為新北市一個重要的宗教文化節慶。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_382000000A_004068",
+  "title": "2026新北歡樂耶誕城",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_382000000A_004068",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-13",
+    "end": "2026-12-27",
+    "city": "新北市",
+    "venue": "板橋區"
+   }
+  ],
+  "text": "2026新北歡樂耶誕城 2026新北歡樂耶誕城於11/13(五)盛大開城囉！萌幻「卡娜赫拉的小動物」，P助、粉紅兔兔，以及殭屍貓等人氣角色，一連45天化身最佳旅伴，邀請全台民眾搭乘奇幻熱氣球，展開一場充滿驚喜與想像的耶誕旅行，共度歡樂又夢幻的冬日「萌幻旅行」。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_382000000A_004081",
+  "title": "2026新北市林口子弟戲文化節暨樂林園百年大慶",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_382000000A_004081",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "city": "新北市",
+    "venue": "林口區 竹林山觀音寺"
+   }
+  ],
+  "text": "2026新北市林口子弟戲文化節暨樂林園百年大慶 時間：11月15日 9:30-15:30",
   "kid_required": true
  },
  {
@@ -3218,6 +3717,72 @@
  },
  {
   "source": "觀光署",
+  "uid": "觀光署:Event_395000000A_008121",
+  "title": "2026大新營嘉年華",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_395000000A_008121",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-02",
+    "city": "臺南市",
+    "venue": "新營區 民權路(民治路至三民路區間)"
+   }
+  ],
+  "text": "2026大新營嘉年華 2026大新營嘉年華10月31日登場活動時間：115年10月31日(六)~11月1日(日)活動地點：民權路(民治路至三民路區間)秋季盛事~連續16年舉辦，準備陪大家度過最chill的週末時光！好吃、好玩、好逛，一次滿足！千萬不能錯過精彩亮點不漏接1. 臺南特色商品展售嚴選在地超強伴手禮、限定名產，讓你一次買個夠！2. 公益競標愛心義賣上百件精選商品現場拍賣！所得將全數捐贈公益團體，邀請大家一起逛市集、 獻愛心3. 草地親子 DIY特別為小朋友打造的創意天地，手作動動腦，打造最棒的親子同樂時光！4. 節能減碳有獎徵答萬聖節特別企劃！快來發揮機智，一起「捉拿吃電吸血鬼」，答對還能拿好禮5. 不給糖就搗蛋！萬聖搞怪市集歡樂的萬聖節氛圍滿點！歡迎裝扮搞怪登場，感受最歡樂的節慶氣氛！更多資訊請參閱 新營區公所臉書粉絲專頁",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_397000000A_008041",
+  "title": "OPEN!夢想音樂節",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_397000000A_008041",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-04",
+    "end": "2026-12-06",
+    "city": "高雄市",
+    "venue": "前鎮區 高雄夢時代 時代大道"
+   }
+  ],
+  "text": "OPEN!夢想音樂節 國際韓星 ✖︎ 台灣偶像為大家集結夢幻台韓陣容。12/4-12/5 雙日音樂盛典，滿足你的視聽覺多重享受。活動日期｜2026/12/4(五)、12/5(六)活動地點｜高雄夢時代 時代大道售票日期｜-9/30 12:00 中信卡友優先購-10/1 12:00 全面啟售✦ 票種超級搖滾座位區(座位)搖滾座位區預售票(座位)一般區(站位)✦ 加購１元即享限量粉絲福利需於購票時同步加購福利項目於首次入場驗票時領取✦超級搖滾座位區- 韓星限定小卡１組 (當日韓星)- 韓星A3海報１組 (當日韓星)- 韓星專屬明信片１組 (當日韓星)- 四位韓星紀念手幅１件 (集結四組韓星)✦搖滾座位區- 韓星限定小卡１組 (當日韓星)- 韓星專屬明信片１組 (當日韓星)- 四位韓星紀念手幅１件 (集結四組韓星)✦一般區 (含愛心票)- 韓星專屬明信片１組 (當日韓星)",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_397000000A_008140",
+  "title": "2026高雄萬聖節|你瓜瓜所以我瓜瓜",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_397000000A_008140",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-30",
+    "end": "2026-11-02",
+    "city": "高雄市",
+    "venue": "鳳山區 衛武營國家藝術文化中心"
+   }
+  ],
+  "text": "2026高雄萬聖節｜你瓜瓜所以我瓜瓜 一年一度的高雄萬聖節於10月30日至11月1日在衛武營國家藝術文化中心登場，以「你瓜瓜所以我瓜瓜」為主題，邀請大小朋友變裝同樂。夜晚由大南瓜與衛武營夢幻燈光秀、萬瓜燈海派對點亮全場；白天則有孩子的音樂祭、扮裝基地、行動書車與超過百攤搞怪市集，從午後一路玩到夜晚。時間｜10/30 ㊄－11/1 ㊐⁣地點｜衛武營國家藝術文化中心⁣交通｜捷運衛武營站 6 號出口⁣✦ 大南瓜 × 衛武營夢幻燈光秀10/30－11/1｜19:00－21:00✦ 萬瓜燈海派對10/31｜19:00✦ LiveCam 星光大道 10/31－11/1｜19:05－21:00✦ 孩子的音樂祭 10/31－11/1｜14:00－18:00✦ 扮裝基地10/31－11/1｜11:00－18:00✦ 行動書車10/31－11/1｜11:00－18:00✦ 超過百攤搞怪市集10/31－11/1｜14:00－21:00✦ 萬聖裝扮兌換限量星星氣球棒 10/31｜14:00 起 1 人限領 1 支，送完為止！",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
   "uid": "觀光署:Event_A15010000H_081642",
   "title": "2026日月潭Come! Bikeday自行車嘉年華",
   "url": "https://theme.sunmoonlake.gov.tw/ComeBikeDay/Index.aspx?l=1",
@@ -3240,6 +3805,182 @@
  },
  {
   "source": "觀光署",
+  "uid": "觀光署:Event_A15010000H_081661",
+  "title": "2026草嶺古道芒花季",
+  "url": "https://events.necoast-nsa.gov.tw/flower26/",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-29",
+    "city": "新北市",
+    "venue": "貢寮區 草嶺古道"
+   }
+  ],
+  "text": "2026草嶺古道芒花季 為讓遊客欣賞大片芒花壯闊盛開之景，感受草嶺古道那段跨越百年山海時光長廊的記憶，自2002年開始舉辦，每年度總吸引約8萬人次遊客前往欣賞滿山芒花搖曳的迷人風采，近年來已成為東北角地區觀光旅遊品牌活動。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_A15010000H_081713",
+  "title": "2026新北歡樂耶誕城",
+  "url": "https://christmasland.ntpc.gov.tw/map.php",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-13",
+    "end": "2026-12-27",
+    "city": "新北市",
+    "venue": "板橋區 新北市市民廣場"
+   }
+  ],
+  "text": "2026新北歡樂耶誕城 新北歡樂耶誕城自西元2011年開辦以來，迄今已邁入第15屆，從地區性活動到現在的國際亮點活動，將城市結合耶誕節歡樂氣氛，促進周邊商圈發展。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_A15010000H_081725",
+  "title": "2026日月潭花火音樂嘉年華",
+  "url": "https://www.sunmoonlake.gov.tw/Events/Activitys?a=24&id=7",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-09-12",
+    "end": "2026-11-14",
+    "city": "南投縣",
+    "venue": "魚池鄉 水社碼頭"
+   }
+  ],
+  "text": "2026日月潭花火音樂嘉年華 鼓震山水耀明潭(十鼓擊樂團)活動時間：2026/09/12（六）18:00-19:30活動地點：伊達邵碼頭主辦單位：日月潭國家風景區管理處活動簡介：主辦單位保有異動節目之權利，煙火施放以搭配該場次音樂會實際編排結束時間為主。十鼓擊樂團｜鼓震山水耀明潭鼓聲，是大地的脈動；節奏，是文化的傳承。成立於2000年的十鼓擊樂團，以「傳創臺灣本土文化，發揚鼓樂藝術薪傳」為發展核心，匯聚臺灣多元民族與世界鼓樂文化，將在地風景、歷史人文與東方美學融入創作，粹鍊出兼具力量、速度與詩意的擊樂藝術，持續讓世界看見臺灣鼓樂的獨特魅力。9月12日於日月潭伊達邵碼頭演出《鼓震山水耀明潭》，特別邀請達瑪巒文化藝術團共同演出，以原住民傳統歌舞《快樂小螞蟻》揭開序幕，讓歌聲、舞蹈與鼓聲在山水之間交織，展現臺灣多元文化與土地生命力。演出串聯《五丈原》、《點將令》、《天空斬》、《怛羅之戰》、《斬妖記》等磅礴作品，融合歷史、神話與戰場氣勢；並以《鳳邑埤塘》、《乘風破浪》、《風馳雷掣》等作品描繪山海與生命能量。終曲《雷霆交鋒》後施放璀璨花火，為2026日月潭國際花火嘉年華寫下最壯闊、燦爛的藝術篇章",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_A15010000H_081870",
+  "title": "2026-2027屏東落山風藝術季",
+  "url": "https://www.facebook.com/lsf.arts?locale=zh_TW",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-20",
+    "end": "2027-03-01",
+    "city": "屏東縣",
+    "venue": "車城鄉 海口港看海美術館"
+   }
+  ],
+  "text": "2026-2027屏東落山風藝術季 屏東落山風藝術季以車城海口港「落山風之吹風看海地」及旁邊沙灘為主要場地，以大型藝術裝置及表演活動形式，展現風與地方之特色。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_A15010000H_081878",
+  "title": "2026新社花海暨臺中國際花毯節",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_A15010000H_081878",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-22",
+    "city": "臺中市",
+    "venue": "新社區 行政院農業部種苗改良繁殖場第二苗圃"
+   }
+  ],
+  "text": "2026新社花海暨臺中國際花毯節 新社花海暨臺中國際花毯節為中部地區最盛大的花卉慶典，逐年淬煉成為全臺首屈一指、具品牌知名度的花卉與休閒農業活動。推廣花卉產業是中臺灣的在地特色，藉由花卉裝置藝術、社區及在地產業協作，串連花草、農特產、觀光休閒等臺中特色產業，活絡地方商機，提升在地產業量能，深化社區營造，促進地方自立永續發展，帶動山城區域觀光產業鏈更加緊密，吸引各地及國際遊客參觀。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_A15010000H_081900",
+  "title": "2026桃園萬聖城",
+  "url": "https://travel.tycg.gov.tw/zh-tw/event/calendar/2026",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-24",
+    "end": "2026-11-01",
+    "city": "桃園市",
+    "venue": "桃園區 桃園藝文廣場"
+   }
+  ],
+  "text": "2026桃園萬聖城 桃園萬聖城自2020年開始辦理，以邪惡無害、恐怖可愛的風格重新定義萬聖節，整合各局處相關活動共同辦理，結合在地商圈協會及業者，打造桃園特色觀光品牌，串聯北北桃年底大型節慶活動(萬聖節、耶誕節、跨年)，吸引各地民眾造訪。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_A15010300H_007041",
+  "title": "2026 山谷音樂節",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_A15010300H_007041",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-16",
+    "city": "花蓮縣",
+    "venue": "秀林鄉 銅門部落大祭場"
+   }
+  ],
+  "text": "2026 山谷音樂節 各活動時間以主辦單位最新公告為主",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_A15010600H_000007",
+  "title": "2026 日月潭花火音樂嘉年華",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_A15010600H_000007",
+  "org": "交通部觀光署日月潭國家風景區管理處",
+  "gov": true,
+  "price": 450,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-09-13",
+    "end": "2026-11-15",
+    "city": "南投縣",
+    "venue": "魚池鄉"
+   }
+  ],
+  "text": "2026 日月潭花火音樂嘉年華 鼓震山水耀明潭(十鼓擊樂團)活動時間：2026/09/12（六）18:00-19:30活動地點：伊達邵碼頭主辦單位：日月潭國家風景區管理處活動簡介：主辦單位保有異動節目之權利，煙火施放以搭配該場次音樂會實際編排結束時間為主。 十鼓擊樂團｜鼓震山水耀明潭鼓聲，是大地的脈動；節奏，是文化的傳承。成立於2000年的十鼓擊樂團，以「傳創臺灣本土文化，發揚鼓樂藝術薪傳」為發展核心，匯聚臺灣多元民族與世界鼓樂文化，將在地風景、歷史人文與東方美學融入創作，粹鍊出兼具力量、速度與詩意的擊樂藝術，持續讓世界看見臺灣鼓樂的獨特魅力。9月12日於日月潭伊達邵碼頭演出《鼓震山水耀明潭》，特別邀請達瑪巒文化藝術團共同演出，以原住民傳統歌舞《快樂小螞蟻》揭開序幕，讓歌聲、舞蹈與鼓聲在山水之間交織，展現臺灣多元文化與土地生命力。演出串聯《五丈原》、《點將令》、《天空斬》、《怛羅之戰》、《斬妖記》等磅礴作品，融合歷史、神話與戰場氣勢；並以《鳳邑埤塘》、《乘風破浪》、《風馳雷掣》等作品描繪山海與生命能量。終曲《雷霆交鋒》後施放璀璨花火，為2026日月潭國際花火嘉年華寫下最壯闊、燦爛的藝術",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
   "uid": "觀光署:Event_A15010600H_000012",
   "title": "2026 Come!BikeDay 日月潭自行車嘉年華",
   "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_A15010600H_000012",
@@ -3258,6 +3999,50 @@
    }
   ],
   "text": "2026 Come!BikeDay 日月潭自行車嘉年華 第15屆日月潭Come!BikeDay自行車嘉年華在日月潭向山遊客心出發，活動精神「Every Day is Come!BikeDay」，在日月潭每一天都是適合騎車的日子。今年推出四條騎乘活動，從小小車手兒童滑步車搭上熱門戰鬥陀螺與趣味充氣墊闖關；全程騎在自行車步道的踩色日月潭適合親子共騎尋找色彩美學；一票水陸兩玩的船騎組探訪日月潭九蛙；還有經典30K環潭，體驗全球10大最美車道的自行車盛會。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_A15010600H_000015",
+  "title": "2026 日月潭・部落文創市集",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_A15010600H_000015",
+  "org": "交通部觀光署日月潭國家風景區管理處",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-02",
+    "city": "南投縣",
+    "venue": "魚池鄉 伊達邵碼頭廣場"
+   }
+  ],
+  "text": "2026 日月潭・部落文創市集 活動時間：2026.10.31 (SAT) 14:00 - 20:002026.11.01 (SUN) 11:00 - 16:00活動地點：伊達邵碼頭廣場 Ita Thao Pier Plaza【優惠活動】潭・部落・回饋｜送市集折價券逛完潭・部落市集，來跟我們談部落吧～ 完成活動滿意度問卷，即贈$40元市集折價券！表演節目表 (Performance Schedule)2026.10.31 (SAT) 14:00 - 20:00 14:00 – 14:10 活動開幕 14:10 – 14:40 杵音文化藝術團 15:00 – 15:30 全世煌 16:00 – 16:30 魔幻泡泡秀 17:00 – 17:30 司安迪 17:30 – 18:00 Magaitan 瑪蓋丹 18:30 – 19:00 潭光童趣奇幻秀2026.11.01 (SUN) 11:00 - 16:00 11:10 – 11:40 達瑪巒文化藝術團 12:30 – 13:00 潭光童趣奇幻秀 13:00 – 14:00 原火樂團 14:10 – 14:40 谷俊恩 15:00 – 1",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_A15010900H_005658",
+  "title": "紫蝶飛舞・茂林踩街嘉年華",
+  "url": "https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id=Event_A15010900H_005658",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-30",
+    "end": "2026-10-31",
+    "city": "高雄市",
+    "venue": "茂林區 茂林生態公園停車場"
+   }
+  ],
+  "text": "紫蝶飛舞・茂林踩街嘉年華 茂林地區為臺灣重要的紫斑蝶越冬棲地。本活動以紫斑蝶生態為主題，透過踩街嘉年華為賞蝶季揭開序幕，邀請大家運用服裝、隊形、口號及行進展演，認識紫斑蝶越冬生態與友善環境行動，並結合在地部落文化、團隊特色與創意，展現茂林賞蝶季的自然魅力。活動日期｜2026.10.31 (六)活動時間｜09:00－12:00集合地點｜茂林生態公園停車場集合時間｜08:30－09:30活動地點｜茂林部落（行徑路線約1.3公里）活動費用｜統一採線上免費報名（需繳交$100保證金，完成全程活動後退還）活動名額｜早鳥50名＋一般300名，額滿截止（每位參與者皆需要填寫資料，1張票1位報名者。）報名規範｜裝扮應以紫斑蝶為主要意象，並可延伸運用紫色、昆蟲、蜜源植物、自然生態、在地部落文化或透過翅膀、服裝、頭飾、臉部彩繪、手持道具融入活動元素。",
   "kid_required": true
  },
  {
@@ -5950,6 +6735,72 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610201018211635140924",
+  "title": "好食客野餐會",
+  "url": "https://www.accupass.com/event/2610201018211635140924",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "好食客野餐會",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2603161343075743680940",
+  "title": "高雄威士忌嘉年華 WHISKY FEST TAKAO 2026",
+  "url": "https://www.accupass.com/event/2603161343075743680940",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-05",
+    "end": "2026-12-06",
+    "city": "高雄市",
+    "venue": ""
+   }
+  ],
+  "text": "高雄威士忌嘉年華 WHISKY FEST TAKAO 2026 威士忌",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609302227211174363956",
+  "title": "萬聖百鬼討糖大遊行|穿越古埃及!",
+  "url": "https://www.accupass.com/event/2609302227211174363956",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-01",
+    "city": "高雄市",
+    "venue": ""
+   }
+  ],
+  "text": "萬聖百鬼討糖大遊行｜穿越古埃及！ 高雄活動",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610210559011437605606",
   "title": "11月親子活動|迷霧森林AI動物調查局",
   "url": "https://www.accupass.com/event/2610210559011437605606",
@@ -6336,9 +7187,9 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2608250950213124761340",
-  "title": "2026好鞋好襪嘉年華-小沅寶魔法鞋工坊・親子共創",
-  "url": "https://www.accupass.com/event/2608250950213124761340",
+  "uid": "ACCUPASS:2610220741261897471953",
+  "title": "【萬聖討糖派對】換上你的萬聖裝扮來環球討糖!",
+  "url": "https://www.accupass.com/event/2610220741261897471953",
   "org": "",
   "gov": false,
   "price": null,
@@ -6353,7 +7204,7 @@
     "venue": ""
    }
   ],
-  "text": "2026好鞋好襪嘉年華-小沅寶魔法鞋工坊・親子共創 週末課程",
+  "text": "【萬聖討糖派對】換上你的萬聖裝扮來環球討糖！ 萬聖節",
   "kid_required": true
  },
  {
@@ -6895,6 +7746,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609290908339306700300",
+  "title": "【Open Site打開遺址】親子考古任務(華語場/臺語場)",
+  "url": "https://www.accupass.com/event/2609290908339306700300",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-12-19",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "【Open Site打開遺址】親子考古任務（華語場/台語場） 導覽",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610130319212303300100",
   "title": "🎤【桃市圖臺語親子音樂會】聽囡仔歌踅世界|臺語路親子樂團 × 青虫aoi",
   "url": "https://www.accupass.com/event/2610130319212303300100",
@@ -6917,28 +7790,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2608210629139218237380",
-  "title": "【親子工作坊】10月活動",
-  "url": "https://www.accupass.com/event/2608210629139218237380",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-10-03",
-    "end": "2026-10-31",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "【親子工作坊】10月活動 兒童工作坊",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2608070159545478247100",
   "title": "12月份親子共學課【家庭生命之樹】透過藝術創作 × 對話練習 × 愛的陪伴,一起灌溉理解、信任與安全感,讓家的關係慢慢扎根。",
   "url": "https://www.accupass.com/event/2608070159545478247100",
@@ -6957,6 +7808,1043 @@
    }
   ],
   "text": "12月份親子共學課【家庭生命之樹】透過藝術創作 × 對話練習 × 愛的陪伴，一起灌溉理解、信任與安全感，讓家的關係慢慢扎根。 情緒解套",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2607160338071803913088",
+  "title": "2026第三屆貓樂園專屬貓奴和風文創市集",
+  "url": "https://www.accupass.com/event/2607160338071803913088",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-26",
+    "end": "2026-12-27",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "2026第三屆貓樂園專屬貓奴和風文創市集 免費 #體驗 #市集 #課程 #斜槓",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610180715504122862770",
+  "title": "稻埕食光漫步小市集-12月親子二手市集 (攤位招募)",
+  "url": "https://www.accupass.com/event/2610180715504122862770",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-08-08",
+    "end": "2026-12-24",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "稻埕食光漫步小市集-12月親子二手市集 (攤位招募) 文創市集",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610260859291850558234",
+  "title": "嘎啦嘎啦室內市集|不要太有用",
+  "url": "https://www.accupass.com/event/2610260859291850558234",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-01",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "嘎啦嘎啦室內市集｜不要太有用 handmade",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610190800521452267197",
+  "title": "海沐野餐季-秋日毛孩相聚",
+  "url": "https://www.accupass.com/event/2610190800521452267197",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-15",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "海沐野餐季-秋日毛孩相聚 寵物市集",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610150721431826384040",
+  "title": "ECHOCORE 6.0 頻率共振市集|曖昧頻率 Ambiguous Frequency・12/12–12/13 士林無盡紋身",
+  "url": "https://www.accupass.com/event/2610150721431826384040",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-12",
+    "end": "2026-12-13",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "ECHOCORE 6.0 頻率共振市集｜曖昧頻率 Ambiguous Frequency・12/12–12/13 士林無盡紋身 免費",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609030722305019497420",
+  "title": "舒喜市集【臺灣故鄉祭】",
+  "url": "https://www.accupass.com/event/2609030722305019497420",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-28",
+    "end": "2026-11-29",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "舒喜市集【台灣故鄉祭】 免費入場",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610180730232042342204",
+  "title": "稻埕食光漫步小市集-11月",
+  "url": "https://www.accupass.com/event/2610180730232042342204",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-08-08",
+    "end": "2026-11-27",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "稻埕食光漫步小市集-11月 文創市集",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2603031405425134379160",
+  "title": "🎨【文青市集】10場市集共遊挑戰:評分鑑定誰是「真紳士」? | 質感社交・限額免費",
+  "url": "https://www.accupass.com/event/2603031405425134379160",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-08",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "🎨【文青市集】10場市集共遊挑戰：評分鑑定誰是「真紳士」？ | 質感社交・限額免費 約會",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610210230451294704553",
+  "title": "整體造型 × 廣告二手衣市集",
+  "url": "https://www.accupass.com/event/2610210230451294704553",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "整體造型 × 廣告二手衣市集 二手衣物",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609151000351386470425",
+  "title": "【2026 麻布山林 X 或者】月光.山市集 Moonlight Mountain Market",
+  "url": "https://www.accupass.com/event/2609151000351386470425",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-21",
+    "end": "2026-11-22",
+    "city": "新竹縣",
+    "venue": ""
+   }
+  ],
+  "text": "【2026 麻布山林 X 或者】月光．山市集 Moonlight Mountain Market 或者",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610040034141771734552",
+  "title": "人生轉運站身心靈市集在四四南村",
+  "url": "https://www.accupass.com/event/2610040034141771734552",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-01",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "人生轉運站身心靈市集在四四南村 占卜",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610220744521764203939",
+  "title": "☃ 迷你二手換物市集 | 聖誕物資大拯救 ❘ 冬天及日常新舊好物交換 環保零廢生活.ᐟ.ᐟ",
+  "url": "https://www.accupass.com/event/2610220744521764203939",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "city": "高雄市",
+    "venue": ""
+   }
+  ],
+  "text": "☃ 迷你二手換物市集 | 聖誕物資大拯救 ❘ 冬天及日常新舊好物交換 環保零廢生活.ᐟ.ᐟ 二手",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2603020938301783579432",
+  "title": "🌿 文青市集散步任務(華山、松山等園區)|邊走邊看邊聊 × 認識不同「MBTI」異性",
+  "url": "https://www.accupass.com/event/2603020938301783579432",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-05",
+    "end": "2026-12-06",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "🌿 文青市集散步任務（華山、松山等園區）｜邊走邊看邊聊 × 認識不同「MBTI」異性 松山文創園區",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610111155081835518878",
+  "title": "新地球聚落.室內身心靈市集",
+  "url": "https://www.accupass.com/event/2610111155081835518878",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-12",
+    "end": "2026-12-13",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "新地球聚落．室內身心靈市集 水晶缽音療",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2607310328047136464650",
+  "title": "《ina趕集趣》Lipahak野菜原風市集🥒🥬🥕",
+  "url": "https://www.accupass.com/event/2607310328047136464650",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-09-05",
+    "end": "2026-11-15",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "《ina趕集趣》Lipahak野菜原風市集🥒🥬🥕 野菜文化",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609220308331353192335",
+  "title": "【臺東東河】2026 海好生活派對《Good to Sea You!》|惜魚餐桌 x 海好市集",
+  "url": "https://www.accupass.com/event/2609220308331353192335",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "臺東縣",
+    "venue": ""
+   }
+  ],
+  "text": "【台東東河】2026 海好生活派對《Good to Sea You!》｜惜魚餐桌 x 海好市集 食魚",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610211459334862917340",
+  "title": "【秋日農村市集】-2026員山水農祭-野餐市集",
+  "url": "https://www.accupass.com/event/2610211459334862917340",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-01",
+    "end": "2026-11-01",
+    "city": "宜蘭縣",
+    "venue": ""
+   }
+  ],
+  "text": "【秋日農村市集】-2026員山水農祭-野餐市集 親子野餐",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610140532591351597410",
+  "title": "2026 新北市客家文化園區市集日-秋漬市集日",
+  "url": "https://www.accupass.com/event/2610140532591351597410",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "2026 新北市客家文化園區市集日－秋漬市集日 假日市集",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610050233319013437270",
+  "title": "新北市第一屆原住民烤肉大賽《炙在新北:菜2 ,誰是烤肉王?》部落灶腳市集🥬😋🔥",
+  "url": "https://www.accupass.com/event/2610050233319013437270",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-10-31",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "新北市第一屆原住民烤肉大賽《炙在新北：菜² ，誰是烤肉王?》部落灶腳市集🥬😋🔥 烤肉競賽",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610221128283047139960",
+  "title": "【飛吧!猛禽】一起認識臺灣猛禽!里仁誠食市集生態策展",
+  "url": "https://www.accupass.com/event/2610221128283047139960",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-23",
+    "end": "2027-04-30",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "【飛吧！猛禽】一起認識台灣猛禽！里仁誠食市集生態策展 台灣猛禽研究會",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609080430063136564420",
+  "title": "YO!萌寶貝親子市集",
+  "url": "https://www.accupass.com/event/2609080430063136564420",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": [
+   0,
+   3
+  ],
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "YO!萌寶貝親子市集 寶寶爬行",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2608170824454282588400",
+  "title": "療癒滾滾苔球課程(親子班)",
+  "url": "https://www.accupass.com/event/2608170824454282588400",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-26",
+    "end": "2026-12-26",
+    "city": "高雄市",
+    "venue": ""
+   }
+  ],
+  "text": "療癒滾滾苔球課程(親子班) 綠植",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610220627381211136065",
+  "title": "職掘|百人親子挑戰賽十一月場次",
+  "url": "https://www.accupass.com/event/2610220627381211136065",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "職掘｜百人親子挑戰賽十一月場次 親子溝通",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610290207451081855805",
+  "title": "職掘|親子挑戰賽「特別場」",
+  "url": "https://www.accupass.com/event/2610290207451081855805",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-29",
+    "end": "2026-11-29",
+    "city": "新竹縣",
+    "venue": ""
+   }
+  ],
+  "text": "職掘｜親子挑戰賽「特別場」 職掘親子挑戰賽",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2509090405031880081890",
+  "title": "李儀婷老師「愛的賽局理論」工作坊 - 家庭關係與親子教養-臺北市",
+  "url": "https://www.accupass.com/event/2509090405031880081890",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-05",
+    "end": "2026-12-06",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "李儀婷老師「愛的賽局理論」工作坊 - 家庭關係與親子教養-台北市 李崇建",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610190726419418547340",
+  "title": "【不只是登山:困難地形通過】困難地形通過入門十一月場|拼圖戶外生活",
+  "url": "https://www.accupass.com/event/2610190726419418547340",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "【不只是登山：困難地形通過】困難地形通過入門十一月場｜拼圖戶外生活 登山",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609231252028441597690",
+  "title": "2026出櫃藝術節《舞魂不打烊》戶外派對",
+  "url": "https://www.accupass.com/event/2609231252028441597690",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "city": "嘉義縣",
+    "venue": ""
+   }
+  ],
+  "text": "2026出櫃藝術節《舞魂不打烊》戶外派對 看嘸舞蹈劇場",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609190552021935605725",
+  "title": "2026紙廠電影院-中興57影展|免費電影放映・戶外特映・映後座談",
+  "url": "https://www.accupass.com/event/2609190552021935605725",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-12-12",
+    "city": "宜蘭縣",
+    "venue": ""
+   }
+  ],
+  "text": "2026紙廠電影院－中興57影展｜免費電影放映・戶外特映・映後座談 影展",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2607231357269303607150",
+  "title": "【進化論】🥏戶外飛盤社交實戰:肢體氣場與動態協作 X 4種血型特質的",
+  "url": "https://www.accupass.com/event/2607231357269303607150",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-08",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "【進化論】🥏戶外飛盤社交實戰：肢體氣場與動態協作 X 4種血型特質的 血型",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610120608291515977826",
+  "title": "讀者募集!\\2026讀到最棒的書/獨角獸的靈感圖書館 年度戶外錄音",
+  "url": "https://www.accupass.com/event/2610120608291515977826",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-05",
+    "end": "2026-12-05",
+    "city": "南投縣",
+    "venue": ""
+   }
+  ],
+  "text": "讀者募集！＼2026讀到最棒的書／獨角獸的靈感圖書館 年度戶外錄音 閱讀",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610291220275914359030",
+  "title": "快樂臺灣|梵唱音樂嘉年華",
+  "url": "https://www.accupass.com/event/2610291220275914359030",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-06",
+    "end": "2026-12-06",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "快樂台灣｜梵唱音樂嘉年華 ＃呼吸＃靜心＃冥想＃調頻＃活化",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610230355251132482261",
+  "title": "【追加名額】2026 南投日月潭國際立槳 SUP 橫渡嘉年華(不定時釋出名額)",
+  "url": "https://www.accupass.com/event/2610230355251132482261",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "南投縣",
+    "venue": ""
+   }
+  ],
+  "text": "【追加名額】2026 南投日月潭國際立槳 SUP 橫渡嘉年華(不定時釋出名額) SUP立槳",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2608030642231013573927",
+  "title": "第九屆引導嘉年華-Facilitation X",
+  "url": "https://www.accupass.com/event/2608030642231013573927",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-05",
+    "end": "2026-12-05",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "第九屆引導嘉年華-Facilitation X 組織引導",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610161356482049449150",
+  "title": "2026死亡嘉年華-為關懷發聲|專家論壇:除非早逝,否則老去! 哲學家如何看死亡與衰老",
+  "url": "https://www.accupass.com/event/2610161356482049449150",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-28",
+    "end": "2026-11-28",
+    "city": "臺南市",
+    "venue": ""
+   }
+  ],
+  "text": "2026死亡嘉年華-為關懷發聲｜專家論壇：除非早逝，否則老去！ 哲學家如何看死亡與衰老 死亡嘉年華",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610091421201761291259",
+  "title": "新竹縣臺灣好行-雙線嘉年華",
+  "url": "https://www.accupass.com/event/2610091421201761291259",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "新竹縣",
+    "venue": ""
+   }
+  ],
+  "text": "新竹縣台灣好行－雙線嘉年華",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610050738139489004470",
+  "title": "2026年 臺灣美國威士忌文化嘉年華",
+  "url": "https://www.accupass.com/event/2610050738139489004470",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-11",
+    "end": "2026-12-13",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "2026年 台灣美國威士忌文化嘉年華 威士忌",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609220329001768658035",
+  "title": "臺中威士忌嘉年華3.0-極致盛宴",
+  "url": "https://www.accupass.com/event/2609220329001768658035",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-08",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "台中威士忌嘉年華3.0-極致盛宴 威士忌",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610070536022108925590",
+  "title": "【用愛串聯全臺 × 多走一哩路|親子圓夢計畫】",
+  "url": "https://www.accupass.com/event/2610070536022108925590",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-07",
+    "end": "2027-04-11",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "【用愛串聯全台 × 多走一哩路｜親子圓夢計畫】 脆弱家庭",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2606291307179354507070",
+  "title": "親子跳床嘉年華 | 7/20~8/31暑假限定 | 陪孩子一起跳出健康、快樂與自信!",
+  "url": "https://www.accupass.com/event/2606291307179354507070",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-11",
+    "end": "2026-12-31",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "親子跳床嘉年華 ｜ 7/20~8/31暑假限定 ｜ 陪孩子一起跳出健康、快樂與自信！",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609170235231307750663",
+  "title": "免費講座|預約一場歐洲春日浪漫!漫步荷比童話|臺北1121",
+  "url": "https://www.accupass.com/event/2609170235231307750663",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-21",
+    "end": "2026-11-21",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "免費講座｜預約一場歐洲春日浪漫！漫步荷比童話｜台北1121 荷蘭",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610160639231682535896",
+  "title": "2026豐原萬聖嘉年華 鬼王陀螺・旋戰擂臺",
+  "url": "https://www.accupass.com/event/2610160639231682535896",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-10-31",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "2026豐原萬聖嘉年華 鬼王陀螺・旋戰擂台 萬聖節",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610140725294736060420",
+  "title": "2026總統盃全民運動賽事嘉年華 1on1 籃球競賽",
+  "url": "https://www.accupass.com/event/2610140725294736060420",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-01",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "2026總統盃全民運動賽事嘉年華 1on1 籃球競賽 籃球比賽",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610160605208823828820",
+  "title": "2026豐原萬聖嘉年華 百鬼變裝‧鬼王爭霸",
+  "url": "https://www.accupass.com/event/2610160605208823828820",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-10-31",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "2026豐原萬聖嘉年華 百鬼變裝‧鬼王爭霸 萬聖節",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610130719185588805930",
+  "title": "2026豐原萬聖嘉年華 搗蛋鬼闖商圈-討糖趣",
+  "url": "https://www.accupass.com/event/2610130719185588805930",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-10-31",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "2026豐原萬聖嘉年華 搗蛋鬼闖商圈-討糖趣 ＃不給糖就搗蛋",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2606230547059125475880",
+  "title": "2026 TAIPEI BBOY CITY 安麗盃世界霹靂舞大賽 x FEMALEGEND 女力街舞嘉年華",
+  "url": "https://www.accupass.com/event/2606230547059125475880",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-31",
+    "end": "2026-11-01",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "2026 TAIPEI BBOY CITY 安麗盃世界霹靂舞大賽 x FEMALEGEND 女力街舞嘉年華 Femalegend",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609030407201133965854",
+  "title": "2026好鞋好襪嘉年華-小沅寶搗蛋大遊行",
+  "url": "https://www.accupass.com/event/2609030407201133965854",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-01",
+    "end": "2026-11-01",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "2026好鞋好襪嘉年華-小沅寶搗蛋大遊行 小沅寶",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610020913181925696429",
+  "title": "2026花蓮太平洋溫泉季|【東里鐵馬驛站】浴衣嘉年華",
+  "url": "https://www.accupass.com/event/2610020913181925696429",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "花蓮縣",
+    "venue": ""
+   }
+  ],
+  "text": "2026花蓮太平洋溫泉季｜【東里鐵馬驛站】浴衣嘉年華",
   "kid_required": true
  }
 ]

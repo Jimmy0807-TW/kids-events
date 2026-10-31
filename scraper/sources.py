@@ -249,7 +249,7 @@ def src_typass():
 
 def src_accupass():
     out = {}
-    for q in ("免費親子活動", "兒童 免費 活動", "親子 活動"):
+    for q in ("免費親子活動", "兒童 免費 活動", "親子 活動", "市集", "親子市集", "免費 戶外 表演", "嘉年華"):
         x = fetch(f"https://www.accupass.com/search?q={quote(q)}")
         x = x.replace('\\"', '"')
         for m in re.finditer(r'\{"eventIdNumber":"(\d+)".*?"utm":[^}]*?\}', x):

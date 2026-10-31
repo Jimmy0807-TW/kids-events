@@ -35,7 +35,8 @@ a{color:var(--accent)}
 header{padding:20px 0 8px}
 h1{font-size:1.6rem;margin:0}
 .sub{color:var(--muted);font-size:.9rem}
-.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line)}
+.bar{background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line)}
+@media (min-width:700px){.bar{position:sticky;top:0;z-index:5}}
 .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:4px 0}
 .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;
   padding:4px 12px;font:inherit;font-size:.95rem;cursor:pointer}
@@ -72,6 +73,9 @@ td,th{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left}
 .ok{color:var(--t2)}.bad{color:#d32f2f}
 details summary{cursor:pointer;font-weight:bold}
 .theme{float:right}
+.views .chip{font-size:1rem;padding:6px 14px;font-weight:bold}
+.views .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip .n{font-weight:normal;opacity:.75;margin-left:4px}
 </style>
 </head>
 <body>
@@ -83,6 +87,7 @@ details summary{cursor:pointer;font-weight:bold}
 </header>
 
 <div class="bar">
+  <div class="row views" id="views"></div>
   <div class="row" id="regions"></div>
   <div class="row">
     <select id="city" aria-label="縣市"></select>
@@ -114,7 +119,7 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
 const state = Object.assign(
-  { region: "常用", city: "", weekend: false, fresh: false, reg: false, mine: false, long: false },
+  { view: "main", region: "常用", city: "", weekend: false, fresh: false, reg: false, mine: false, long: false },
   store.get("filters", {}));
 let marks = store.get("marks", {});
 let DATA = null, EXC = { items: [], series: [] };
@@ -150,7 +155,24 @@ function seriesGuess(t) {
   return s.length >= 3 ? s : t.slice(0, 12);
 }
 
+const VIEWS = [["main", "親子活動"], ["outing", "🎪 市集・節慶・戶外"], ["own", "🔬 科教館課程"]];
+
+function buildViews() {
+  const box = document.getElementById("views");
+  const own = (DATA.config["獨立按鈕來源"] || []).join("、") || "科教館";
+  box.innerHTML = VIEWS.map(([k, l]) => {
+    const n = DATA.events.filter(e => e.view === k && inScope(e)).length;
+    const label = k === "own" ? `🔬 ${own}` : l;
+    return `<button class="chip" data-v="${k}" aria-pressed="${state.view === k}">${label}<span class="n">${n}</span></button>`;
+  }).join("");
+  box.onclick = e => {
+    const b = e.target.closest("[data-v]"); if (!b) return;
+    state.view = b.dataset.v; save(); buildViews(); render();
+  };
+}
+
 function buildControls() {
+  buildViews();
   const regs = [["常用", "常用地區"], ...Object.keys(DATA.regions).map(r => [r, r]), ["全台", "全台"]];
   const box = document.getElementById("regions");
   box.innerHTML = regs.map(([k, l]) => `<button class="chip" data-r="${k}" aria-pressed="${state.region === k}">${l}</button>`).join("");
@@ -194,6 +216,7 @@ function render() {
     evs = DATA.events.filter(e => e.no === n);
   } else {
     evs = DATA.events.filter(e => {
+      if ((e.view || "main") !== state.view && !state.mine) return false;
       if (!inScope(e)) return false;
       if (q && !norm(e.title + e.venue + e.org + e.city).includes(q)) return false;
       if (state.weekend && !e.weekend) return false;

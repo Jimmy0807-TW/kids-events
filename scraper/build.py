@@ -54,7 +54,27 @@ def load_config():
     cfg["常用地區"] = [norm(c) for c in cfg["常用地區"]]
     cfg.setdefault("額外排除關鍵字", [])
     cfg.setdefault("來源", {})
+    cfg.setdefault("獨立按鈕來源", ["科教館"])
     return cfg
+
+
+OUTING_RE = (r"市集|市場節|嘉年華|節慶|音樂節|音樂祭|燈節|燈會|花海|花季|煙火|遊行|草地|野餐|園遊會|踩街|"
+             r"戶外|露天|光雕|聖誕|耶誕|跨年|萬聖|童玩|風箏|文化節|文化祭|生活節|豐年祭|祭典|觀光季|藝術季")
+OUTING_STRONG = r"市集|市場節|園遊會|踩街|遊行|野餐|草地|露天|戶外|煙火|燈會|燈節|光雕|嘉年華|童玩節|風箏|萬聖|跨年"
+NOT_OUTING = (r"音樂會|劇場|劇團|音樂劇|舞劇|講座|研習|課程|工作坊|徵|招募|募集|馬拉松|路跑|威士忌|啤酒|"
+              r"社交|身心靈|登山|飛盤|引導|派對|競賽|大賽|擂臺|毛孩|貓|二手衣|造型|紳士|立槳|SUP|"
+              r"鋼琴|弦樂|管樂|四重奏|交響|室內|MBTI|梵唱")
+
+
+def is_outing(e):
+    """市集、節慶、大型戶外表演：不限兒童，但要適合全家出門。"""
+    t = e["title"]
+    if re.search(NOT_OUTING, t, re.I):
+        return False
+    if e["source"] == "觀光署":
+        return bool(re.search(OUTING_RE, t))
+    strong = OUTING_STRONG if e["source"] != "文化部" else OUTING_STRONG.replace("|嘉年華", "")
+    return bool(re.search(strong, t, re.I)) and e["price"] in (0, None)
 
 
 def is_kid(e):
@@ -84,7 +104,7 @@ def fetch_all(cfg):
                 # 只留還沒結束、在期間內、判斷得出縣市的場次
                 e["sessions"] = [s for s in e["sessions"]
                                  if s["end"] >= TODAY and s["start"] <= horizon and s["city"]]
-                if e["sessions"] and is_kid(e):
+                if e["sessions"] and (is_kid(e) or is_outing(e)):
                     e["text"] = e["text"][:500]
                     raw.append(e)
                     kept += 1
@@ -135,7 +155,8 @@ def process(raw, cfg):
         if any(w in title for w in words):
             stats["排除字"] += 1
             continue
-        if not is_kid(e):
+        kind = "kid" if is_kid(e) else "outing" if is_outing(e) else None
+        if not kind:
             stats["非兒童"] += 1
             continue
         age = tuple(e["age"]) if e["age"] else None
@@ -146,7 +167,7 @@ def process(raw, cfg):
             stats["超過價格"] += 1
             continue
         tier = 1 if e["gov"] else 4 if e["price"] is None else 2 if e["price"] <= plow else 3
-        e = dict(e, age=age, tier=tier)
+        e = dict(e, age=age, tier=tier, kind=kind)
         for s in e["sessions"]:
             for k in ("start", "end"):
                 if isinstance(s[k], str):
@@ -187,6 +208,7 @@ def process(raw, cfg):
     sun = sat + dt.timedelta(days=1)
     long_days = int(cfg["長期展覽天數"])
     home = set(cfg["常用地區"])
+    own_btn = set(cfg.get("獨立按鈕來源") or [])
 
     out = []
     for e in kept:
@@ -206,6 +228,8 @@ def process(raw, cfg):
             reg_status = "報名已截止"
         out.append({
             "uid": e["uid"], "key": e["key"], "title": e["title"], "url": e["url"],
+            "view": ("outing" if e["kind"] == "outing" else
+                     "own" if set(e["sources"]) <= own_btn else "main"),
             "tier": e["tier"], "sources": e["sources"], "org": e["org"],
             "city": nxt["city"], "region": CITY_REGION.get(nxt["city"], ""),
             "home": nxt["city"] in home, "venue": nxt["venue"][:60],
@@ -220,7 +244,8 @@ def process(raw, cfg):
             "reg_start": reg_s.isoformat() if reg_s else None,
             "reg_end": reg_e.isoformat() if reg_e else None, "reg_status": reg_status,
         })
-    out.sort(key=lambda x: (x["tier"], x["long"], x["next"], x["title"]))
+    rank = {"main": 0, "outing": 1, "own": 2}
+    out.sort(key=lambda x: (rank[x["view"]], x["tier"], x["long"], x["next"], x["title"]))
     for i, e in enumerate(out, 1):
         e["no"] = i
     stats["收錄"] = len(out)
@@ -264,7 +289,7 @@ def main():
     save_json("events.json", {
         "generated": now, "today": TODAY.isoformat(),
         "config": {k: cfg[k] for k in ("年齡下限", "年齡上限", "價格上限", "低價門檻",
-                                       "往後看幾天", "長期展覽天數", "常用地區")},
+                                       "往後看幾天", "長期展覽天數", "常用地區", "獨立按鈕來源")},
         "regions": REGIONS, "tiers": TIERS, "stats": stats,
         "excluded": {"items": len(ex["items"]), "series": [s["pattern"] for s in ex["series"]]},
         "sources": log, "events": events,

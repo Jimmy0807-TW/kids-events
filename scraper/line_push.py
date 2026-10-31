@@ -38,16 +38,24 @@ def weekly(data, cfg):
     L = cfg.get("LINE", {})
     ev = data["events"]
     home = [e for e in ev if e["home"]]
-    wk = [e for e in home if e["weekend"] and not e["long"]][: int(L.get("週末活動筆數", 10))]
-    new = [e for e in home if e["new"] and not e["weekend"]][: int(L.get("本週新增筆數", 10))]
+    main = [e for e in home if e.get("view", "main") == "main"]
+    wk = [e for e in main if e["weekend"] and not e["long"]][: int(L.get("週末活動筆數", 10))]
+    fair = [e for e in home if e.get("view") == "outing" and e["weekend"]][: int(L.get("市集節慶筆數", 5))]
+    own = [e for e in home if e.get("view") == "own"]
+    own_wk = sum(e["weekend"] for e in own)
+    new = [e for e in main if e["new"] and not e["weekend"]][: int(L.get("本週新增筆數", 10))]
     away = [e for e in ev if not e["home"] and e["tier"] == 1 and not e["long"]
             and (e["price"] in (0, None))][: int(L.get("外縣市精選筆數", 5))]
     soon = [e for e in home if e["reg_status"] == "即將開放報名"][:8]
     url = cfg.get("網頁網址", "")
     parts = [f"【親子活動週報】{md(TODAY.isoformat())}",
-             f"常用地區共 {len(home)} 筆，這個週末 {sum(e['weekend'] for e in home)} 場。"]
+             f"常用地區親子活動 {len(main)} 筆，這個週末 {sum(e['weekend'] for e in main)} 場。"]
     if wk:
         parts.append("🗓 這個週末\n" + "\n".join(line(e, True) for e in wk))
+    if fair:
+        parts.append("🎪 這個週末的市集・節慶・戶外\n" + "\n".join(line(e, True) for e in fair))
+    if own:
+        parts.append(f"🔬 科教館課程共 {len(own)} 堂（本週末 {own_wk} 堂），請到網頁「科教館」按鈕查看")
     if soon:
         parts.append("⏰ 即將開放報名\n" + "\n".join(
             f"#{e['no']} {e['title'][:26]}\n　{md(e['reg_start'])} 開放" for e in soon))
