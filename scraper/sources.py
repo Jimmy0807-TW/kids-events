@@ -278,6 +278,88 @@ def _utc_local(s):
     return (dt.datetime(*map(int, m.groups())) + dt.timedelta(hours=8)).date()
 
 
+# ---------------- 8. 市集・展演場地 ----------------
+# 場地活動不限兒童：名稱含兒童關鍵字歸「親子活動」，市集類歸「市集・節慶・戶外」，其餘不收。
+
+def _roc_range(t):
+    m = re.search(r"(1\d\d)-(\d\d)-(\d\d)\s*~\s*(1\d\d)-(\d\d)-(\d\d)", t)
+    if not m:
+        return None, None
+    a = list(map(int, m.groups()))
+    return dt.date(a[0] + 1911, a[1], a[2]), dt.date(a[3] + 1911, a[4], a[5])
+
+
+def src_expopark():
+    """臺北花博公園：首頁活動卡片含入場方式（自由／售票／索票）與分類（市集活動／展覽活動）。"""
+    base = "https://www.expopark.taipei/"
+    soup = BeautifulSoup(fetch(base), "lxml")
+    out, seen = [], set()
+    for a in soup.find_all("a", href=re.compile(r"News_Photo_Content")):
+        t = clean_text(a.get_text(" ", strip=True))
+        st, en = _roc_range(t)
+        if not st or a["href"] in seen:
+            continue
+        seen.add(a["href"])
+        m = re.match(r"((?:(?:自由|售票|索票|邀請)入場\s*)+)(.*?)\s*(市集活動|展覽活動|藝文活動|運動活動|其他活動)", t)
+        if not m:
+            continue
+        entry, title, cat = m.group(1), m.group(2).strip(), m.group(3)
+        venue = re.search(r"爭艷館|流行館|長廊廣場|環形廣場|花海廣場|爭艷廣場|入口廣場|舞蝶館|美術公園", t[m.end():m.end() + 160])
+        price = None if "售票" in entry else 0
+        uid = re.search(r"s=(\d+)", a["href"])
+        e = make_event(
+            "花博公園", uid.group(1) if uid else a["href"], title, urljoin(base, a["href"]),
+            sessions=[(st, en, "臺北市", "花博公園 " + (venue.group(0) if venue else ""))],
+            org="臺北市會展產業發展基金會", gov=False, price=price, text=t[:300], kid_required=True)
+        e["outing_hint"] = cat in ("市集活動", "藝文活動") and price == 0
+        out.append(e)
+    return out
+
+
+def src_huashan(pages=4):
+    """華山 1914 文化創意產業園區：展演列表卡片（日期、名稱、館別）。"""
+    base = "https://www.huashan1914.com"
+    out = {}
+    for p in range(1, pages + 1):
+        soup = BeautifulSoup(fetch(f"{base}/exhibition" + (f"?page={p}" if p > 1 else "")), "lxml")
+        for a in soup.find_all("a", class_="exhi-card__link"):
+            tm, h3 = a.find("time"), a.find("h3")
+            if not tm or not h3:
+                continue
+            ds = re.findall(r"(20\d\d)\.(\d\d)\.(\d\d)", tm.get_text())
+            if not ds:
+                continue
+            st = dt.date(*map(int, ds[0]))
+            en = dt.date(*map(int, ds[-1]))
+            venue = a.find(class_="exhi-card__content-venue")
+            title = clean_text(h3.get_text(" "))
+            out[a["href"]] = make_event(
+                "華山1914", a["href"].rsplit("/", 1)[-1], title, base + quote(a["href"]),
+                sessions=[(st, en, "臺北市", "華山1914 " + (clean_text(venue.get_text(" ")) if venue else ""))],
+                org="華山1914文化創意產業園區", text=title, kid_required=True)
+    return list(out.values())
+
+
+def src_songshan():
+    """松山文創園區：展演資訊列表。"""
+    base = "https://www.songshanculturalpark.org"
+    soup = BeautifulSoup(fetch(f"{base}/exhibition"), "lxml")
+    out = {}
+    for a in soup.find_all("a", href=re.compile(r"/exhibition/activity/")):
+        t, d = a.find(class_="title"), a.find(class_="date")
+        if not t or not d:
+            continue
+        ds = re.findall(r"(20\d\d)-(\d\d)-(\d\d)", d.get_text())
+        title = clean_text(t.get_text(" "))
+        if not ds or re.search(r"展演攻略", title):
+            continue
+        out[a["href"]] = make_event(
+            "松山文創園區", a["href"].rsplit("/", 1)[-1], title, base + a["href"],
+            sessions=[(dt.date(*map(int, ds[0])), dt.date(*map(int, ds[-1])), "臺北市", "松山文創園區")],
+            org="松山文創園區", text=title, kid_required=True)
+    return list(out.values())
+
+
 # ---------------- 新聞線索 ----------------
 NEWS_KEYWORDS = ["親子活動 免費", "兒童 活動 報名", "寒假 兒童 營隊", "親子 週末 活動"]
 
@@ -309,4 +391,7 @@ SOURCES = {
     "科教館": src_ntsec,
     "桃園市民卡": src_typass,
     "ACCUPASS": src_accupass,
+    "花博公園": src_expopark,
+    "華山1914": src_huashan,
+    "松山文創園區": src_songshan,
 }

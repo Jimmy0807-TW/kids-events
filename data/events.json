@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31 17:09",
+ "generated": "2026-10-31 18:02",
  "today": "2026-10-31",
  "config": {
   "年齡下限": 6,
@@ -59,13 +59,13 @@
   "4": "④ 價格未標示"
  },
  "stats": {
-  "原始": 300,
-  "排除字": 21,
+  "原始": 326,
+  "排除字": 22,
   "非兒童": 1,
   "年齡不符": 16,
   "超過價格": 2,
   "已排除": 0,
-  "收錄": 217
+  "收錄": 237
  },
  "excluded": {
   "items": 0,
@@ -75,57 +75,78 @@
   {
    "source": "文化部",
    "status": "成功",
-   "fetched": 1192,
-   "kept": 94,
-   "seconds": 3.6
+   "fetched": 1188,
+   "kept": 105,
+   "seconds": 4.3
   },
   {
    "source": "觀光署",
    "status": "成功",
    "fetched": 1174,
    "kept": 40,
-   "seconds": 2.5
+   "seconds": 3.2
   },
   {
    "source": "北市圖",
    "status": "成功",
    "fetched": 13,
    "kept": 6,
-   "seconds": 0.6
+   "seconds": 1.0
   },
   {
    "source": "新北圖",
    "status": "成功",
    "fetched": 15,
    "kept": 14,
-   "seconds": 17.7
+   "seconds": 14.2
   },
   {
    "source": "科教館",
    "status": "成功",
    "fetched": 102,
    "kept": 75,
-   "seconds": 52.9
+   "seconds": 40.5
   },
   {
    "source": "桃園市民卡",
    "status": "成功",
    "fetched": 0,
    "kept": 0,
-   "seconds": 1.2
+   "seconds": 1.3
   },
   {
    "source": "ACCUPASS",
    "status": "成功",
    "fetched": 144,
    "kept": 71,
-   "seconds": 4.4
+   "seconds": 5.5
+  },
+  {
+   "source": "花博公園",
+   "status": "成功",
+   "fetched": 35,
+   "kept": 8,
+   "seconds": 5.0
+  },
+  {
+   "source": "華山1914",
+   "status": "成功",
+   "fetched": 45,
+   "kept": 6,
+   "seconds": 5.9
+  },
+  {
+   "source": "松山文創園區",
+   "status": "成功",
+   "fetched": 26,
+   "kept": 1,
+   "seconds": 1.6
   },
   {
    "source": "新聞線索",
    "status": "成功",
-   "fetched": 92,
-   "kept": 92
+   "fetched": 89,
+   "kept": 89
   }
  ],
  "events": [
@@ -1058,6 +1079,74 @@
    "no": 26
   },
   {
+   "uid": "文化部:698f772f26b32454e437c995",
+   "key": "2026年1月雲林布袋戲館傳藝之魂黃海岱與戲偶之道特展",
+   "title": "2026年1月【雲林布袋戲館-《傳藝之魂‧黃海岱與戲偶之道》特展】",
+   "url": "https://www.facebook.com/yunlin.puppet",
+   "view": "main",
+   "tier": 1,
+   "sources": [
+    "文化部"
+   ],
+   "org": "雲林縣政府文化觀光處",
+   "city": "雲林縣",
+   "region": "中部",
+   "home": false,
+   "venue": "雲林布袋戲館",
+   "next": "2026-10-31",
+   "start": "2026-01-02",
+   "end": "2026-12-31",
+   "dates": [
+    "2026-10-31"
+   ],
+   "long": true,
+   "weekend": true,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示（公家活動，多為免費）",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 27
+  },
+  {
+   "uid": "文化部:698f772d26b32454e437c994",
+   "key": "2026年1月雲林布袋戲館掌演乾坤常設展",
+   "title": "2026年1月【雲林布袋戲館-「掌演乾坤」常設展】",
+   "url": "https://www.facebook.com/yunlin.puppet",
+   "view": "main",
+   "tier": 1,
+   "sources": [
+    "文化部"
+   ],
+   "org": "雲林縣政府文化觀光處",
+   "city": "雲林縣",
+   "region": "中部",
+   "home": false,
+   "venue": "雲林布袋戲館",
+   "next": "2026-10-31",
+   "start": "2026-01-02",
+   "end": "2026-12-31",
+   "dates": [
+    "2026-10-31"
+   ],
+   "long": true,
+   "weekend": true,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示（公家活動，多為免費）",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 28
+  },
+  {
    "uid": "文化部:696aa78026b3243b1ca0c043",
    "key": "兒童讀書會愛地球寫作小學堂",
    "title": "兒童讀書會-愛地球〝寫作〞小學堂",
@@ -1092,7 +1181,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 27
+   "no": 29
   },
   {
    "uid": "文化部:698cd2b326b32454e437c913",
@@ -1126,7 +1215,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 28
+   "no": 30
   },
   {
    "uid": "文化部:6a28645126b3243414ccd0af",
@@ -1160,7 +1249,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 29
+   "no": 31
   },
   {
    "uid": "文化部:696aa7bb26b3243b1ca0c064",
@@ -1197,7 +1286,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 30
+   "no": 32
   },
   {
    "uid": "文化部:696e973626b3243b1ca0c0ec",
@@ -1231,7 +1320,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 31
+   "no": 33
   },
   {
    "uid": "文化部:6973eb0b26b32454e437c3ec",
@@ -1265,7 +1354,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 32
+   "no": 34
   },
   {
    "uid": "文化部:69f7a63626b3243414ccc55c",
@@ -1299,7 +1388,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 33
+   "no": 35
   },
   {
    "uid": "文化部:65eaa9c931bef923aa07d72e",
@@ -1333,7 +1422,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 34
+   "no": 36
   },
   {
    "uid": "北市圖:C11C02764031A831",
@@ -1374,7 +1463,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 35
+   "no": 37
   },
   {
    "uid": "文化部:6a21d77426b3243414cccf09",
@@ -1408,7 +1497,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 36
+   "no": 38
   },
   {
    "uid": "文化部:6acf2331eb4399d01039b21c",
@@ -1442,7 +1531,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 37
+   "no": 39
   },
   {
    "uid": "文化部:69b1c11e26b3242a48a9da86",
@@ -1479,7 +1568,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 38
+   "no": 40
   },
   {
    "uid": "文化部:5b3dd544aaa378d7ca9a2e9a",
@@ -1513,7 +1602,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 39
+   "no": 41
   },
   {
    "uid": "ACCUPASS:2610050118381368592061",
@@ -1550,7 +1639,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 40
+   "no": 42
   },
   {
    "uid": "ACCUPASS:2609190732581591828922",
@@ -1584,7 +1673,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 41
+   "no": 43
   },
   {
    "uid": "文化部:6ad1a67beb43ead9f13aebca",
@@ -1622,7 +1711,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 42
+   "no": 44
+  },
+  {
+   "uid": "ACCUPASS:2609170146281153410910",
+   "key": "免費講座預約一場歐洲春日浪漫漫步荷比童話新竹1107",
+   "title": "免費講座|預約一場歐洲春日浪漫!漫步荷比童話|新竹1107",
+   "url": "https://www.accupass.com/event/2609170146281153410910",
+   "view": "main",
+   "tier": 2,
+   "sources": [
+    "ACCUPASS"
+   ],
+   "org": "",
+   "city": "新竹市",
+   "region": "北部",
+   "home": false,
+   "venue": "",
+   "next": "2026-11-07",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "dates": [
+    "2026-11-07"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": 0,
+   "price_label": "免費",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 45
   },
   {
    "uid": "ACCUPASS:2610151407021568851970",
@@ -1656,7 +1779,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 43
+   "no": 46
   },
   {
    "uid": "文化部:6acda714eb4399d01039b213",
@@ -1690,7 +1813,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 44
+   "no": 47
   },
   {
    "uid": "ACCUPASS:2609010817537797936980",
@@ -1724,7 +1847,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 45
+   "no": 48
   },
   {
    "uid": "ACCUPASS:2609170235231307750663",
@@ -1758,7 +1881,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 46
+   "no": 49
   },
   {
    "uid": "文化部:6ad86a3deb43549b707fe240",
@@ -1792,7 +1915,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 47
+   "no": 50
   },
   {
    "uid": "文化部:68ef6e8b07f374a51cc171c4",
@@ -1826,7 +1949,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 48
+   "no": 51
   },
   {
    "uid": "文化部:690ba12c26b324253c0dabcc",
@@ -1860,7 +1983,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 49
+   "no": 52
   },
   {
    "uid": "ACCUPASS:2607280236031295663510",
@@ -1894,7 +2017,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 50
+   "no": 53
   },
   {
    "uid": "文化部:6a7f4b0826b32427d06043da",
@@ -1928,7 +2051,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 51
+   "no": 54
   },
   {
    "uid": "ACCUPASS:2609170713306130508410",
@@ -1962,7 +2085,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 52
+   "no": 55
   },
   {
    "uid": "文化部:6a97065826b32434f43580af",
@@ -1996,7 +2119,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 53
+   "no": 56
   },
   {
    "uid": "文化部:6a60f84a26b32427d0604239",
@@ -2030,7 +2153,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 54
+   "no": 57
   },
   {
    "uid": "ACCUPASS:2610161434385037313330",
@@ -2064,7 +2187,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 55
+   "no": 58
   },
   {
    "uid": "ACCUPASS:2610210559011437605606",
@@ -2098,7 +2221,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 56
+   "no": 59
   },
   {
    "uid": "文化部:6ac3e23926b324165c32e5a3",
@@ -2133,7 +2256,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 57
+   "no": 60
+  },
+  {
+   "uid": "華山1914:2026小黃帽交通安全童樂會《成為全家的安全小英雄》",
+   "key": "2026小黃帽交通安全童樂會成為全家的安全小英雄",
+   "title": "2026小黃帽交通安全童樂會《成為全家的安全小英雄》",
+   "url": "https://www.huashan1914.com/exhibition/2026%E5%B0%8F%E9%BB%83%E5%B8%BD%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E7%AB%A5%E6%A8%82%E6%9C%83%E3%80%8A%E6%88%90%E7%82%BA%E5%85%A8%E5%AE%B6%E7%9A%84%E5%AE%89%E5%85%A8%E5%B0%8F%E8%8B%B1%E9%9B%84%E3%80%8B",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "華山1914"
+   ],
+   "org": "華山1914文化創意產業園區",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "華山1914 西5-1館 壓縮兼包裝工場 / 西2館 第三乾餾場 / 西1館 第二乾餾場",
+   "next": "2026-11-07",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "dates": [
+    "2026-11-07"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 61
   },
   {
    "uid": "ACCUPASS:2607200230091683937007",
@@ -2167,7 +2324,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 58
+   "no": 62
   },
   {
    "uid": "文化部:6a6cd5a926b32427d0604316",
@@ -2204,7 +2361,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 59
+   "no": 63
   },
   {
    "uid": "文化部:6a6cd5a926b32427d0604315",
@@ -2241,7 +2398,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 60
+   "no": 64
   },
   {
    "uid": "文化部:6aa042aa26b324165c32e38c",
@@ -2279,7 +2436,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 61
+   "no": 65
+  },
+  {
+   "uid": "文化部:69d7db9e26b3242a48a9e1d2",
+   "key": "掌中戲新西園掌中劇團文素臣之大義滅親殺嫂",
+   "title": "【掌中戲】新西園掌中劇團《文素臣之大義滅親-殺嫂》",
+   "url": "https://www.opentix.life/program/2036016610592505856",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "文化部"
+   ],
+   "org": "OPENTIX兩廳院文化生活",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "大稻埕戲苑曲藝場",
+   "next": "2026-11-07",
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "dates": [
+    "2026-11-07"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 66
   },
   {
    "uid": "文化部:6a7b566d26b32427d06043b8",
@@ -2314,7 +2505,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 62
+   "no": 67
   },
   {
    "uid": "文化部:6a76106d26b32427d060437f",
@@ -2351,7 +2542,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 63
+   "no": 68
   },
   {
    "uid": "文化部:69136d0026b324253c0dad4e",
@@ -2388,7 +2579,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 64
+   "no": 69
   },
   {
    "uid": "ACCUPASS:2610070712067255099570",
@@ -2422,7 +2613,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 65
+   "no": 70
   },
   {
    "uid": "ACCUPASS:2610281738041765395004",
@@ -2459,7 +2650,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 66
+   "no": 71
   },
   {
    "uid": "文化部:6ab4093226b324165c32e52f",
@@ -2493,7 +2684,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 67
+   "no": 72
   },
   {
    "uid": "文化部:6a3eb10326b3247a14361d85",
@@ -2528,7 +2719,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 68
+   "no": 73
   },
   {
    "uid": "ACCUPASS:2609240709491854193459",
@@ -2565,7 +2756,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 69
+   "no": 74
   },
   {
    "uid": "文化部:6a551c6a26b32427d06041a4",
@@ -2600,7 +2791,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 70
+   "no": 75
   },
   {
    "uid": "文化部:6a6cd5a926b32427d0604317",
@@ -2635,7 +2826,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 71
+   "no": 76
   },
   {
    "uid": "ACCUPASS:2610050735426365286850",
@@ -2669,7 +2860,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 72
+   "no": 77
   },
   {
    "uid": "ACCUPASS:2609180746342040531024",
@@ -2703,7 +2894,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 73
+   "no": 78
   },
   {
    "uid": "ACCUPASS:2610050715239999702710",
@@ -2737,7 +2928,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 74
+   "no": 79
   },
   {
    "uid": "ACCUPASS:2609290908339306700300",
@@ -2771,7 +2962,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 75
+   "no": 80
   },
   {
    "uid": "ACCUPASS:2609100627583628376120",
@@ -2805,7 +2996,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 76
+   "no": 81
   },
   {
    "uid": "文化部:6a76106e26b32427d0604383",
@@ -2839,7 +3030,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 77
+   "no": 82
   },
   {
    "uid": "ACCUPASS:2608290851074798096800",
@@ -2873,7 +3064,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 78
+   "no": 83
   },
   {
    "uid": "文化部:69c2c3f426b3242a48a9ddd0",
@@ -2907,7 +3098,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 79
+   "no": 84
   },
   {
    "uid": "文化部:6a9ef13226b324165c32e382",
@@ -2944,7 +3135,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 80
+   "no": 85
   },
   {
    "uid": "文化部:6ab2b7b026b324165c32e514",
@@ -2979,7 +3170,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 81
+   "no": 86
   },
   {
    "uid": "文化部:6a8490f526b32427d0604419",
@@ -3014,7 +3205,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 82
+   "no": 87
   },
   {
    "uid": "ACCUPASS:2610130319212303300100",
@@ -3048,7 +3239,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 83
+   "no": 88
   },
   {
    "uid": "ACCUPASS:2608050848131302334573",
@@ -3085,7 +3276,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 84
+   "no": 89
   },
   {
    "uid": "文化部:6ac3db0126b324165c32e59f",
@@ -3119,7 +3310,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 85
+   "no": 90
   },
   {
    "uid": "ACCUPASS:2610090054411518240358",
@@ -3153,7 +3344,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 86
+   "no": 91
   },
   {
    "uid": "ACCUPASS:2610220627381211136065",
@@ -3187,7 +3378,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 87
+   "no": 92
   },
   {
    "uid": "ACCUPASS:2610231716091247092638",
@@ -3221,7 +3412,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 88
+   "no": 93
   },
   {
    "uid": "ACCUPASS:2609220302231445306611",
@@ -3255,7 +3446,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 89
+   "no": 94
   },
   {
    "uid": "文化部:6a9f82b1647a795d9251e5a4",
@@ -3289,7 +3480,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 90
+   "no": 95
   },
   {
    "uid": "文化部:6a76106e26b32427d0604381",
@@ -3323,7 +3514,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 91
+   "no": 96
+  },
+  {
+   "uid": "華山1914:行有所愛｜如孩子般自由《孩子的書屋》27週年年會音樂會",
+   "key": "行有所愛如孩子般自由孩子的書屋27週年年會音樂會",
+   "title": "行有所愛|如孩子般自由《孩子的書屋》27週年年會音樂會",
+   "url": "https://www.huashan1914.com/exhibition/%E8%A1%8C%E6%9C%89%E6%89%80%E6%84%9B%EF%BD%9C%E5%A6%82%E5%AD%A9%E5%AD%90%E8%88%AC%E8%87%AA%E7%94%B1%E3%80%8A%E5%AD%A9%E5%AD%90%E7%9A%84%E6%9B%B8%E5%B1%8B%E3%80%8B27%E9%80%B1%E5%B9%B4%E5%B9%B4%E6%9C%83%E9%9F%B3%E6%A8%82%E6%9C%83",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "華山1914"
+   ],
+   "org": "華山1914文化創意產業園區",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "華山1914 華山劇場 / 中4A館 紅酒作業場",
+   "next": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "dates": [
+    "2026-11-20"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 97
   },
   {
    "uid": "文化部:69b4436226b3242a48a9db78",
@@ -3359,7 +3584,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 92
+   "no": 98
   },
   {
    "uid": "ACCUPASS:2609240722001426139443",
@@ -3396,7 +3621,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 93
+   "no": 99
   },
   {
    "uid": "文化部:6ac7d85426b324165c32e5c7",
@@ -3430,7 +3655,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 94
+   "no": 100
   },
   {
    "uid": "文化部:69f8f79326b3243414ccc573",
@@ -3465,7 +3690,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 95
+   "no": 101
   },
   {
    "uid": "文化部:692dca7d26b32445dce6f486",
@@ -3499,7 +3724,43 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 96
+   "no": 102
+  },
+  {
+   "uid": "文化部:6a5125ff26b32427d0604199",
+   "key": "義興閣掌中劇團四靈國天祥書之謎",
+   "title": "義興閣掌中劇團《四靈國:天祥書之謎》",
+   "url": "https://www.opentix.life/program/2074023397003329537",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "文化部",
+    "華山1914"
+   ],
+   "org": "OPENTIX兩廳院文化生活",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "華山1914文創園區東3B館 烏梅劇院",
+   "next": "2026-11-21",
+   "start": "2026-11-21",
+   "end": "2026-12-06",
+   "dates": [
+    "2026-11-21",
+    "2026-12-06"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 103
   },
   {
    "uid": "文化部:6a3181d326b3243414ccd366",
@@ -3533,7 +3794,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 97
+   "no": 104
   },
   {
    "uid": "文化部:6acd158426b324165c32e5ec",
@@ -3568,7 +3829,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 98
+   "no": 105
   },
   {
    "uid": "ACCUPASS:2607230431381490700363",
@@ -3602,7 +3863,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 99
+   "no": 106
   },
   {
    "uid": "ACCUPASS:2610070813566796333600",
@@ -3639,7 +3900,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 100
+   "no": 107
   },
   {
    "uid": "文化部:6ac7d85426b324165c32e5c6",
@@ -3673,7 +3934,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 101
+   "no": 108
   },
   {
    "uid": "文化部:6aaacec726b324165c32e41a",
@@ -3708,7 +3969,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 102
+   "no": 109
   },
   {
    "uid": "文化部:691df92226b32445dce6f048",
@@ -3744,7 +4005,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 103
+   "no": 110
+  },
+  {
+   "uid": "文化部:6abd43b626b324165c32e559",
+   "key": "拉縴人男聲合唱團英雄路布袋戲聲音行旅",
+   "title": "拉縴人男聲合唱團《英雄路-布袋戲聲音行旅》",
+   "url": "https://www.opentix.life/program/2101950430852980737",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "文化部"
+   ],
+   "org": "OPENTIX兩廳院文化生活",
+   "city": "雲林縣",
+   "region": "中部",
+   "home": false,
+   "venue": "雲林表演廳",
+   "next": "2026-11-22",
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "dates": [
+    "2026-11-22"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 111
   },
   {
    "uid": "文化部:69c1724e26b3242a48a9dd7f",
@@ -3780,7 +4075,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 104
+   "no": 112
   },
   {
    "uid": "ACCUPASS:2608140716141957678810",
@@ -3814,7 +4109,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 105
+   "no": 113
   },
   {
    "uid": "ACCUPASS:2610240520334192593000",
@@ -3848,7 +4143,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 106
+   "no": 114
   },
   {
    "uid": "文化部:6aaacec826b324165c32e41e",
@@ -3883,7 +4178,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 107
+   "no": 115
   },
   {
    "uid": "文化部:69ab08d326b3242a48a9d8e2",
@@ -3918,7 +4213,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 108
+   "no": 116
   },
   {
    "uid": "文化部:6abbf23826b324165c32e551",
@@ -3952,7 +4247,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 109
+   "no": 117
   },
   {
    "uid": "ACCUPASS:2610290207451081855805",
@@ -3986,7 +4281,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 110
+   "no": 118
   },
   {
    "uid": "文化部:6a8f1c1526b32434f4358068",
@@ -4022,7 +4317,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 111
+   "no": 119
   },
   {
    "uid": "ACCUPASS:2608070159545478247100",
@@ -4056,7 +4351,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 112
+   "no": 120
   },
   {
    "uid": "ACCUPASS:2509090405031880081890",
@@ -4090,7 +4385,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 113
+   "no": 121
   },
   {
    "uid": "文化部:6a9857dd26b32434f43580b9",
@@ -4126,7 +4421,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 114
+   "no": 122
   },
   {
    "uid": "文化部:6a76106e26b32427d0604384",
@@ -4164,7 +4459,111 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 115
+   "no": 123
+  },
+  {
+   "uid": "文化部:6a5125ff26b32427d0604198",
+   "key": "義興閣掌中劇團豆花公劇場版拍斷手骨顛倒勇",
+   "title": "義興閣掌中劇團《豆花公劇場版-拍斷手骨顛倒勇》",
+   "url": "https://www.opentix.life/program/2072965831309205504",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "文化部"
+   ],
+   "org": "OPENTIX兩廳院文化生活",
+   "city": "嘉義縣",
+   "region": "南部",
+   "home": false,
+   "venue": "嘉義縣表演藝術中心演藝廳",
+   "next": "2026-12-05",
+   "start": "2026-12-05",
+   "end": "2026-12-19",
+   "dates": [
+    "2026-12-05",
+    "2026-12-19"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 124
+  },
+  {
+   "uid": "華山1914:我，哪吒",
+   "key": "長義閣掌中劇團我哪吒",
+   "title": "長義閣掌中劇團《我,哪吒》",
+   "url": "https://www.huashan1914.com/umaytheater/performance/%E6%88%91%EF%BC%8C%E5%93%AA%E5%90%92",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "華山1914"
+   ],
+   "org": "華山1914文化創意產業園區",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "華山1914 東3B烏梅劇院",
+   "next": "2026-12-05",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "dates": [
+    "2026-12-05"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 125
+  },
+  {
+   "uid": "文化部:6a07580f26b3243414ccc92f",
+   "key": "長義閣掌中劇團銳劇場系列我哪吒",
+   "title": "長義閣掌中劇團「銳劇場」系列 -《我,哪吒》",
+   "url": "https://www.opentix.life/program/2054095506013016065",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "文化部"
+   ],
+   "org": "OPENTIX兩廳院文化生活",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "華山1914文創園區東3B館 烏梅劇院",
+   "next": "2026-12-05",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "dates": [
+    "2026-12-05",
+    "2026-12-06"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 126
   },
   {
    "uid": "文化部:6ada44bd26b3245efc753711",
@@ -4199,7 +4598,42 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 116
+   "no": 127
+  },
+  {
+   "uid": "文化部:6ad7a1c426b3245efc7536c8",
+   "key": "戲來就演布袋戲演師們的大挑戰",
+   "title": "「戲來就演!」-布袋戲演師們的大挑戰",
+   "url": "https://www.opentix.life/program/2109890724705943553",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "文化部"
+   ],
+   "org": "OPENTIX兩廳院文化生活",
+   "city": "新北市",
+   "region": "北部",
+   "home": true,
+   "venue": "輔仁大學外語學院華觀劇場",
+   "next": "2026-12-11",
+   "start": "2026-12-11",
+   "end": "2026-12-12",
+   "dates": [
+    "2026-12-11",
+    "2026-12-12"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 128
   },
   {
    "uid": "文化部:6ada44bd26b3245efc75370d",
@@ -4234,7 +4668,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 117
+   "no": 129
   },
   {
    "uid": "文化部:6ac7cf8326b324165c32e5c4",
@@ -4268,7 +4702,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 118
+   "no": 130
   },
   {
    "uid": "文化部:69c1724e26b3242a48a9dd7e",
@@ -4303,7 +4737,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 119
+   "no": 131
   },
   {
    "uid": "ACCUPASS:2608140737162685433640",
@@ -4337,7 +4771,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 120
+   "no": 132
   },
   {
    "uid": "ACCUPASS:2607070513311472114300",
@@ -4371,7 +4805,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 121
+   "no": 133
   },
   {
    "uid": "文化部:68b5d60226b32440a896424b",
@@ -4405,7 +4839,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 122
+   "no": 134
   },
   {
    "uid": "文化部:6a3181d326b3243414ccd367",
@@ -4440,7 +4874,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 123
+   "no": 135
   },
   {
    "uid": "文化部:6a76106e26b32427d0604380",
@@ -4474,7 +4908,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 124
+   "no": 136
   },
   {
    "uid": "文化部:6ad8f32d26b3245efc7536fd",
@@ -4511,7 +4945,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 125
+   "no": 137
   },
   {
    "uid": "文化部:69e65c2e26b3242a48a9e580",
@@ -4547,7 +4981,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 126
+   "no": 138
   },
   {
    "uid": "文化部:6aad71cb26b324165c32e4f8",
@@ -4581,7 +5015,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 127
+   "no": 139
   },
   {
    "uid": "文化部:6aa2e5b526b324165c32e3be",
@@ -4617,7 +5051,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 128
+   "no": 140
   },
   {
    "uid": "文化部:6ad112d426b324165c32e604",
@@ -4651,7 +5085,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 129
+   "no": 141
   },
   {
    "uid": "ACCUPASS:2608170824454282588400",
@@ -4685,7 +5119,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 130
+   "no": 142
   },
   {
    "uid": "文化部:699a019826b32454e437c9e9",
@@ -4719,7 +5153,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 131
+   "no": 143
   },
   {
    "uid": "ACCUPASS:2608180535451663839841",
@@ -4753,7 +5187,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 132
+   "no": 144
+  },
+  {
+   "uid": "文化部:69fa478a26b3243414ccc5c1",
+   "key": "特展請戲布袋戲一條街特展",
+   "title": "【特展】 「請戲-布袋戲一條街」特展",
+   "url": "",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "文化部"
+   ],
+   "org": "臺北市藝文推廣處",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "臺北市藝文推廣處-大稻埕戲苑",
+   "next": "2026-10-31",
+   "start": "2026-03-10",
+   "end": "2026-12-15",
+   "dates": [
+    "2026-10-31"
+   ],
+   "long": true,
+   "weekend": true,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 145
   },
   {
    "uid": "ACCUPASS:2610070536022108925590",
@@ -4787,7 +5255,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 133
+   "no": 146
+  },
+  {
+   "uid": "文化部:69cc269326b3242a48a9dfc1",
+   "key": "三昧堂精工布袋戲展",
+   "title": "三昧堂精工布袋戲展",
+   "url": "",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "文化部"
+   ],
+   "org": "嘉義縣表演藝術中心",
+   "city": "嘉義縣",
+   "region": "南部",
+   "home": false,
+   "venue": "嘉義縣表演藝術中心",
+   "next": "2026-10-31",
+   "start": "2026-01-31",
+   "end": "2026-12-31",
+   "dates": [
+    "2026-10-31"
+   ],
+   "long": true,
+   "weekend": true,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 147
   },
   {
    "uid": "ACCUPASS:2103301021531578507856",
@@ -4821,7 +5323,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 134
+   "no": 148
   },
   {
    "uid": "文化部:69ebd96026b3242a48a9e6b5",
@@ -4855,7 +5357,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 135
+   "no": 149
   },
   {
    "uid": "文化部:6984f0fe26b32454e437c79e",
@@ -4892,7 +5394,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 136
+   "no": 150
   },
   {
    "uid": "ACCUPASS:2606291307179354507070",
@@ -4926,7 +5428,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 137
+   "no": 151
   },
   {
    "uid": "文化部:699f5a5926b32454e437cb40",
@@ -4960,7 +5462,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 138
+   "no": 152
   },
   {
    "uid": "文化部:5cd25532aaa3f054c2cc6bad",
@@ -4994,7 +5496,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 139
+   "no": 153
   },
   {
    "uid": "文化部:6a7f4b0726b32427d06043d9",
@@ -5036,7 +5538,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 140
+   "no": 154
   },
   {
    "uid": "觀光署:Event_376540000A_006290",
@@ -5070,7 +5572,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 141
+   "no": 155
   },
   {
    "uid": "觀光署:Event_A15010600H_000015",
@@ -5104,7 +5606,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 142
+   "no": 156
   },
   {
    "uid": "觀光署:Event_376550000A_001017",
@@ -5138,7 +5640,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 143
+   "no": 157
   },
   {
    "uid": "觀光署:Event_376550000A_000988",
@@ -5172,7 +5674,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 144
+   "no": 158
   },
   {
    "uid": "觀光署:Event_395000000A_008121",
@@ -5206,7 +5708,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 145
+   "no": 159
   },
   {
    "uid": "觀光署:Event_371020000A_004240",
@@ -5240,7 +5742,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 146
+   "no": 160
   },
   {
    "uid": "觀光署:Event_382000000A_004034",
@@ -5274,7 +5776,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 147
+   "no": 161
   },
   {
    "uid": "觀光署:Event_A15010000H_081878",
@@ -5308,7 +5810,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 148
+   "no": 162
   },
   {
    "uid": "觀光署:Event_376430000A_006687",
@@ -5342,7 +5844,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 149
+   "no": 163
   },
   {
    "uid": "觀光署:Event_A15010000H_081661",
@@ -5376,7 +5878,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 150
+   "no": 164
   },
   {
    "uid": "觀光署:Event_397000000A_008140",
@@ -5410,7 +5912,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 151
+   "no": 165
   },
   {
    "uid": "觀光署:Event_A15010900H_005658",
@@ -5444,7 +5946,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 152
+   "no": 166
   },
   {
    "uid": "觀光署:Event_376540000A_006524",
@@ -5478,7 +5980,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 153
+   "no": 167
   },
   {
    "uid": "觀光署:Event_382000000A_004062",
@@ -5512,7 +6014,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 154
+   "no": 168
   },
   {
    "uid": "觀光署:Event_382000000A_004068",
@@ -5546,7 +6048,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 155
+   "no": 169
   },
   {
    "uid": "觀光署:Event_376550000A_001023",
@@ -5580,7 +6082,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 156
+   "no": 170
   },
   {
    "uid": "觀光署:Event_376430000A_007059",
@@ -5614,7 +6116,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 157
+   "no": 171
   },
   {
    "uid": "觀光署:Event_382000000A_004081",
@@ -5648,7 +6150,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 158
+   "no": 172
   },
   {
    "uid": "觀光署:Event_397000000A_008041",
@@ -5682,7 +6184,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 159
+   "no": 173
   },
   {
    "uid": "觀光署:Event_371020000A_004200",
@@ -5716,7 +6218,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 160
+   "no": 174
   },
   {
    "uid": "觀光署:Event_376430000A_006854",
@@ -5750,7 +6252,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 161
+   "no": 175
   },
   {
    "uid": "觀光署:Event_371020000A_004243",
@@ -5784,7 +6286,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 162
+   "no": 176
   },
   {
    "uid": "觀光署:Event_A15010600H_000007",
@@ -5818,7 +6320,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 163
+   "no": 177
   },
   {
    "uid": "觀光署:Event_395000000A_008060",
@@ -5855,7 +6357,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 164
+   "no": 178
   },
   {
    "uid": "觀光署:Event_376540000A_006274",
@@ -5889,7 +6391,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 165
+   "no": 179
   },
   {
    "uid": "觀光署:Event_376550000A_000878",
@@ -5923,7 +6425,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 166
+   "no": 180
   },
   {
    "uid": "觀光署:Event_376420000A_000346",
@@ -5957,7 +6459,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 167
+   "no": 181
   },
   {
    "uid": "觀光署:Event_376550000A_000887",
@@ -5991,7 +6493,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 168
+   "no": 182
   },
   {
    "uid": "觀光署:Event_376550000A_000995",
@@ -6025,7 +6527,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 169
+   "no": 183
   },
   {
    "uid": "觀光署:Event_A15010000H_081870",
@@ -6059,7 +6561,113 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 170
+   "no": 184
+  },
+  {
+   "uid": "花博公園:9029",
+   "key": "飛行船市集nightsgoods",
+   "title": "飛行船市集 NIGHTS GOODS",
+   "url": "https://www.expopark.taipei/News_Photo_Content.aspx?n=247&sms=9029&s=4566",
+   "view": "outing",
+   "tier": 2,
+   "sources": [
+    "花博公園"
+   ],
+   "org": "臺北市會展產業發展基金會",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "花博公園 入口廣場",
+   "next": "2026-10-31",
+   "start": "2026-10-31",
+   "end": "2026-11-01",
+   "dates": [
+    "2026-10-31"
+   ],
+   "long": false,
+   "weekend": true,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": 0,
+   "price_label": "免費",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 185
+  },
+  {
+   "uid": "花博公園:9029",
+   "key": "臺北花博農民市集",
+   "title": "臺北花博農民市集",
+   "url": "https://www.expopark.taipei/News_Photo_Content.aspx?n=247&sms=9029&s=4460",
+   "view": "outing",
+   "tier": 2,
+   "sources": [
+    "花博公園"
+   ],
+   "org": "臺北市會展產業發展基金會",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "花博公園 長廊廣場",
+   "next": "2026-11-07",
+   "start": "2026-11-07",
+   "end": "2026-12-06",
+   "dates": [
+    "2026-11-07",
+    "2026-11-14",
+    "2026-11-21",
+    "2026-11-28",
+    "2026-12-05"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": 0,
+   "price_label": "免費",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 186
+  },
+  {
+   "uid": "花博公園:9029",
+   "key": "2026臺灣花卉推介會",
+   "title": "2026臺灣花卉推介會",
+   "url": "https://www.expopark.taipei/News_Photo_Content.aspx?n=247&sms=9029&s=4590",
+   "view": "outing",
+   "tier": 2,
+   "sources": [
+    "花博公園"
+   ],
+   "org": "臺北市會展產業發展基金會",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "花博公園 爭艷館",
+   "next": "2026-11-27",
+   "start": "2026-11-27",
+   "end": "2026-11-29",
+   "dates": [
+    "2026-11-27"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": 0,
+   "price_label": "免費",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 187
   },
   {
    "uid": "ACCUPASS:2609030722305019497420",
@@ -6093,7 +6701,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 171
+   "no": 188
+  },
+  {
+   "uid": "花博公園:9029",
+   "key": "德國聖誕市集",
+   "title": "德國聖誕市集",
+   "url": "https://www.expopark.taipei/News_Photo_Content.aspx?n=247&sms=9029&s=4618",
+   "view": "outing",
+   "tier": 2,
+   "sources": [
+    "花博公園"
+   ],
+   "org": "臺北市會展產業發展基金會",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "花博公園 長廊廣場",
+   "next": "2026-12-11",
+   "start": "2026-12-11",
+   "end": "2026-12-13",
+   "dates": [
+    "2026-12-11"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": 0,
+   "price_label": "免費",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 189
   },
   {
    "uid": "ACCUPASS:2610150721431826384040",
@@ -6127,7 +6769,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 172
+   "no": 190
   },
   {
    "uid": "ACCUPASS:2610130719185588805930",
@@ -6161,26 +6803,26 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 173
+   "no": 191
   },
   {
-   "uid": "ACCUPASS:2610160605208823828820",
-   "key": "2026豐原萬聖嘉年華百鬼變裝鬼王爭霸",
-   "title": "2026豐原萬聖嘉年華 百鬼變裝‧鬼王爭霸",
-   "url": "https://www.accupass.com/event/2610160605208823828820",
+   "uid": "松山文創園區:3c2e4cf9-aff0-4964-8249-a1b80e5742d4",
+   "key": "飽含愛心秋日松菸世界和平會2026愛心公益大市集",
+   "title": "「飽含愛心‧秋日松菸」世界和平會 2026 愛心公益大市集",
+   "url": "https://www.songshanculturalpark.org/exhibition/activity/3c2e4cf9-aff0-4964-8249-a1b80e5742d4",
    "view": "outing",
    "tier": 4,
    "sources": [
-    "ACCUPASS"
+    "松山文創園區"
    ],
-   "org": "",
-   "city": "臺中市",
-   "region": "中部",
-   "home": false,
-   "venue": "",
+   "org": "松山文創園區",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "松山文創園區",
    "next": "2026-10-31",
-   "start": "2026-10-31",
-   "end": "2026-10-31",
+   "start": "2026-10-30",
+   "end": "2026-11-01",
    "dates": [
     "2026-10-31"
    ],
@@ -6195,7 +6837,75 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 174
+   "no": 192
+  },
+  {
+   "uid": "華山1914:加倍佳搗蛋加倍FUN",
+   "key": "加倍佳搗蛋加倍fun",
+   "title": "加倍佳搗蛋加倍FUN",
+   "url": "https://www.huashan1914.com/exhibition/%E5%8A%A0%E5%80%8D%E4%BD%B3%E6%90%97%E8%9B%8B%E5%8A%A0%E5%80%8DFUN",
+   "view": "outing",
+   "tier": 4,
+   "sources": [
+    "華山1914"
+   ],
+   "org": "華山1914文化創意產業園區",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "華山1914 金八廣場",
+   "next": "2026-10-31",
+   "start": "2026-10-30",
+   "end": "2026-11-01",
+   "dates": [
+    "2026-10-31"
+   ],
+   "long": false,
+   "weekend": true,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 193
+  },
+  {
+   "uid": "華山1914:獎勵青年投入地方創生行動計畫-成果發表會暨市集",
+   "key": "獎勵青年投入地方創生行動計畫成果發表會暨市集",
+   "title": "獎勵青年投入地方創生行動計畫-成果發表會暨市集",
+   "url": "https://www.huashan1914.com/exhibition/%E7%8D%8E%E5%8B%B5%E9%9D%92%E5%B9%B4%E6%8A%95%E5%85%A5%E5%9C%B0%E6%96%B9%E5%89%B5%E7%94%9F%E8%A1%8C%E5%8B%95%E8%A8%88%E7%95%AB-%E6%88%90%E6%9E%9C%E7%99%BC%E8%A1%A8%E6%9C%83%E6%9A%A8%E5%B8%82%E9%9B%86",
+   "view": "outing",
+   "tier": 4,
+   "sources": [
+    "華山1914"
+   ],
+   "org": "華山1914文化創意產業園區",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "華山1914 西1館 第二乾餾場 / 西2館 第三乾餾場",
+   "next": "2026-10-31",
+   "start": "2026-10-31",
+   "end": "2026-11-01",
+   "dates": [
+    "2026-10-31"
+   ],
+   "long": false,
+   "weekend": true,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 194
   },
   {
    "uid": "ACCUPASS:2609302227211174363956",
@@ -6229,7 +6939,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 175
+   "no": 195
   },
   {
    "uid": "ACCUPASS:2609030407201133965854",
@@ -6263,7 +6973,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 176
+   "no": 196
   },
   {
    "uid": "ACCUPASS:2610211459334862917340",
@@ -6297,7 +7007,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 177
+   "no": 197
   },
   {
    "uid": "ACCUPASS:2610140532591351597410",
@@ -6331,7 +7041,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 178
+   "no": 198
   },
   {
    "uid": "ACCUPASS:2610020913181925696429",
@@ -6365,7 +7075,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 179
+   "no": 199
   },
   {
    "uid": "ACCUPASS:2610091421201761291259",
@@ -6399,7 +7109,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 180
+   "no": 200
   },
   {
    "uid": "ACCUPASS:2610201018211635140924",
@@ -6433,7 +7143,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 181
+   "no": 201
   },
   {
    "uid": "ACCUPASS:2610220744521764203939",
@@ -6467,7 +7177,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 182
+   "no": 202
   },
   {
    "uid": "ACCUPASS:2609151000351386470425",
@@ -6501,7 +7211,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 183
+   "no": 203
   },
   {
    "uid": "ACCUPASS:2607310328047136464650",
@@ -6535,7 +7245,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 184
+   "no": 204
   },
   {
    "uid": "ACCUPASS:2610221128283047139960",
@@ -6569,7 +7279,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 185
+   "no": 205
   },
   {
    "uid": "ACCUPASS:2610180730232042342204",
@@ -6603,7 +7313,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 186
+   "no": 206
   },
   {
    "uid": "科教館:0000008091",
@@ -6641,7 +7351,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 187
+   "no": 207
   },
   {
    "uid": "科教館:0000008102",
@@ -6678,7 +7388,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 188
+   "no": 208
   },
   {
    "uid": "科教館:0000008101",
@@ -6715,7 +7425,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 189
+   "no": 209
   },
   {
    "uid": "科教館:0000008105",
@@ -6749,7 +7459,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 190
+   "no": 210
   },
   {
    "uid": "科教館:0000008106",
@@ -6783,7 +7493,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 191
+   "no": 211
   },
   {
    "uid": "科教館:0000008156",
@@ -6820,7 +7530,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 192
+   "no": 212
   },
   {
    "uid": "科教館:0000008121",
@@ -6858,7 +7568,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 193
+   "no": 213
   },
   {
    "uid": "科教館:0000008125",
@@ -6896,7 +7606,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 194
+   "no": 214
   },
   {
    "uid": "科教館:0000008142",
@@ -6934,7 +7644,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 195
+   "no": 215
   },
   {
    "uid": "科教館:0000008067",
@@ -6971,7 +7681,7 @@
    "reg_start": "2026-08-25",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 196
+   "no": 216
   },
   {
    "uid": "科教館:0000008095",
@@ -7008,7 +7718,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 197
+   "no": 217
   },
   {
    "uid": "科教館:0000008109",
@@ -7042,7 +7752,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 198
+   "no": 218
   },
   {
    "uid": "科教館:0000008103",
@@ -7079,7 +7789,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 199
+   "no": 219
   },
   {
    "uid": "科教館:0000008115",
@@ -7113,7 +7823,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 200
+   "no": 220
   },
   {
    "uid": "科教館:0000008085",
@@ -7151,7 +7861,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 201
+   "no": 221
   },
   {
    "uid": "科教館:0000008136",
@@ -7185,7 +7895,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 202
+   "no": 222
   },
   {
    "uid": "科教館:0000008146",
@@ -7223,7 +7933,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 203
+   "no": 223
   },
   {
    "uid": "科教館:0000008133",
@@ -7258,7 +7968,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 204
+   "no": 224
   },
   {
    "uid": "科教館:0000008112",
@@ -7292,7 +8002,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 205
+   "no": 225
   },
   {
    "uid": "科教館:0000008111",
@@ -7326,7 +8036,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 206
+   "no": 226
   },
   {
    "uid": "科教館:0000008110",
@@ -7360,7 +8070,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 207
+   "no": 227
   },
   {
    "uid": "科教館:0000008152",
@@ -7398,7 +8108,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 208
+   "no": 228
   },
   {
    "uid": "科教館:0000008089",
@@ -7436,7 +8146,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 209
+   "no": 229
   },
   {
    "uid": "科教館:0000008114",
@@ -7470,7 +8180,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 210
+   "no": 230
   },
   {
    "uid": "科教館:0000008113",
@@ -7504,7 +8214,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 211
+   "no": 231
   },
   {
    "uid": "科教館:0000008117",
@@ -7538,7 +8248,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 212
+   "no": 232
   },
   {
    "uid": "科教館:0000008140",
@@ -7572,7 +8282,7 @@
    "reg_start": "2026-10-15",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 213
+   "no": 233
   },
   {
    "uid": "科教館:0000008074",
@@ -7609,7 +8319,7 @@
    "reg_start": "2026-09-05",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 214
+   "no": 234
   },
   {
    "uid": "科教館:0000008068",
@@ -7646,7 +8356,7 @@
    "reg_start": "2026-08-25",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 215
+   "no": 235
   },
   {
    "uid": "科教館:0000008076",
@@ -7683,7 +8393,7 @@
    "reg_start": "2026-09-05",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 216
+   "no": 236
   },
   {
    "uid": "科教館:0000008080",
@@ -7720,7 +8430,7 @@
    "reg_start": "2026-09-05",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 217
+   "no": 237
   }
  ]
 }
