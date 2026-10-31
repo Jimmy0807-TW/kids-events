@@ -128,21 +128,18 @@ def fetch_all(cfg):
 
 # ---------------- 篩選與整理 ----------------
 
-def excluded_match(ev, exc):
-    key = ev["key"]
-    if ev["uid"] in exc["uids"] or key in exc["keys"]:
-        return True
-    t = title_key(ev["title"])
-    return any(p and p in t for p in exc["series"])
-
-
-def load_exclusions():
-    ex = load_json("excluded.json", {"items": [], "series": []})
-    return ex, {
-        "uids": {i.get("uid") for i in ex["items"]},
-        "keys": {i.get("key") for i in ex["items"]},
-        "series": [title_key(s["pattern"]) for s in ex["series"]],
-    }
+def apply_exclusions(ev, items):
+    """「排除這場」只排除當時那段期間的場次；之後同名活動有新的日期，仍會重新出現。
+    回傳剩下的場次（空清單＝整筆排除）。"""
+    hits = [i for i in items if i.get("uid") == ev["uid"] or i.get("key") == ev["key"]]
+    if not hits:
+        return ev["sessions"]
+    left = []
+    for s in ev["sessions"]:
+        st, en = s["start"].isoformat(), s["end"].isoformat()
+        if not any(i.get("from", "") <= st and en <= i.get("to", "") for i in hits):
+            left.append(s)
+    return left
 
 
 def process(raw, cfg):
@@ -194,13 +191,14 @@ def process(raw, cfg):
                 main[f] = next((x[f] for x in es if x.get(f)), main.get(f))
         events.append(main)
 
-    ex_raw, exc = load_exclusions()
+    ex_raw = load_json("excluded.json", {"items": []})
     kept = []
     for e in events:
-        if excluded_match(e, exc):
-            stats["已排除"] += 1
+        left = apply_exclusions(e, ex_raw["items"])
+        if left:
+            kept.append(dict(e, sessions=left))
         else:
-            kept.append(e)
+            stats["已排除"] += 1
 
     seen = load_json("seen.json", {})
     init = seen.setdefault("_init", TODAY.isoformat())  # 第一次執行抓到的不算「新增」
@@ -293,7 +291,7 @@ def main():
         "config": {k: cfg[k] for k in ("年齡下限", "年齡上限", "價格上限", "低價門檻",
                                        "往後看幾天", "長期展覽天數", "常用地區", "獨立按鈕來源")},
         "regions": REGIONS, "tiers": TIERS, "stats": stats,
-        "excluded": {"items": len(ex["items"]), "series": [s["pattern"] for s in ex["series"]]},
+        "excluded": {"items": len(ex["items"])},
         "sources": log, "events": events,
     })
     save_json("runlog.json", {"time": now, "sources": log, "stats": stats})

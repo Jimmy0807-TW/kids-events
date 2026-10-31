@@ -92,7 +92,7 @@ def src_tourism():
         price = 0 if e.get("IsAccessibleForFree") in (True, "true", 1, "1") else parse_price(fee or text)
         orgs = e.get("Organizations") or []
         org = "、".join(o.get("Name", "") for o in orgs if isinstance(o, dict)) if isinstance(orgs, list) else str(orgs)
-        url = e.get("WebsiteURL") or f"https://www.taiwan.net.tw/m1.aspx?sNo=0001019&id={e.get('EventID')}"
+        url = e.get("WebsiteURL") or ""  # 觀光署沒有活動詳細頁，沒附網址就不放連結
         venue = " ".join(filter(None, [addr.get("Town"), addr.get("StreetAddress")]))
         out.append(make_event(
             "觀光署", e.get("EventID"), e.get("EventName", ""), url,
@@ -306,7 +306,7 @@ def src_expopark():
         entry, title, cat = m.group(1), m.group(2).strip(), m.group(3)
         venue = re.search(r"爭艷館|流行館|長廊廣場|環形廣場|花海廣場|爭艷廣場|入口廣場|舞蝶館|美術公園", t[m.end():m.end() + 160])
         price = None if "售票" in entry else 0
-        uid = re.search(r"s=(\d+)", a["href"])
+        uid = re.search(r"[?&]s=(\d+)", a["href"])
         e = make_event(
             "花博公園", uid.group(1) if uid else a["href"], title, urljoin(base, a["href"]),
             sessions=[(st, en, "臺北市", "花博公園 " + (venue.group(0) if venue else ""))],

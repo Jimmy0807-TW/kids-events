@@ -1,11 +1,11 @@
 """處理「排除／恢復」的 GitHub Issue，更新 data/excluded.json。
 
+「排除這場」只排除當時那段期間的場次；之後同名活動有新的日期，仍會重新出現。
+
 支援的寫法（標題或內文皆可）：
-  排除 12 15            依目前編號排除這幾場
-  排除系列 週末故事屋     名稱含這段文字的活動都排除
-  恢復 小丑魚            名稱含這段文字的已排除活動恢復
-  恢復系列 週末故事屋
-網頁上的按鈕會自動填好內文（動作、uid、key）。
+  排除 12 15     依目前編號排除這幾場
+  恢復 小丑魚     名稱含這段文字的已排除活動恢復
+網頁上的按鈕會自動填好內文（動作、uid、key、期間）。
 """
 import datetime as dt
 import json
@@ -28,11 +28,7 @@ def parse(title, body):
     title = norm(title)
     action = kv.get("動作", "")
     if not action:
-        if title.startswith("排除系列"):
-            action, kv["系列文字"] = "排除系列", title[4:].strip()
-        elif title.startswith("恢復系列"):
-            action, kv["系列文字"] = "恢復", title[4:].strip()
-        elif title.startswith("恢復"):
+        if title.startswith("恢復"):
             action, kv["文字"] = "恢復", title[2:].strip()
         elif title.startswith("排除"):
             action = "排除這場"
@@ -43,53 +39,45 @@ def main():
     ev = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text("utf-8"))
     issue = ev["issue"]
     action, kv, title = parse(issue["title"], issue.get("body"))
-    exc = load_json("excluded.json", {"items": [], "series": []})
+    exc = load_json("excluded.json", {"items": []})
+    exc.pop("series", None)
+    # 期間已過的排除紀錄不再需要
+    exc["items"] = [i for i in exc["items"] if i.get("to", "9999") >= TODAY.isoformat()]
     events = load_json("events.json", {"events": []})["events"]
     msgs = []
-    today = TODAY.isoformat()
 
     if action == "排除這場":
         targets = []
         if kv.get("uid") or kv.get("key"):
-            targets.append({"uid": kv.get("uid"), "key": kv.get("key"), "title": kv.get("名稱", ""),
-                            "date": kv.get("日期", "")})
+            e = next((x for x in events if x["uid"] == kv.get("uid") or x["key"] == kv.get("key")), {})
+            rng = re.findall(r"\d{4}-\d{2}-\d{2}", kv.get("期間", ""))
+            targets.append({"uid": kv.get("uid"), "key": kv.get("key"), "title": kv.get("名稱") or e.get("title", ""),
+                            "from": rng[0] if rng else e.get("start", TODAY.isoformat()),
+                            "to": rng[-1] if rng else e.get("end", TODAY.isoformat())})
         else:
             for n in map(int, re.findall(r"\d+", title)):
                 e = next((x for x in events if x["no"] == n), None)
                 if e:
-                    targets.append({"uid": e["uid"], "key": e["key"], "title": e["title"], "date": e["next"]})
+                    targets.append({"uid": e["uid"], "key": e["key"], "title": e["title"],
+                                    "from": e["start"], "to": e["end"]})
                 else:
                     msgs.append(f"找不到 #{n}（編號可能已因更新而改變）")
         for t in targets:
-            if not any(i.get("uid") == t["uid"] or (t["key"] and i.get("key") == t["key"])
-                       for i in exc["items"]):
-                exc["items"].append(dict(t, excluded_on=today))
-            msgs.append(f"已排除：{t['title'] or t['key']}")
-    elif action == "排除系列":
-        p = kv.get("系列文字", "").strip()
-        if len(title_key(p)) < 2:
-            msgs.append("系列文字太短（至少 2 個字），沒有排除。")
-        else:
-            if not any(s["pattern"] == p for s in exc["series"]):
-                exc["series"].append({"pattern": p, "excluded_on": today})
-            hit = [e["title"] for e in events if title_key(p) in title_key(e["title"])]
-            msgs.append(f"已排除系列「{p}」，目前清單中有 {len(hit)} 筆符合：" +
-                        "、".join(h[:20] for h in hit[:10]))
+            exc["items"] = [i for i in exc["items"] if not (i.get("uid") == t["uid"] and i.get("key") == t["key"])]
+            exc["items"].append(dict(t, excluded_on=TODAY.isoformat()))
+            msgs.append(f"已排除：{t['title'] or t['key']}（{t['from']} ～ {t['to']}）\n"
+                        "之後同名活動若有這段期間以外的新日期，仍會重新出現。")
     elif action == "恢復":
-        before_i, before_s = len(exc["items"]), len(exc["series"])
-        key, uid, p, txt = kv.get("key"), kv.get("uid"), kv.get("系列文字"), kv.get("文字")
-        if p:
-            exc["series"] = [s for s in exc["series"] if s["pattern"] != p]
+        before = len(exc["items"])
+        key, uid, txt = kv.get("key"), kv.get("uid"), kv.get("文字")
         if key or uid:
             exc["items"] = [i for i in exc["items"] if not (i.get("key") == key or i.get("uid") == uid)]
         if txt:
             k = title_key(txt)
             exc["items"] = [i for i in exc["items"] if k not in title_key(i.get("title", ""))]
-            exc["series"] = [s for s in exc["series"]
-                             if not (k in title_key(s["pattern"]) or title_key(s["pattern"]) in k)]
-        msgs.append(f"已恢復 {before_i - len(exc['items'])} 場、{before_s - len(exc['series'])} 個系列。")
+        msgs.append(f"已恢復 {before - len(exc['items'])} 筆。")
     else:
-        msgs.append("看不懂這個指令。請用「排除 12」「排除系列 文字」「恢復 文字」。")
+        msgs.append("看不懂這個指令。請用「排除 12」或「恢復 文字」。")
 
     save_json("excluded.json", exc)
     reply = "\n".join(msgs) + f"\n\n（{dt.datetime.now().strftime('%H:%M')} 處理完成，網頁約 1 分鐘後更新）"

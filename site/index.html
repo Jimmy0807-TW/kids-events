@@ -122,7 +122,7 @@ const state = Object.assign(
   { view: "main", region: "常用", city: "", weekend: false, fresh: false, reg: false, mine: false, long: false },
   store.get("filters", {}));
 let marks = store.get("marks", {});
-let DATA = null, EXC = { items: [], series: [] };
+let DATA = null, EXC = { items: [] };
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const norm = s => String(s || "").normalize("NFKC").replace(/台/g, "臺").toLowerCase();
@@ -149,11 +149,6 @@ function issueUrl(title, lines) {
   return `https://github.com/${REPO}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
 }
 
-function seriesGuess(t) {
-  // 去掉【分館】與「」裡的主題，留下系列名稱的猜測
-  let s = t.replace(/^【[^】]*】/, "").replace(/[《「“"].*?[》」”"]/g, "").replace(/[-－:：|｜].*$/, "").trim();
-  return s.length >= 3 ? s : t.slice(0, 12);
-}
 
 const VIEWS = [["main", "親子活動"], ["outing", "🎪 市集・節慶・戶外"], ["own", "🔬 科教館課程"]];
 
@@ -254,7 +249,8 @@ function card(e) {
   const more = e.dates.length > 1 ? `，共 ${e.dates.length}${e.dates.length >= 12 ? "+" : ""} 個日期：${e.dates.slice(0, 6).map(md).join("、")}${e.dates.length > 6 ? "…" : ""}` : "";
   const when = e.long ? `${md(e.start)} ～ ${md(e.end)}` : md(e.next) + more;
   const title = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
-  const ex1 = issueUrl(`排除 #${e.no} ${e.title.slice(0, 30)}`, ["動作: 排除這場", `uid: ${e.uid}`, `key: ${e.key}`, `名稱: ${e.title}`, `日期: ${e.next}`]);
+  const ex1 = issueUrl(`排除 #${e.no} ${e.title.slice(0, 30)}`, ["動作: 排除這場", `uid: ${e.uid}`, `key: ${e.key}`, `名稱: ${e.title}`, `期間: ${e.start}~${e.end}`]);
+  const search = "https://www.google.com/search?q=" + encodeURIComponent(e.title + " " + e.city);
   return `<article class="card ${m ? (m === "想去" ? "mk-want" : "mk-done") : ""}">
   <div class="top"><span class="no">#${e.no}</span><span class="title">${title}</span></div>
   <div class="tags">${tags.join("")}</div>
@@ -268,8 +264,8 @@ function card(e) {
   <div class="acts">
     <button class="btn ${m === "想去" ? "on-want" : ""}" data-mark="想去" data-uid="${esc(e.uid)}">想去</button>
     <button class="btn ${m === "已報名" ? "on-done" : ""}" data-mark="已報名" data-uid="${esc(e.uid)}">已報名</button>
-    <a class="btn x" href="${ex1}" target="_blank" rel="noopener">排除這場</a>
-    <button class="btn x" data-series="${esc(e.title)}" data-no="${e.no}">排除系列</button>
+    <a class="btn" href="${search}" target="_blank" rel="noopener">🔍 搜尋</a>
+    <a class="btn x" href="${ex1}" target="_blank" rel="noopener" title="只排除這次的日期；之後同名活動有新日期仍會出現">排除這場</a>
   </div>
 </article>`;
 }
@@ -281,23 +277,16 @@ document.getElementById("list").addEventListener("click", ev => {
     if (marks[u] === m) delete marks[u]; else marks[u] = m;
     store.set("marks", marks); render(); return;
   }
-  const s = ev.target.closest("[data-series]");
-  if (s) {
-    const p = prompt("名稱含這段文字的活動都會排除（可修改，越短擋越多）：", seriesGuess(s.dataset.series));
-    if (p && p.trim().length >= 2)
-      window.open(issueUrl(`排除系列 ${p.trim()}`, ["動作: 排除系列", `系列文字: ${p.trim()}`, `來源活動: #${s.dataset.no} ${s.dataset.series}`]), "_blank");
-  }
 });
 document.getElementById("q").addEventListener("input", render);
 
 function renderSide(news) {
   const ex = document.getElementById("excluded");
-  const items = EXC.items || [], series = EXC.series || [];
-  if (!items.length && !series.length) ex.innerHTML = "目前沒有排除的活動。";
-  else ex.innerHTML = `<p>共 ${items.length} 場、${series.length} 個系列。要恢復請按「恢復」，送出後下次更新就會重新列入。</p>
+  const items = EXC.items || [];
+  if (!items.length) ex.innerHTML = "目前沒有排除的活動。";
+  else ex.innerHTML = `<p>共 ${items.length} 筆。「排除這場」只排除當時的日期，同名活動之後有新日期仍會出現。要恢復請按「恢復」。</p>
     <details><summary>查看清單</summary><ul>` +
-    series.map(s => `<li>系列「${esc(s.pattern)}」 <a href="${issueUrl("恢復系列 " + s.pattern, ["動作: 恢復", "系列文字: " + s.pattern])}" target="_blank" rel="noopener">恢復</a></li>`).join("") +
-    items.map(i => `<li>${esc(i.title)}（${esc(i.date || "")}） <a href="${issueUrl("恢復 " + i.title.slice(0, 30), ["動作: 恢復", "key: " + i.key, "uid: " + i.uid])}" target="_blank" rel="noopener">恢復</a></li>`).join("") +
+    items.map(i => `<li>${esc(i.title)}（${esc(i.from || "")} ～ ${esc(i.to || "")}） <a href="${issueUrl("恢復 " + i.title.slice(0, 30), ["動作: 恢復", "key: " + i.key, "uid: " + i.uid])}" target="_blank" rel="noopener">恢復</a></li>`).join("") +
     `</ul></details>`;
   document.getElementById("news").innerHTML = news.length ? `<ul>` + news.slice(0, 20).map(n =>
     `<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="sub">${esc(n.date)}</span></li>`).join("") + `</ul>` : "目前沒有新聞線索。";
@@ -309,7 +298,7 @@ function renderSide(news) {
 Promise.all([
   fetch("events.json", { cache: "no-store" }).then(r => r.json()),
   fetch("news.json", { cache: "no-store" }).then(r => r.ok ? r.json() : []).catch(() => []),
-  fetch("excluded.json", { cache: "no-store" }).then(r => r.ok ? r.json() : { items: [], series: [] }).catch(() => ({ items: [], series: [] })),
+  fetch("excluded.json", { cache: "no-store" }).then(r => r.ok ? r.json() : { items: [] }).catch(() => ({ items: [] })),
 ]).then(([d, news, exc]) => {
   DATA = d; EXC = exc;
   const home = d.events.filter(e => e.home).length, wk = d.events.filter(e => e.home && e.weekend).length, nw = d.events.filter(e => e.new).length;
