@@ -1,81 +1,6 @@
 [
  {
   "source": "文化部",
-  "uid": "文化部:6a60f84a26b32427d0604239",
-  "title": "成長文教基金會附設鞋子兒童實驗劇團《雞婆的小土地公》",
-  "url": "https://www.opentix.life/program/2075561716867612673",
-  "org": "OPENTIX兩廳院文化生活",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": "文山劇場"
-   },
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": "文山劇場"
-   }
-  ],
-  "text": "成長文教基金會附設鞋子兒童實驗劇團《雞婆的小土地公》",
-  "kid_required": false
- },
- {
-  "source": "文化部",
-  "uid": "文化部:6a7f4b0826b32427d06043da",
-  "title": "2026「豐愛雲林 鄉音傳情- 海洋的奇幻旅程」 音樂會",
-  "url": "https://www.opentix.life/program/2086704927585824768",
-  "org": "OPENTIX兩廳院文化生活",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "雲林縣",
-    "venue": "雲林表演廳"
-   }
-  ],
-  "text": "2026「豐愛雲林 鄉音傳情- 海洋的奇幻旅程｣ 音樂會",
-  "kid_required": false
- },
- {
-  "source": "文化部",
-  "uid": "文化部:69c0ac8beb43f81479e547dc",
-  "title": "115年「掌藝薪傳-大師工作坊」",
-  "url": "https://www.facebook.com/share/p/1BX5mdbRz3/",
-  "org": "陳錫煌傳統掌中劇團",
-  "gov": false,
-  "price": 3000,
-  "age": [
-   5,
-   6
-  ],
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-04-12",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": "臺北偶戲館"
-   }
-  ],
-  "text": "115年「掌藝薪傳-大師工作坊」 每班報名費 3,000 元 每年一度的「掌藝薪傳-大師工作坊」報名開跑啦！\n想親手感受布袋戲的操偶神韻，還是想深入研究後場鑼鼓的震撼節奏？亦或是想親手縫製精緻盔帽、雕刻傳統道具？今年我們同樣準備了豐富的課程，邀請您一起走入布袋戲的藝術殿堂。\n🎨 課程四大班別：\n1.前場操偶班：學習專業操偶技巧與演出口白，體驗指尖上的藝術 。\n2.後場音樂班：掌握鑼鼓操作與扮仙節奏，表現優異者更有機會加入劇團演訓計畫 。\n3.工藝製作班：從盔帽到袍仔衣，一針一線親手縫製傳統戲服 。\n4.雕刻藝術班：分為基礎班（兵器道具）與進階班（桌椅動物），精進木作工藝 。\n主辦單位：陳錫煌傳統掌中劇團\n協辦單位：台北偶戲館\n贊助單位：臺北市政府文化局",
-  "kid_required": false
- },
- {
-  "source": "文化部",
   "uid": "文化部:6ad1a67beb43ead9f13aebca",
   "title": "做伙來踅菜市仔—臺語兒童繪本圖文手作工作坊/希希媽咪識童繪",
   "url": "https://www.accupass.com/event/2610010350371993342605",
@@ -1556,7 +1481,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-01",
+    "start": "2026-11-03",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -2113,34 +2038,6 @@
  },
  {
   "source": "文化部",
-  "uid": "文化部:6a97065826b32434f43580af",
-  "title": "兒童布袋戲《焰王現身:心火山的祕密》",
-  "url": "https://www.opentix.life/program/2090004484659298305",
-  "org": "OPENTIX兩廳院文化生活",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": "水源劇場"
-   },
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": "水源劇場"
-   }
-  ],
-  "text": "兒童布袋戲《焰王現身：心火山的祕密》",
-  "kid_required": true
- },
- {
-  "source": "文化部",
   "uid": "文化部:6aa97d4126b324165c32e408",
   "title": "風神寶寶兒童劇團《王船精靈大冒險》",
   "url": "https://www.opentix.life/program/2095800553720586241",
@@ -2570,7 +2467,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-01",
+    "start": "2026-11-03",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -2785,6 +2682,28 @@
  },
  {
   "source": "文化部",
+  "uid": "文化部:69cc269326b3242a48a9dfc2",
+  "title": "三昧堂精工布袋戲展",
+  "url": "",
+  "org": "嘉義縣表演藝術中心",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2027-01-01",
+    "end": "2027-01-31",
+    "city": "嘉義縣",
+    "venue": "嘉義縣表演藝術中心"
+   }
+  ],
+  "text": "三昧堂精工布袋戲展 索票入場 展覽以「游於偶藝」為主題，展示由三昧堂創意木偶團隊製作的精緻戲偶，展現結合傳統工藝與現代時尚的「精工布袋戲」之美。",
+  "kid_required": true
+ },
+ {
+  "source": "文化部",
   "uid": "文化部:69f7a63626b3243414ccc55c",
   "title": "玩家登入:兒童文學特展",
   "url": "https://event.culture.tw/mocweb/reg/NMTL/Detail.init.ctr?actId=60084",
@@ -2829,28 +2748,6 @@
  },
  {
   "source": "文化部",
-  "uid": "文化部:6a21d77426b3243414cccf09",
-  "title": "臺語繪本特展—膨鼠姊仔讀繪本 Phòng-tshí-tsí-á tha̍k huē-pún",
-  "url": "https://www.facebook.com/Taigibun0505",
-  "org": "關懷文教基金會、彰化縣文化局",
-  "gov": true,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-05-02",
-    "end": "2026-11-01",
-    "city": "彰化縣",
-    "venue": "臺語文創意園區"
-   }
-  ],
-  "text": "台語繪本特展—膨鼠姊仔讀繪本 Phòng-tshí-tsí-á tha̍k huē-pún 台語繪本特展—膨鼠姊仔讀繪本 Phòng-tshí-tsí-á tha̍k huē-pún\n​\n展覽期間：\n05／02（六）14：00（開幕式）\n2026.05.02 – 2026.11.01(周一休館)\n​\n來讀尪仔冊，學台語文 !\n​",
-  "kid_required": true
- },
- {
-  "source": "文化部",
   "uid": "文化部:6a28645126b3243414ccd0af",
   "title": "從前從前-繪說童話郵票特展",
   "url": "https://museum.post.gov.tw/post/Postal_Museum/museum/index.jsp?ID=1525402172794&control_type=page&ne",
@@ -2869,6 +2766,28 @@
    }
   ],
   "text": "從前從前－繪說童話郵票特展 週一、清明、端午、中秋、農曆春節和國定假日次日 童話故事文字雖簡潔、寓意卻深遠，廣泛多元的內容題材，深受各年齡層民眾喜愛。為推廣郵票之美及歷久彌新之童話寓言，本館特規劃「從前從前－繪說童話郵票特展」，期透過童趣的郵票、生動故事情節的繪本童書，讓大、小朋友一起擁抱童心，進入童話世界的奇幻想像，享受親子共讀的快樂時光。",
+  "kid_required": true
+ },
+ {
+  "source": "文化部",
+  "uid": "文化部:6a28645126b3243414ccd0b0",
+  "title": "從前從前-繪說童話郵票特展",
+  "url": "https://museum.post.gov.tw/post/Postal_Museum/museum/index.jsp?ID=1525402172794&control_type=page&ne",
+  "org": "郵政博物館",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2027-01-01",
+    "end": "2027-01-03",
+    "city": "臺北市",
+    "venue": "郵政博物館"
+   }
+  ],
+  "text": "從前從前－繪說童話郵票特展 童話故事文字雖簡潔、寓意卻深遠，廣泛多元的內容題材，深受各年齡層民眾喜愛。為推廣郵票之美及歷久彌新之童話寓言，本館特規劃「從前從前－繪說童話郵票特展」，期透過童趣的郵票、生動故事情節的繪本童書，讓大、小朋友一起擁抱童心，進入童話世界的奇幻想像，享受親子共讀的快樂時光。",
   "kid_required": true
  },
  {
@@ -3556,28 +3475,6 @@
  },
  {
   "source": "觀光署",
-  "uid": "觀光署:Event_376540000A_006274",
-  "title": "2026南迴藝術季—山徑之流",
-  "url": "",
-  "org": "交通部觀光署",
-  "gov": true,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-07-01",
-    "end": "2026-11-01",
-    "city": "臺東縣",
-    "venue": "臺東市 南迴公路"
-   }
-  ],
-  "text": "2026南迴藝術季—山徑之流 山徑-看見「斜坡上的子民」Drarepaq（啦里吧部落），之流-看見「向海而生」的部落-Kanadun（金崙），由大武山脈順著河流而下直至出海口。",
-  "kid_required": true
- },
- {
-  "source": "觀光署",
   "uid": "觀光署:Event_376540000A_006290",
   "title": "2026 Taiwan PASIWALI Festival 國際原住民音樂節",
   "url": "",
@@ -3596,6 +3493,28 @@
    }
   ],
   "text": "2026 Taiwan PASIWALI Festival 國際原住民音樂節 雙腳不落地 乙定最出力",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376540000A_006294",
+  "title": "2027臺東跨年晚會-東漂去旅行",
+  "url": "",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2027-01-01",
+    "end": "2027-01-01",
+    "city": "臺東縣",
+    "venue": "臺東市 國際地標"
+   }
+  ],
+  "text": "2027台東跨年晚會－東漂去旅行 2027台東跨年晚會",
   "kid_required": true
  },
  {
@@ -3640,28 +3559,6 @@
    }
   ],
   "text": "2026縱谷 HAKKA 音樂節 為推廣客家音樂與文化，花蓮縣政府舉辦「2026縱谷HAKKA音樂節」歌唱比賽，提供客家鄉親及音樂愛好者展現才華的舞台。賽事分為個人、校園、一般與傳統四個組別，歡迎熱愛客家流行歌曲或傳統歌謠的朋友踴躍報名！",
-  "kid_required": true
- },
- {
-  "source": "觀光署",
-  "uid": "觀光署:Event_376550000A_000887",
-  "title": "漂鳥197-縱谷大地藝術季",
-  "url": "",
-  "org": "交通部觀光署",
-  "gov": true,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-07-01",
-    "end": "2026-11-01",
-    "city": "花蓮縣",
-    "venue": "花蓮市 鹿野、關山、池上、富里、瑞穗、光復"
-   }
-  ],
-  "text": "漂鳥197－縱谷大地藝術季 本屆藝術季以「流動的暖光」為主題，邀集7國藝術家於花東縱谷6鄉鎮打造12件地景作品。期盼以藝術陪伴曾受災的花蓮光復鄉走過重建之路，邀請您踏上花東之旅，用行動與停留支持地方，感受土地的韌性與溫暖。",
   "kid_required": true
  },
  {
@@ -3988,8 +3885,8 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-10-31",
-    "end": "2026-11-29",
+    "start": "2026-11-14",
+    "end": "2026-12-13",
     "city": "新北市",
     "venue": "貢寮區 草嶺古道"
    }
@@ -4083,28 +3980,6 @@
    }
   ],
   "text": "2026新社花海暨臺中國際花毯節 新社花海暨臺中國際花毯節為中部地區最盛大的花卉慶典，逐年淬煉成為全臺首屈一指、具品牌知名度的花卉與休閒農業活動。推廣花卉產業是中臺灣的在地特色，藉由花卉裝置藝術、社區及在地產業協作，串連花草、農特產、觀光休閒等臺中特色產業，活絡地方商機，提升在地產業量能，深化社區營造，促進地方自立永續發展，帶動山城區域觀光產業鏈更加緊密，吸引各地及國際遊客參觀。",
-  "kid_required": true
- },
- {
-  "source": "觀光署",
-  "uid": "觀光署:Event_A15010000H_081900",
-  "title": "2026桃園萬聖城",
-  "url": "https://travel.tycg.gov.tw/zh-tw/event/calendar/2026",
-  "org": "交通部觀光署",
-  "gov": true,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-10-24",
-    "end": "2026-11-01",
-    "city": "桃園市",
-    "venue": "桃園區 桃園藝文廣場"
-   }
-  ],
-  "text": "2026桃園萬聖城 桃園萬聖城自2020年開始辦理，以邪惡無害、恐怖可愛的風格重新定義萬聖節，整合各局處相關活動共同辦理，結合在地商圈協會及業者，打造桃園特色觀光品牌，串聯北北桃年底大型節慶活動(萬聖節、耶誕節、跨年)，吸引各地民眾造訪。",
   "kid_required": true
  },
  {
@@ -4399,6 +4274,40 @@
  },
  {
   "source": "新北圖",
+  "uid": "新北圖:54ee8b67bb0b4ac2ab9f0f53b1b7e864",
+  "title": "【新店分館】115年11月社區學堂 - 11/18(三) 14:00-16:00 葡萄項鍊 手作",
+  "url": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=54ee8b67bb0b4ac2ab9f0f53b1b7e864",
+  "org": "新北市立圖書館",
+  "gov": true,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-18",
+    "end": "2026-11-18",
+    "city": "新北市",
+    "venue": "新店分館3樓多功能教室(新北市新店區北新路三段105巷2號3樓)"
+   },
+   {
+    "start": "2026-11-18",
+    "end": "2026-11-18",
+    "city": "新北市",
+    "venue": "新店分館3樓多功能教室(新北市新店區北新路三段105巷2號3樓)"
+   },
+   {
+    "start": "2026-11-18",
+    "end": "2026-11-18",
+    "city": "新北市",
+    "venue": "新店分館3樓多功能教室(新北市新店區北新路三段105巷2號3樓)"
+   }
+  ],
+  "text": "article-page paging-content\">\n【新店分館】115年11月社區學堂 - 11/18(三) 14:00-16:00 葡萄項鍊 手作\n【新店分館】115年11月社區學堂 - 11/18(三) 14:00-16:00 葡萄項鍊 手作\n社區學堂由新店分館一群具熱誠的志工，分享其所學所好，與您一同互動交流。\n11/18(三) 14:00-16:00 葡萄項鍊 手作\n 以簡易的串珠技巧，柔和色彩的線材編織出精緻項鍊，也可當包包吊飾。\n 請自備：剪刀、尺、打火機、圓頭和平頭鉗子（沒帶者需等待使用老師的）\n 分享者：晴天\n即日起網路報名 \nhttps://reurl.cc/qae14y\n 限25位\n 地點：新店分館3樓多功能教室(新北市新店區北新路三段105巷2號3樓)\n 電話：2918-3181#230",
+  "kid_required": false
+ },
+ {
+  "source": "新北圖",
   "uid": "新北圖:59376eeef91b4363b3e1f9e7ca41dc1a",
   "title": "【新莊中港分館】「明志科技大學×多元文化」英語說故事活動",
   "url": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=59376eeef91b4363b3e1f9e7ca41dc1a",
@@ -4471,36 +4380,6 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "新北市",
-    "venue": "總館9樓會議室"
-   },
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "新北市",
-    "venue": "總館9樓會議室"
-   },
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "新北市",
-    "venue": "總館9樓會議室"
-   },
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "新北市",
-    "venue": "總館9樓會議室"
-   },
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "新北市",
-    "venue": "總館9樓會議室"
-   },
-   {
     "start": "2026-11-21",
     "end": "2026-11-21",
     "city": "新北市",
@@ -4522,12 +4401,6 @@
   "reg_start": null,
   "reg_end": null,
   "sessions": [
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "新北市",
-    "venue": ""
-   },
    {
     "start": "2026-11-30",
     "end": "2026-11-30",
@@ -4713,622 +4586,6 @@
  },
  {
   "source": "科教館",
-  "uid": "科教館:0000008121",
-  "title": "科學地下城-【咖啡風味實驗室:掛耳包DIY與探索任務】第一場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008121",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【咖啡風味實驗室：掛耳包DIY與探索任務】第一場\n1. 焙度聞香挑戰|觀察與比較 試聞三種不同焙度咖啡豆,比較色澤、外觀與香氣,認識焙度帶來的差異。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008129",
-  "title": "科學地下城-【細胞小偵探:破解 DNA 密碼的 PCR】第一場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008129",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 400,
-  "age": [
-   12,
-   15
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【細胞小偵探：破解 DNA 密碼的 PCR】第一場\n一、基因解密與新興技術:認識 DNA 與遺傳工程,並開箱基因編輯、基因體學等最新前沿科技發展。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008142",
-  "title": "科學地下城-【水面搜捕手】第一場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008142",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 560,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【水面搜捕手】第一場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008156",
-  "title": "科學地下城-【凸輪玩具-食物篇】第一場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008156",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 400,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【凸輪玩具-食物篇】第一場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008125",
-  "title": "科學地下城-【從CCUS到綠生活】第一場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008125",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【從CCUS到綠生活】第一場\n一、CCUS科學探索",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008130",
-  "title": "科學地下城-【細胞小偵探:破解 DNA 密碼的 PCR】第二場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008130",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 400,
-  "age": [
-   12,
-   15
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【細胞小偵探：破解 DNA 密碼的 PCR】第二場\n一、基因解密與新興技術:認識 DNA 與遺傳工程,並開箱基因編輯、基因體學等最新前沿科技發展。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008126",
-  "title": "科學地下城-【從CCUS到綠生活】第二場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008126",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【從CCUS到綠生活】第二場\n一、CCUS科學探索",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008157",
-  "title": "科學地下城-【凸輪玩具-食物篇】第二場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008157",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 400,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【凸輪玩具-食物篇】第二場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008143",
-  "title": "科學地下城-【水面搜捕手】第二場 DGH115201",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008143",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 560,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【水面搜捕手】第二場 DGH115201\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008122",
-  "title": "科學地下城-【咖啡風味實驗室:掛耳包DIY與探索任務】第二場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008122",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【咖啡風味實驗室：掛耳包DIY與探索任務】第二場\n1. 焙度聞香挑戰|觀察與比較 試聞三種不同焙度咖啡豆,比較色澤、外觀與香氣,認識焙度帶來的差異。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008067",
-  "title": "【昆蟲標本家】椿象標本與型態多樣性",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008067",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 900,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-08-25",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【昆蟲標本家】椿象標本與型態多樣性\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008123",
-  "title": "科學地下城-【咖啡風味實驗室:掛耳包DIY與探索任務】第三場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008123",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【咖啡風味實驗室：掛耳包DIY與探索任務】第三場\n1. 焙度聞香挑戰|觀察與比較 試聞三種不同焙度咖啡豆,比較色澤、外觀與香氣,認識焙度帶來的差異。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008085",
-  "title": "科學地下城-【平面磁鐵】第一場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008085",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【平面磁鐵】第一場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008144",
-  "title": "科學地下城-【水面搜捕手】第三場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008144",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 560,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【水面搜捕手】第三場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008136",
-  "title": "科學地下城-【從表演藝術體驗社會情緒學習-情緒卡牌(親子版)】第一場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008136",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": null,
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【從表演藝術體驗社會情緒學習-情緒卡牌(親子版)】第一場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008133",
-  "title": "科學地下城-【植物敲染DIY】第一場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008133",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": null,
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【植物敲染DIY】第一場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008146",
-  "title": "科學地下城-【桌遊《神經風暴》–你的大腦現在正在傳什麼訊號?】第一場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008146",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 100,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【桌遊《神經風暴》–你的大腦現在正在傳什麼訊號？】第一場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008127",
-  "title": "科學地下城-【從CCUS到綠生活】第三場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008127",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【從CCUS到綠生活】第三場\n一、CCUS科學探索",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008086",
-  "title": "科學地下城-【平面磁鐵】第二場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008086",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【平面磁鐵】第二場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008128",
-  "title": "科學地下城-【從CCUS到綠生活】第四場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008128",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【從CCUS到綠生活】第四場\n一、CCUS科學探索",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008147",
-  "title": "科學地下城-【桌遊《神經風暴》–你的大腦現在正在傳什麼訊號?】第二場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008147",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 100,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【桌遊《神經風暴》–你的大腦現在正在傳什麼訊號？】第二場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008145",
-  "title": "科學地下城-【水面搜捕手】第四場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008145",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 560,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【水面搜捕手】第四場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008134",
-  "title": "科學地下城-【植物敲染DIY】第二場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008134",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": null,
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【植物敲染DIY】第二場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008148",
-  "title": "科學地下城-【桌遊《神經風暴》——你的大腦現在正在傳什麼訊號?】第三場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008148",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 100,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【桌遊《神經風暴》——你的大腦現在正在傳什麼訊號？】第三場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008124",
-  "title": "科學地下城-【咖啡風味實驗室:掛耳包DIY與探索任務】第四場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008124",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【咖啡風味實驗室：掛耳包DIY與探索任務】第四場\n1. 焙度聞香挑戰|觀察與比較 試聞三種不同焙度咖啡豆,比較色澤、外觀與香氣,認識焙度帶來的差異。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
   "uid": "科教館:0000008131",
   "title": "科學地下城-【細胞小偵探:破解 DNA 密碼的 PCR】第三場",
   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008131",
@@ -5479,6 +4736,28 @@
  },
  {
   "source": "科教館",
+  "uid": "科教館:0000008140",
+  "title": "科學地下城-【從表演藝術體驗社會情緒學習-氣球奇遇(親子版)】",
+  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008140",
+  "org": "國立臺灣科學教育館",
+  "gov": true,
+  "price": 200,
+  "age": null,
+  "reg_start": "2026-10-15",
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "city": "臺北市",
+    "venue": "國立臺灣科學教育館"
+   }
+  ],
+  "text": "科學地下城-【從表演藝術體驗社會情緒學習-氣球奇遇(親子版)】\n之權利。",
+  "kid_required": false
+ },
+ {
+  "source": "科教館",
   "uid": "科教館:0000008119",
   "title": "科學地下城-【調茶兵團-茶葉香包DIY】第一場",
   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008119",
@@ -5500,28 +4779,6 @@
    }
   ],
   "text": "科學地下城-【調茶兵團-茶葉香包DIY】第一場\n1.茶葉聞香及試喝體驗",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008140",
-  "title": "科學地下城-【從表演藝術體驗社會情緒學習-氣球奇遇(親子版)】",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008140",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 200,
-  "age": null,
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-15",
-    "end": "2026-11-15",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【從表演藝術體驗社會情緒學習-氣球奇遇(親子版)】\n之權利。",
   "kid_required": false
  },
  {
@@ -5648,31 +4905,6 @@
  },
  {
   "source": "科教館",
-  "uid": "科教館:0000008150",
-  "title": "科學地下城-【桌遊《神經風暴》——你的大腦現在正在傳什麼訊號?】第五場",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008150",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 100,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-15",
-    "end": "2026-11-15",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "科學地下城-【桌遊《神經風暴》——你的大腦現在正在傳什麼訊號？】第五場\n之權利。",
-  "kid_required": false
- },
- {
-  "source": "科教館",
   "uid": "科教館:0000008120",
   "title": "科學地下城-【調茶兵團-茶葉香包DIY】第二場",
   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008120",
@@ -5694,6 +4926,31 @@
    }
   ],
   "text": "科學地下城-【調茶兵團-茶葉香包DIY】第二場\n1.茶葉聞香及試喝體驗",
+  "kid_required": false
+ },
+ {
+  "source": "科教館",
+  "uid": "科教館:0000008150",
+  "title": "科學地下城-【桌遊《神經風暴》——你的大腦現在正在傳什麼訊號?】第五場",
+  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008150",
+  "org": "國立臺灣科學教育館",
+  "gov": true,
+  "price": 100,
+  "age": [
+   6,
+   12
+  ],
+  "reg_start": "2026-10-15",
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "city": "臺北市",
+    "venue": "國立臺灣科學教育館"
+   }
+  ],
+  "text": "科學地下城-【桌遊《神經風暴》——你的大腦現在正在傳什麼訊號？】第五場\n之權利。",
   "kid_required": false
  },
  {
@@ -6556,50 +5813,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609302227211174363956",
-  "title": "萬聖百鬼討糖大遊行|穿越古埃及!",
-  "url": "https://www.accupass.com/event/2609302227211174363956",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-10-31",
-    "end": "2026-11-01",
-    "city": "高雄市",
-    "venue": ""
-   }
-  ],
-  "text": "萬聖百鬼討糖大遊行｜穿越古埃及！ 高雄活動",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609190732581591828922",
-  "title": "我的童年不一樣,舞動東方之美 | 2026 親子探臺北孔廟|中國古典舞免費親子體驗活動(11/1)",
-  "url": "https://www.accupass.com/event/2609190732581591828922",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "我的童年不一樣，舞動東方之美 | 2026 親子探臺北孔廟｜中國古典舞免費親子體驗活動（11/1） 台北親子活動",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610210559011437605606",
   "title": "11月親子活動|迷霧森林AI動物調查局",
   "url": "https://www.accupass.com/event/2610210559011437605606",
@@ -6756,31 +5969,6 @@
    }
   ],
   "text": "(健康場)小一新生韌力齊步走-親子共學營 心理韌性",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610050118381368592061",
-  "title": "滬尾小學校禮堂親子DIY活動 | 動動操.萬花筒.積木",
-  "url": "https://www.accupass.com/event/2610050118381368592061",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": [
-   6,
-   12
-  ],
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-10-31",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "滬尾小學校禮堂親子DIY活動 | 動動操．萬花筒．積木 免費",
   "kid_required": true
  },
  {
@@ -6986,6 +6174,50 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2608140737162685433640",
+  "title": "【臺北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動",
+  "url": "https://www.accupass.com/event/2608140737162685433640",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-12",
+    "end": "2026-12-12",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "【台北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動 親子理財",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609190552021935605725",
+  "title": "2026紙廠電影院-中興57影展|免費電影放映・戶外特映・映後座談",
+  "url": "https://www.accupass.com/event/2609190552021935605725",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-12-12",
+    "city": "宜蘭縣",
+    "venue": ""
+   }
+  ],
+  "text": "2026紙廠電影院－中興57影展｜免費電影放映・戶外特映・映後座談 影展",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2607200230091683937007",
   "title": "《11月場》彩繪餅乾甜甜圈(親子班)",
   "url": "https://www.accupass.com/event/2607200230091683937007",
@@ -7099,28 +6331,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610010350371993342605",
-  "title": "做伙來踅菜市仔—臺語兒童繪本圖文手作工作坊/希希媽咪識童繪",
-  "url": "https://www.accupass.com/event/2610010350371993342605",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "桃園市",
-    "venue": ""
-   }
-  ],
-  "text": "做伙來踅菜市仔—台語兒童繪本圖文手作工作坊／希希媽咪識童繪 桃園",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610161626072208310180",
   "title": "孩子扁平足,一定要治療嗎?不只看腳型,更看孩子怎麼走|學齡前足部發展與居家練習",
   "url": "https://www.accupass.com/event/2610161626072208310180",
@@ -7142,6 +6352,28 @@
    }
   ],
   "text": "孩子扁平足，一定要治療嗎？不只看腳型，更看孩子怎麼走｜學齡前足部發展與居家練習 兒童發展",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610010350371993342605",
+  "title": "做伙來踅菜市仔—臺語兒童繪本圖文手作工作坊/希希媽咪識童繪",
+  "url": "https://www.accupass.com/event/2610010350371993342605",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "做伙來踅菜市仔—台語兒童繪本圖文手作工作坊／希希媽咪識童繪 桃園",
   "kid_required": true
  },
  {
@@ -7256,6 +6488,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610261720276281183210",
+  "title": "🎄 職茁聖誕禮物|照顧孩子也照顧自己:有了孩子也能追求生活平衡嗎?(十二月加開免費場)",
+  "url": "https://www.accupass.com/event/2610261720276281183210",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-19",
+    "end": "2026-12-19",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "🎄 職茁聖誕禮物｜照顧孩子也照顧自己：有了孩子也能追求生活平衡嗎？（十二月加開免費場） 職能平衡",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2606020754031182120799",
   "title": "孩子過敏不是鼻子的問題  為什麼總是反覆發作?",
   "url": "https://www.accupass.com/event/2606020754031182120799",
@@ -7318,28 +6572,6 @@
    }
   ],
   "text": "兒童 • 創意寫作 ┊作文班 作文",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2607280236031295663510",
-  "title": "用臺語講故事:講予囡仔聽的人權繪本",
-  "url": "https://www.accupass.com/event/2607280236031295663510",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-09-20",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "用台語講故事：講予囡仔聽的人權繪本 閱讀",
   "kid_required": true
  },
  {
@@ -7409,28 +6641,6 @@
    }
   ],
   "text": "【富小孩養成基地】年度共學活動 兒童財商",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2608140737162685433640",
-  "title": "【臺北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動",
-  "url": "https://www.accupass.com/event/2608140737162685433640",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-12-12",
-    "end": "2026-12-12",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "【台北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動 親子理財",
   "kid_required": true
  },
  {
@@ -7721,28 +6931,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610211459334862917340",
-  "title": "【秋日農村市集】-2026員山水農祭-野餐市集",
-  "url": "https://www.accupass.com/event/2610211459334862917340",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "宜蘭縣",
-    "venue": ""
-   }
-  ],
-  "text": "【秋日農村市集】-2026員山水農祭-野餐市集 親子野餐",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610140532591351597410",
   "title": "2026 新北市客家文化園區市集日-秋漬市集日",
   "url": "https://www.accupass.com/event/2610140532591351597410",
@@ -7896,28 +7084,6 @@
    }
   ],
   "text": "李儀婷老師「愛的賽局理論」工作坊 - 家庭關係與親子教養-台北市 李崇建",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609190552021935605725",
-  "title": "2026紙廠電影院-中興57影展|免費電影放映・戶外特映・映後座談",
-  "url": "https://www.accupass.com/event/2609190552021935605725",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-12-12",
-    "city": "宜蘭縣",
-    "venue": ""
-   }
-  ],
-  "text": "2026紙廠電影院－中興57影展｜免費電影放映・戶外特映・映後座談 影展",
   "kid_required": true
  },
  {
@@ -8094,28 +7260,6 @@
    }
   ],
   "text": "免費講座｜預約一場歐洲春日浪漫！漫步荷比童話｜台中1114 荷蘭",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609030407201133965854",
-  "title": "2026好鞋好襪嘉年華-小沅寶搗蛋大遊行",
-  "url": "https://www.accupass.com/event/2609030407201133965854",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "2026好鞋好襪嘉年華-小沅寶搗蛋大遊行 小沅寶",
   "kid_required": true
  },
  {
@@ -8303,50 +7447,6 @@
  },
  {
   "source": "華山1914",
-  "uid": "華山1914:獎勵青年投入地方創生行動計畫-成果發表會暨市集",
-  "title": "獎勵青年投入地方創生行動計畫-成果發表會暨市集",
-  "url": "https://www.huashan1914.com/exhibition/%E7%8D%8E%E5%8B%B5%E9%9D%92%E5%B9%B4%E6%8A%95%E5%85%A5%E5%9C%B0%E6%96%B9%E5%89%B5%E7%94%9F%E8%A1%8C%E5%8B%95%E8%A8%88%E7%95%AB-%E6%88%90%E6%9E%9C%E7%99%BC%E8%A1%A8%E6%9C%83%E6%9A%A8%E5%B8%82%E9%9B%86",
-  "org": "華山1914文化創意產業園區",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-10-31",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": "華山1914 西1館 第二乾餾場 / 西2館 第三乾餾場"
-   }
-  ],
-  "text": "獎勵青年投入地方創生行動計畫-成果發表會暨市集",
-  "kid_required": true
- },
- {
-  "source": "華山1914",
-  "uid": "華山1914:加倍佳搗蛋加倍FUN",
-  "title": "加倍佳搗蛋加倍FUN",
-  "url": "https://www.huashan1914.com/exhibition/%E5%8A%A0%E5%80%8D%E4%BD%B3%E6%90%97%E8%9B%8B%E5%8A%A0%E5%80%8DFUN",
-  "org": "華山1914文化創意產業園區",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-10-30",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": "華山1914 金八廣場"
-   }
-  ],
-  "text": "加倍佳搗蛋加倍FUN",
-  "kid_required": true
- },
- {
-  "source": "華山1914",
   "uid": "華山1914:2026小黃帽交通安全童樂會《成為全家的安全小英雄》",
   "title": "2026小黃帽交通安全童樂會《成為全家的安全小英雄》",
   "url": "https://www.huashan1914.com/exhibition/2026%E5%B0%8F%E9%BB%83%E5%B8%BD%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E7%AB%A5%E6%A8%82%E6%9C%83%E3%80%8A%E6%88%90%E7%82%BA%E5%85%A8%E5%AE%B6%E7%9A%84%E5%AE%89%E5%85%A8%E5%B0%8F%E8%8B%B1%E9%9B%84%E3%80%8B",
@@ -8431,28 +7531,6 @@
    }
   ],
   "text": "長義閣掌中劇團《我，哪吒》",
-  "kid_required": true
- },
- {
-  "source": "松山文創園區",
-  "uid": "松山文創園區:3c2e4cf9-aff0-4964-8249-a1b80e5742d4",
-  "title": "「飽含愛心‧秋日松菸」世界和平會 2026 愛心公益大市集",
-  "url": "https://www.songshanculturalpark.org/exhibition/activity/3c2e4cf9-aff0-4964-8249-a1b80e5742d4",
-  "org": "松山文創園區",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-10-30",
-    "end": "2026-11-01",
-    "city": "臺北市",
-    "venue": "松山文創園區"
-   }
-  ],
-  "text": "「飽含愛心‧秋日松菸」世界和平會 2026 愛心公益大市集",
   "kid_required": true
  }
 ]

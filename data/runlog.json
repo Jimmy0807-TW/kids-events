@@ -1,90 +1,90 @@
 {
- "time": "2026-11-01 00:10",
+ "time": "2026-11-02 01:10",
  "sources": [
   {
    "source": "文化部",
    "status": "成功",
-   "fetched": 1184,
-   "kept": 105,
-   "seconds": 4.0
+   "fetched": 1140,
+   "kept": 102,
+   "seconds": 2.9
   },
   {
    "source": "觀光署",
    "status": "成功",
    "fetched": 1174,
-   "kept": 39,
-   "seconds": 4.2
+   "kept": 37,
+   "seconds": 2.3
   },
   {
    "source": "北市圖",
    "status": "成功",
-   "fetched": 13,
+   "fetched": 12,
    "kept": 6,
-   "seconds": 0.8
+   "seconds": 1.0
   },
   {
    "source": "新北圖",
    "status": "成功",
-   "fetched": 10,
-   "kept": 8,
-   "seconds": 8.9
+   "fetched": 11,
+   "kept": 9,
+   "seconds": 5.4
   },
   {
    "source": "科教館",
    "status": "成功",
-   "fetched": 102,
-   "kept": 75,
-   "seconds": 51.9
+   "fetched": 77,
+   "kept": 50,
+   "seconds": 43.4
   },
   {
    "source": "桃園市民卡",
    "status": "成功",
    "fetched": 0,
    "kept": 0,
-   "seconds": 1.0
+   "seconds": 1.2
   },
   {
    "source": "ACCUPASS",
    "status": "成功",
-   "fetched": 144,
-   "kept": 72,
-   "seconds": 5.2
+   "fetched": 143,
+   "kept": 67,
+   "seconds": 4.8
   },
   {
    "source": "花博公園",
    "status": "成功",
    "fetched": 25,
    "kept": 7,
-   "seconds": 3.8
+   "seconds": 1.4
   },
   {
    "source": "華山1914",
    "status": "成功",
-   "fetched": 33,
-   "kept": 6,
-   "seconds": 5.9
+   "fetched": 31,
+   "kept": 4,
+   "seconds": 4.4
   },
   {
    "source": "松山文創園區",
    "status": "成功",
-   "fetched": 26,
-   "kept": 1,
-   "seconds": 1.2
+   "fetched": 23,
+   "kept": 0,
+   "seconds": 1.0
   },
   {
    "source": "新聞線索",
    "status": "成功",
-   "fetched": 61,
-   "kept": 61
+   "fetched": 59,
+   "kept": 59
   }
  ],
  "stats": {
-  "原始": 319,
+  "原始": 282,
   "排除字": 21,
   "非兒童": 1,
-  "年齡不符": 14,
-  "超過價格": 2,
+  "年齡不符": 12,
+  "超過價格": 1,
   "已排除": 0,
-  "收錄": 233
+  "收錄": 215
  }
 }
