@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>親子活動清單</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎈</text></svg>">
+<style>
+:root{
+  --bg:#f6f5f1;--card:#fff;--ink:#1f2328;--muted:#5f6670;--line:#e3e1da;
+  --accent:#0b6e6e;--accent-ink:#fff;--chip:#ecebe5;
+  --t1:#0b6e6e;--t2:#2f7d32;--t3:#b26a00;--t4:#6b6f76;
+  --new:#c2185b;--wknd:#1565c0;--reg:#8e24aa;--want:#e65100;--done:#2e7d32;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15171a;--card:#1f2226;--ink:#e8e6e1;--muted:#a3a8b0;--line:#33373d;
+  --accent:#4fb3b3;--accent-ink:#0d1f1f;--chip:#2a2e33;
+  --t1:#4fb3b3;--t2:#7bc47f;--t3:#f0a83c;--t4:#9aa0a8;
+  --new:#f06292;--wknd:#64b5f6;--reg:#ce93d8;--want:#ffb74d;--done:#81c784;
+}}
+:root[data-theme="dark"]{
+  --bg:#15171a;--card:#1f2226;--ink:#e8e6e1;--muted:#a3a8b0;--line:#33373d;
+  --accent:#4fb3b3;--accent-ink:#0d1f1f;--chip:#2a2e33;
+  --t1:#4fb3b3;--t2:#7bc47f;--t3:#f0a83c;--t4:#9aa0a8;
+  --new:#f06292;--wknd:#64b5f6;--reg:#ce93d8;--want:#ffb74d;--done:#81c784;
+}
+*{box-sizing:border-box}
+html{font-size:16px}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Microsoft JhengHei","微軟正黑體","PingFang TC","Noto Sans TC",sans-serif;
+  font-size:1rem;line-height:1.6}
+a{color:var(--accent)}
+.wrap{max-width:920px;margin:0 auto;padding:0 16px 64px}
+header{padding:20px 0 8px}
+h1{font-size:1.6rem;margin:0}
+.sub{color:var(--muted);font-size:.9rem}
+.bar{background:var(--bg);padding:10px 0;border-bottom:1px solid var(--line)}
+@media (min-width:700px){.bar{position:sticky;top:0;z-index:5}}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:4px 0}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;
+  padding:4px 12px;font:inherit;font-size:.95rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+select,input[type=search]{font:inherit;font-size:1rem;padding:6px 10px;border:1px solid var(--line);
+  border-radius:8px;background:var(--card);color:var(--ink)}
+input[type=search]{flex:1;min-width:160px}
+h2{font-size:1.25rem;margin:28px 0 8px;padding-left:10px;border-left:5px solid var(--accent)}
+h2 small{color:var(--muted);font-weight:normal;font-size:.9rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
+.card.mk-want{border-left:5px solid var(--want)}
+.card.mk-done{border-left:5px solid var(--done)}
+.top{display:flex;gap:8px;align-items:baseline}
+.no{font-weight:bold;color:var(--muted);min-width:2.6em}
+.title{font-weight:bold;font-size:1.08rem;word-break:break-word}
+.title a{color:var(--ink);text-decoration:none}
+.title a:hover{text-decoration:underline}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0}
+.tag{font-size:.8rem;padding:1px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.meta{display:grid;grid-template-columns:4.2em 1fr;gap:2px 8px;font-size:.95rem}
+.meta dt{color:var(--muted)}
+.meta dd{margin:0;word-break:break-word}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.btn{font:inherit;font-size:.9rem;padding:4px 12px;border-radius:8px;border:1px solid var(--line);
+  background:var(--chip);color:var(--ink);cursor:pointer;text-decoration:none}
+.btn.on-want{background:var(--want);color:#fff;border-color:var(--want)}
+.btn.on-done{background:var(--done);color:#fff;border-color:var(--done)}
+.btn.x{color:var(--muted)}
+.empty{color:var(--muted);padding:16px 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0;font-size:.95rem}
+.box li{margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+td,th{border-bottom:1px solid var(--line);padding:4px 6px;text-align:left}
+.ok{color:var(--t2)}.bad{color:#d32f2f}
+details summary{cursor:pointer;font-weight:bold}
+.theme{float:right}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);
+  padding:10px 16px;border-radius:10px;display:none;gap:12px;align-items:center;z-index:20;max-width:calc(100% - 32px)}
+.toast button{font:inherit;background:none;border:1px solid currentColor;color:inherit;border-radius:6px;padding:2px 10px;cursor:pointer}
+.busy{opacity:.5;pointer-events:none}
+.views .chip{font-size:1rem;padding:6px 14px;font-weight:bold}
+.views .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip .n{font-weight:normal;opacity:.75;margin-left:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <button class="chip theme" id="theme" title="切換深淺色">🌓</button>
+  <h1>親子活動清單</h1>
+  <div class="sub" id="sub">載入中…</div>
+</header>
+
+<div class="bar">
+  <div class="row views" id="views"></div>
+  <div class="row" id="regions"></div>
+  <div class="row">
+    <select id="city" aria-label="縣市"></select>
+    <input type="search" id="q" placeholder="輸入編號（例如 12）或名稱、地點" aria-label="搜尋">
+  </div>
+  <div class="row" id="toggles"></div>
+</div>
+
+<main id="list"></main>
+<div class="toast" id="toast"><span id="toastMsg"></span><button id="undo">復原</button></div>
+
+<section>
+  <h2>已排除的活動</h2>
+  <div class="box" id="excluded"></div>
+</section>
+<section>
+  <h2>新聞線索 <small>需自行確認</small></h2>
+  <div class="box" id="news"></div>
+</section>
+<section>
+  <h2>資料來源狀態</h2>
+  <div class="box" id="sources"></div>
+</section>
+</div>
+
+
+<script>
+// ===== GAS 版：資料由 google.script.run.getData() 從試算表讀取，標記與排除寫回試算表 =====
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+};
+const state = Object.assign(
+  { view: "main", region: "常用", city: "", weekend: false, fresh: false, reg: false, mine: false, long: false },
+  store.get("filters", {}));
+let DATA = null;
+
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const norm = s => String(s || "").normalize("NFKC").replace(/台/g, "臺").toLowerCase();
+const WD = "日一二三四五六";
+const md = iso => {
+  if (!iso) return "";
+  const [y, m, d] = iso.split("-").map(Number);
+  return `${m}/${d}（${WD[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`;
+};
+
+(function () {
+  const t = store.get("theme", "");
+  if (t) document.documentElement.dataset.theme = t;
+  document.getElementById("theme").onclick = () => {
+    const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+    const cur = document.documentElement.dataset.theme || (dark ? "dark" : "light");
+    const next = cur === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next; store.set("theme", next);
+  };
+})();
+
+const VIEWS = [["main", "親子活動"], ["outing", "🎪 市集・節慶・戶外"], ["own", "🔬 "]];
+
+function inScope(e) {
+  if (state.city) return e.city === state.city;
+  if (state.region === "常用") return e.home;
+  if (state.region === "全台") return true;
+  return e.region === state.region;
+}
+function save() { store.set("filters", state); }
+
+function buildViews() {
+  const box = document.getElementById("views");
+  box.innerHTML = VIEWS.map(([k, l]) => {
+    const n = DATA.events.filter(e => e.view === k && inScope(e)).length;
+    return `<button class="chip" data-v="${k}" aria-pressed="${state.view === k}">${k === "own" ? l + esc(DATA.config.own) : l}<span class="n">${n}</span></button>`;
+  }).join("");
+  box.onclick = ev => {
+    const b = ev.target.closest("[data-v]"); if (!b) return;
+    state.view = b.dataset.v; save(); buildViews(); render();
+  };
+}
+
+function buildControls() {
+  buildViews();
+  const regs = [["常用", "常用地區"]].concat(Object.keys(DATA.regions).map(r => [r, r]), [["全台", "全台"]]);
+  const box = document.getElementById("regions");
+  box.innerHTML = regs.map(([k, l]) => `<button class="chip" data-r="${k}" aria-pressed="${state.region === k}">${l}</button>`).join("");
+  box.onclick = ev => {
+    const b = ev.target.closest("[data-r]"); if (!b) return;
+    state.region = b.dataset.r; state.city = ""; save(); buildControls(); render();
+  };
+  const cities = state.region === "常用" ? DATA.config.home
+    : state.region === "全台" ? [].concat.apply([], Object.values(DATA.regions)) : DATA.regions[state.region] || [];
+  const counts = {};
+  DATA.events.forEach(e => { counts[e.city] = (counts[e.city] || 0) + 1; });
+  const sel = document.getElementById("city");
+  sel.innerHTML = `<option value="">全部縣市</option>` +
+    cities.map(c => `<option value="${c}" ${state.city === c ? "selected" : ""}>${c}（${counts[c] || 0}）</option>`).join("");
+  sel.onchange = () => { state.city = sel.value; save(); buildViews(); render(); };
+  const tg = [["weekend", "這個週末"], ["fresh", "本週新增"], ["reg", "可報名／即將開放"], ["mine", "我標記的"], ["long", "顯示長期展覽"]];
+  const t = document.getElementById("toggles");
+  t.innerHTML = tg.map(([k, l]) => `<button class="chip" data-t="${k}" aria-pressed="${state[k]}">${l}</button>`).join("");
+  t.onclick = ev => {
+    const b = ev.target.closest("[data-t]"); if (!b) return;
+    state[b.dataset.t] = !state[b.dataset.t]; b.setAttribute("aria-pressed", state[b.dataset.t]); save(); render();
+  };
+}
+
+function render() {
+  const raw = document.getElementById("q").value.trim();
+  const q = norm(raw);
+  const byNo = /^#?\d+$/.test(raw);
+  const list = document.getElementById("list");
+  const evs = DATA.events.filter(e => {
+    if (e.mark === "排除") return false;
+    if (byNo) return e.no === +raw.replace("#", "");
+    if (e.view !== state.view && !state.mine) return false;
+    if (!inScope(e)) return false;
+    if (q && !norm(e.title + e.venue + e.org + e.city).includes(q)) return false;
+    if (state.weekend && !e.weekend) return false;
+    if (state.fresh && !e.isNew) return false;
+    if (state.reg && !/報名中|即將/.test(e.regStatus)) return false;
+    if (state.mine && !(e.mark === "想去" || e.mark === "已報名")) return false;
+    if (!state.long && e.long && !state.mine && !q) return false;
+    return true;
+  });
+  const hiddenLong = DATA.events.filter(e => e.view === state.view && inScope(e) && e.long).length;
+  if (!evs.length) { list.innerHTML = `<p class="empty">沒有符合條件的活動。</p>`; return; }
+  let html = "";
+  [1, 2, 3, 4].forEach(t => {
+    const g = evs.filter(e => e.tier === t);
+    if (!g.length) return;
+    html += `<h2 style="border-color:var(--t${t})">${DATA.tiers[t]} <small>${g.length} 筆</small></h2>` + g.map(card).join("");
+  });
+  if (!state.long && hiddenLong && !byNo)
+    html += `<p class="empty">另有 ${hiddenLong} 筆長期展覽已隱藏，按上方「顯示長期展覽」可查看。</p>`;
+  list.innerHTML = html;
+}
+
+function card(e) {
+  const m = e.mark || "";
+  const tags = [];
+  if (m) tags.push(`<span class="tag" style="color:var(--${m === "想去" ? "want" : "done"})">${m}</span>`);
+  if (e.isNew) tags.push(`<span class="tag" style="color:var(--new)">NEW</span>`);
+  if (e.weekend) tags.push(`<span class="tag" style="color:var(--wknd)">本週末</span>`);
+  if (e.regStatus === "即將開放報名") tags.push(`<span class="tag" style="color:var(--reg)">${md(e.regStart)} 開放報名</span>`);
+  else if (e.regStatus === "報名中") tags.push(`<span class="tag" style="color:var(--reg)">報名中${e.regEnd ? "，" + md(e.regEnd) + "截止" : ""}</span>`);
+  if (e.long) tags.push(`<span class="tag" style="color:var(--muted)">長期</span>`);
+  tags.push(`<span class="tag" style="color:var(--t${e.tier})">${esc(e.sources.join("／"))}</span>`);
+  const more = e.dates.length > 1 ? `，共 ${e.dates.length}${e.dates.length >= 12 ? "+" : ""} 個日期：${e.dates.slice(0, 6).map(md).join("、")}${e.dates.length > 6 ? "…" : ""}` : "";
+  const when = e.long ? `${md(e.start)} ～ ${md(e.end)}` : md(e.next) + more;
+  const title = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
+  const search = "https://www.google.com/search?q=" + encodeURIComponent(e.title + " " + e.city);
+  return `<article class="card ${m === "想去" ? "mk-want" : m === "已報名" ? "mk-done" : ""}" data-card="${esc(e.uid)}">
+  <div class="top"><span class="no">#${e.no}</span><span class="title">${title}</span></div>
+  <div class="tags">${tags.join("")}</div>
+  <dl class="meta">
+    <dt>日期</dt><dd>${when}</dd>
+    <dt>地點</dt><dd>${esc(e.city)}${e.venue ? "　" + esc(e.venue) : ""}</dd>
+    <dt>費用</dt><dd>${esc(e.priceLabel)}</dd>
+    <dt>適齡</dt><dd>${esc(e.ageLabel)}</dd>
+    ${e.org ? `<dt>主辦</dt><dd>${esc(e.org)}</dd>` : ""}
+  </dl>
+  <div class="acts">
+    <button class="btn ${m === "想去" ? "on-want" : ""}" data-mark="想去" data-uid="${esc(e.uid)}">想去</button>
+    <button class="btn ${m === "已報名" ? "on-done" : ""}" data-mark="已報名" data-uid="${esc(e.uid)}">已報名</button>
+    <a class="btn" href="${search}" target="_blank" rel="noopener">🔍 搜尋</a>
+    <button class="btn x" data-mark="排除" data-uid="${esc(e.uid)}" title="只排除這次的日期；之後同名活動有新日期仍會出現">排除這場</button>
+  </div>
+</article>`;
+}
+
+let toastTimer = null, undoFn = null;
+function toast(msg, undo) {
+  const t = document.getElementById("toast");
+  document.getElementById("toastMsg").textContent = msg;
+  document.getElementById("undo").style.display = undo ? "" : "none";
+  undoFn = undo || null;
+  t.style.display = "flex";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.style.display = "none"; undoFn = null; }, 6000);
+}
+document.getElementById("undo").onclick = () => {
+  document.getElementById("toast").style.display = "none";
+  if (undoFn) undoFn();
+};
+
+function mark(uid, m, quiet) {
+  const e = DATA.events.find(x => x.uid === uid);
+  const prev = e.mark || "";
+  e.mark = m;
+  render(); buildViews();
+  google.script.run
+    .withSuccessHandler(() => {
+      if (quiet) return;
+      if (m === "排除") toast(`已排除 #${e.no}`, () => mark(uid, prev, true));
+      else toast(m ? `已標記「${m}」` : "已取消標記");
+    })
+    .withFailureHandler(err => { e.mark = prev; render(); toast("寫入失敗：" + (err && err.message || err)); })
+    .setMark(uid, m);
+}
+
+document.getElementById("list").addEventListener("click", ev => {
+  const b = ev.target.closest("[data-mark]");
+  if (!b) return;
+  const e = DATA.events.find(x => x.uid === b.dataset.uid);
+  const m = b.dataset.mark;
+  mark(e.uid, e.mark === m ? "" : m);
+});
+document.getElementById("q").addEventListener("input", render);
+
+function renderSide() {
+  const ex = document.getElementById("excluded");
+  const items = DATA.excluded || [];
+  ex.innerHTML = !items.length ? "目前沒有排除的活動。" :
+    `<p>共 ${items.length} 筆。「排除這場」只排除當時的日期，同名活動之後有新日期仍會出現。按「恢復」後，下次更新會重新列入。</p>
+    <details><summary>查看清單</summary><ul>` +
+    items.map(i => `<li>${esc(i.title)}（${esc(i.from)} ～ ${esc(i.to)}） <button class="btn" data-restore="${esc(i.uid)}">恢復</button></li>`).join("") +
+    `</ul></details>`;
+  ex.onclick = ev => {
+    const b = ev.target.closest("[data-restore]"); if (!b) return;
+    b.disabled = true;
+    google.script.run.withSuccessHandler(() => { b.textContent = "已恢復（下次更新列入）"; })
+      .withFailureHandler(err => { b.disabled = false; toast("失敗：" + err); }).restoreExcluded(b.dataset.restore);
+  };
+  document.getElementById("news").innerHTML = DATA.news.length ? "<ul>" + DATA.news.map(n =>
+    `<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="sub">${esc(n.date)}</span></li>`).join("") + "</ul>" : "目前沒有新聞線索。";
+  const c = DATA.config;
+  document.getElementById("sources").innerHTML = `<table><tr><th>來源</th><th>狀態</th><th>抓到</th><th>期間內</th></tr>` +
+    DATA.sources.map(s => `<tr><td>${esc(s.source)}</td><td class="${s.status === "成功" ? "ok" : s.status === "關閉" ? "" : "bad"}">${esc(s.status)}</td><td>${s.fetched}</td><td>${s.kept}</td></tr>`).join("") +
+    `</table><p class="sub">條件：${c.days} 天內有場次、${c.ageLo}～${c.ageHi} 歲、${c.pmax} 元以內。要修改請到試算表「設定」分頁。</p>`;
+}
+
+function load() {
+  document.body.classList.add("busy");
+  google.script.run.withSuccessHandler(json => {
+    document.body.classList.remove("busy");
+    DATA = JSON.parse(json);
+    const home = DATA.events.filter(e => e.home && e.view === "main");
+    document.getElementById("sub").textContent =
+      `更新：${DATA.generated || "尚未更新"}｜全台 ${DATA.events.length} 筆，常用地區親子活動 ${home.length} 筆（本週末 ${home.filter(e => e.weekend).length} 場）｜本週新增 ${DATA.events.filter(e => e.isNew).length} 筆`;
+    if (!DATA.events.length) {
+      document.getElementById("list").innerHTML = `<p class="empty">清單是空的。請到試算表選單「親子活動」→「立即更新清單」。</p>`;
+      renderSide(); return;
+    }
+    buildControls(); render(); renderSide();
+  }).withFailureHandler(err => {
+    document.body.classList.remove("busy");
+    document.getElementById("sub").textContent = "資料載入失敗：" + (err && err.message || err);
+  }).getData();
+}
+load();
+</script>
+</body>
+</html>

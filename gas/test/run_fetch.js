@@ -1,0 +1,11 @@
+const ctx = require('./harness');
+const fs = require('fs');
+const cfg = require('vm').runInContext('Object.assign({}, DEFAULTS)', ctx);
+const t0 = Date.now();
+const fetched = ctx.fetchAll_(cfg);
+fetched.log.forEach(l => console.log(l.source.padEnd(8), l.status.slice(0, 40), l.fetched, l.kept, l.sec + 's'));
+const res = ctx.processEvents_(fetched.raw, cfg);
+console.log(JSON.stringify(res.stats), ((Date.now() - t0) / 1000).toFixed(0) + 's');
+const cnt = {}; res.events.forEach(e => { cnt[e.view] = (cnt[e.view] || 0) + 1; });
+console.log(cnt);
+fs.writeFileSync(process.argv[2] || '/tmp/gas_events.json', JSON.stringify({ events: res.events, log: fetched.log, news: fetched.news }));
