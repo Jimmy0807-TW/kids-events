@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04 02:29",
- "today": "2026-11-04",
+ "generated": "2026-11-05 02:41",
+ "today": "2026-11-05",
  "config": {
   "年齡下限": 6,
   "年齡上限": 8,
@@ -59,13 +59,13 @@
   "4": "④ 價格未標示"
  },
  "stats": {
-  "原始": 234,
-  "排除字": 17,
+  "原始": 180,
+  "排除字": 16,
   "非兒童": 1,
-  "年齡不符": 11,
-  "超過價格": 2,
+  "年齡不符": 6,
+  "超過價格": 0,
   "已排除": 0,
-  "收錄": 172
+  "收錄": 145
  },
  "excluded": {
   "items": 2
@@ -74,78 +74,78 @@
   {
    "source": "文化部",
    "status": "成功",
-   "fetched": 428,
+   "fetched": 434,
    "kept": 53,
-   "seconds": 3.1
+   "seconds": 2.6
   },
   {
    "source": "觀光署",
    "status": "成功",
-   "fetched": 1173,
+   "fetched": 1177,
    "kept": 30,
-   "seconds": 5.7
+   "seconds": 2.7
   },
   {
    "source": "北市圖",
    "status": "成功",
-   "fetched": 12,
-   "kept": 7,
-   "seconds": 0.9
+   "fetched": 11,
+   "kept": 6,
+   "seconds": 2.9
   },
   {
    "source": "新北圖",
    "status": "成功",
-   "fetched": 11,
-   "kept": 9,
-   "seconds": 5.0
+   "fetched": 10,
+   "kept": 8,
+   "seconds": 5.1
   },
   {
    "source": "科教館",
-   "status": "成功",
-   "fetched": 79,
-   "kept": 53,
-   "seconds": 54.2
+   "status": "失敗：SSLError HTTPSConnectionPool(host='estore.ntsec.gov.tw', port=443): Max retries exceeded with url: /classes.aspx?TYPE2=1 (Caused ",
+   "fetched": 0,
+   "kept": 0,
+   "seconds": 16.6
   },
   {
    "source": "桃園市民卡",
    "status": "成功",
    "fetched": 0,
    "kept": 0,
-   "seconds": 0.8
+   "seconds": 1.5
   },
   {
    "source": "ACCUPASS",
    "status": "成功",
-   "fetched": 137,
-   "kept": 70,
-   "seconds": 6.9
+   "fetched": 139,
+   "kept": 69,
+   "seconds": 6.7
   },
   {
    "source": "花博公園",
    "status": "成功",
-   "fetched": 25,
-   "kept": 8,
-   "seconds": 1.6
+   "fetched": 26,
+   "kept": 9,
+   "seconds": 3.3
   },
   {
    "source": "華山1914",
    "status": "成功",
-   "fetched": 35,
-   "kept": 4,
-   "seconds": 6.5
+   "fetched": 39,
+   "kept": 5,
+   "seconds": 4.9
   },
   {
    "source": "松山文創園區",
    "status": "成功",
    "fetched": 18,
    "kept": 0,
-   "seconds": 1.4
+   "seconds": 1.0
   },
   {
    "source": "新聞線索",
    "status": "成功",
-   "fetched": 74,
-   "kept": 74
+   "fetched": 62,
+   "kept": 62
   }
  ],
  "events": [
@@ -164,11 +164,11 @@
    "region": "中部",
    "home": false,
    "venue": "彰化縣員林市立圖書館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-11-01",
    "end": "2026-11-29",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": false,
    "weekend": true,
@@ -182,46 +182,6 @@
    "reg_end": null,
    "reg_status": "",
    "no": 1
-  },
-  {
-   "uid": "北市圖:7117EA16AAFD71B2",
-   "key": "總館小小世界咚咚打開日文繪本之門日文故事時間歡迎參加",
-   "title": "總館小小世界「咚咚!打開日文繪本之門」-日文故事時間,歡迎參加!",
-   "url": "https://tpml.gov.taipei/News_Content.aspx?n=49F42C0F3A955E81&s=7117EA16AAFD71B2",
-   "view": "main",
-   "tier": 1,
-   "sources": [
-    "北市圖"
-   ],
-   "org": "臺北市立圖書館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "總館地下2樓小小世界外文圖書館「多功能活動室」 小小世界外文圖書館 地址:臺北市大安區建國南路2段125號地下2樓 服務",
-   "next": "2026-11-04",
-   "start": "2026-11-04",
-   "end": "2026-11-25",
-   "dates": [
-    "2026-11-04",
-    "2026-11-11",
-    "2026-11-18",
-    "2026-11-25"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 0,
-   "price_label": "免費",
-   "age": [
-    2,
-    6
-   ],
-   "age_label": "2～6歲",
-   "reg_start": null,
-   "reg_end": null,
-   "reg_status": "",
-   "no": 2
   },
   {
    "uid": "文化部:69cc269226b3242a48a9dfa3",
@@ -255,7 +215,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 3
+   "no": 2
   },
   {
    "uid": "新北圖:1312ed8b78d742b2a7fb670c516f5144",
@@ -292,7 +252,7 @@
    "reg_start": "2026-06-10",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 4
+   "no": 3
   },
   {
    "uid": "文化部:69de905726b3242a48a9e329",
@@ -326,7 +286,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 5
+   "no": 4
   },
   {
    "uid": "文化部:6a2b070b26b3243414ccd1fd",
@@ -360,7 +320,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 6
+   "no": 5
   },
   {
    "uid": "新北圖:752f829f408e4bf4a1a17945dfde4725",
@@ -394,7 +354,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 7
+   "no": 6
   },
   {
    "uid": "北市圖:D69B25743A3FCB92",
@@ -431,44 +391,7 @@
    "reg_start": "2026-10-14",
    "reg_end": "2026-11-02",
    "reg_status": "報名已截止",
-   "no": 8
-  },
-  {
-   "uid": "北市圖:8D15E6407176F25B",
-   "key": "親子美育數位圖書館ai藝術饗宴ai數位講座",
-   "title": "親子美育數位圖書館「AI藝術饗宴」AI數位講座",
-   "url": "https://tpml.gov.taipei/News_Content.aspx?n=49F42C0F3A955E81&s=8D15E6407176F25B",
-   "view": "main",
-   "tier": 1,
-   "sources": [
-    "北市圖"
-   ],
-   "org": "臺北市立圖書館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "親子美育數位圖書館2樓多功能放映室 (臺北市南港區研究院路2段61巷15號2樓)",
-   "next": "2026-11-08",
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "dates": [
-    "2026-11-08"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 0,
-   "price_label": "免費",
-   "age": [
-    6,
-    12
-   ],
-   "age_label": "6～12歲",
-   "reg_start": null,
-   "reg_end": null,
-   "reg_status": "",
-   "no": 9
+   "no": 7
   },
   {
    "uid": "文化部:6a2b070b26b3243414ccd203",
@@ -505,7 +428,46 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 10
+   "no": 8
+  },
+  {
+   "uid": "北市圖:7117EA16AAFD71B2",
+   "key": "總館小小世界咚咚打開日文繪本之門日文故事時間歡迎參加",
+   "title": "總館小小世界「咚咚!打開日文繪本之門」-日文故事時間,歡迎參加!",
+   "url": "https://tpml.gov.taipei/News_Content.aspx?n=49F42C0F3A955E81&s=7117EA16AAFD71B2",
+   "view": "main",
+   "tier": 1,
+   "sources": [
+    "北市圖"
+   ],
+   "org": "臺北市立圖書館",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "總館地下2樓小小世界外文圖書館「多功能活動室」 小小世界外文圖書館 地址:臺北市大安區建國南路2段125號地下2樓 服務",
+   "next": "2026-11-11",
+   "start": "2026-11-11",
+   "end": "2026-11-25",
+   "dates": [
+    "2026-11-11",
+    "2026-11-18",
+    "2026-11-25"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": false,
+   "first_seen": "2026-10-31",
+   "price": 0,
+   "price_label": "免費",
+   "age": [
+    2,
+    6
+   ],
+   "age_label": "2～6歲",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 9
   },
   {
    "uid": "觀光署:Event_371020000A_004242",
@@ -539,7 +501,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 11
+   "no": 10
   },
   {
    "uid": "北市圖:C11C02764031A831",
@@ -579,7 +541,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 12
+   "no": 11
   },
   {
    "uid": "新北圖:59376eeef91b4363b3e1f9e7ca41dc1a",
@@ -615,7 +577,7 @@
    "reg_start": "2026-10-21",
    "reg_end": null,
    "reg_status": "報名中",
-   "no": 13
+   "no": 12
   },
   {
    "uid": "新北圖:54ee8b67bb0b4ac2ab9f0f53b1b7e864",
@@ -649,7 +611,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 14
+   "no": 13
   },
   {
    "uid": "新北圖:8fa076b46b764872aa9865f6d5713fec",
@@ -688,7 +650,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 15
+   "no": 14
   },
   {
    "uid": "觀光署:Event_A15010600H_000012",
@@ -722,7 +684,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 16
+   "no": 15
   },
   {
    "uid": "觀光署:Event_A15010000H_081642",
@@ -756,44 +718,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 17
-  },
-  {
-   "uid": "新北圖:5cd2755d60a441b9830e27627e8af765",
-   "key": "全市2026新北綠讀readcycle永續閱讀活動開跑啦市集線上集點永續工作坊等多元活動歡迎踴躍參加",
-   "title": "【全市】「2026新北綠讀READCYCLE」 永續閱讀活動開跑啦!市集、線上集點、永續工作坊等多元活動歡迎踴躍參加~~",
-   "url": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=5cd2755d60a441b9830e27627e8af765",
-   "view": "main",
-   "tier": 1,
-   "sources": [
-    "新北圖"
-   ],
-   "org": "新北市立圖書館",
-   "city": "新北市",
-   "region": "北部",
-   "home": true,
-   "venue": "總館9樓會議室",
-   "next": "2026-11-21",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "dates": [
-    "2026-11-21"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 0,
-   "price_label": "免費",
-   "age": [
-    5,
-    99
-   ],
-   "age_label": "5歲以上",
-   "reg_start": null,
-   "reg_end": null,
-   "reg_status": "",
-   "no": 18
+   "no": 16
   },
   {
    "uid": "新北圖:55766c3274044fad991145a5f48ee035",
@@ -827,7 +752,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 19
+   "no": 17
   },
   {
    "uid": "文化部:69cc269226b3242a48a9dfa4",
@@ -861,7 +786,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 20
+   "no": 18
   },
   {
    "uid": "文化部:6a2b070926b3243414ccd1f6",
@@ -895,7 +820,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 21
+   "no": 19
   },
   {
    "uid": "文化部:6a2b070b26b3243414ccd1fe",
@@ -929,7 +854,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 22
+   "no": 20
   },
   {
    "uid": "北市圖:DB216AB80B9E55F7",
@@ -964,7 +889,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 23
+   "no": 21
   },
   {
    "uid": "北市圖:5EA051DC0D3031E8",
@@ -1001,7 +926,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 24
+   "no": 22
   },
   {
    "uid": "觀光署:Event_387000000A_010058",
@@ -1018,11 +943,11 @@
    "region": "中部",
    "home": false,
    "venue": "中區",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-02-15",
    "end": "2027-03-09",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1035,7 +960,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 25
+   "no": 23
   },
   {
    "uid": "文化部:69a1faab26b32454e437cbac",
@@ -1052,11 +977,11 @@
    "region": "中部",
    "home": false,
    "venue": "南投縣魚池鄉立圖書館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-03-07",
    "end": "2026-11-28",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1072,7 +997,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 26
+   "no": 24
   },
   {
    "uid": "文化部:698f772f26b32454e437c995",
@@ -1089,11 +1014,11 @@
    "region": "中部",
    "home": false,
    "venue": "雲林布袋戲館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-02",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1106,7 +1031,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 27
+   "no": 25
   },
   {
    "uid": "文化部:698f772d26b32454e437c994",
@@ -1123,11 +1048,11 @@
    "region": "中部",
    "home": false,
    "venue": "雲林布袋戲館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-02",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1140,7 +1065,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 28
+   "no": 26
   },
   {
    "uid": "文化部:696aa78026b3243b1ca0c043",
@@ -1157,11 +1082,11 @@
    "region": "南部",
    "home": false,
    "venue": "高雄市立圖書館鼓山分館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-11",
    "end": "2026-12-13",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1177,7 +1102,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 29
+   "no": 27
   },
   {
    "uid": "文化部:698cd2b326b32454e437c913",
@@ -1194,11 +1119,11 @@
    "region": "南部",
    "home": false,
    "venue": "國立臺灣史前文化博物館南科考古館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-01",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1211,7 +1136,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 30
+   "no": 28
   },
   {
    "uid": "文化部:6a28645126b3243414ccd0af",
@@ -1228,11 +1153,11 @@
    "region": "北部",
    "home": true,
    "venue": "郵政博物館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-07-11",
    "end": "2027-01-03",
    "dates": [
-    "2026-11-04",
+    "2026-11-05",
     "2027-01-01"
    ],
    "long": true,
@@ -1246,7 +1171,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 31
+   "no": 29
   },
   {
    "uid": "文化部:696aa7bb26b3243b1ca0c064",
@@ -1263,11 +1188,11 @@
    "region": "南部",
    "home": false,
    "venue": "高雄市旗山生活文化園區(原舊鼓山國小)",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-01",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1283,7 +1208,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 32
+   "no": 30
   },
   {
    "uid": "文化部:696e973626b3243b1ca0c0ec",
@@ -1300,11 +1225,11 @@
    "region": "南部",
    "home": false,
    "venue": "高雄市立圖書館左營分館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-18",
    "end": "2026-12-20",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1317,7 +1242,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 33
+   "no": 31
   },
   {
    "uid": "文化部:6973eb0b26b32454e437c3ec",
@@ -1334,11 +1259,11 @@
    "region": "北部",
    "home": true,
    "venue": "桃園市土地公文化館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-02",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1351,7 +1276,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 34
+   "no": 32
   },
   {
    "uid": "文化部:69f7a63626b3243414ccc55c",
@@ -1368,11 +1293,11 @@
    "region": "南部",
    "home": false,
    "venue": "國立臺灣文學館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-04-01",
    "end": "2026-11-15",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1385,7 +1310,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 35
+   "no": 33
   },
   {
    "uid": "文化部:5b3dd544aaa378d7ca9a2e9a",
@@ -1402,11 +1327,11 @@
    "region": "中部",
    "home": false,
    "venue": "人類文化廳二樓",
-   "next": "2026-11-04",
-   "start": "2026-11-04",
+   "next": "2026-11-05",
+   "start": "2026-11-05",
    "end": "2028-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1419,7 +1344,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 36
+   "no": 34
   },
   {
    "uid": "文化部:65eaa9c931bef923aa07d72e",
@@ -1436,11 +1361,11 @@
    "region": "中部",
    "home": false,
    "venue": "國立自然科學博物館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2024-01-19",
    "end": "2034-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1453,7 +1378,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 37
+   "no": 35
   },
   {
    "uid": "文化部:6acf2331eb4399d01039b21c",
@@ -1470,11 +1395,11 @@
    "region": "中部",
    "home": false,
    "venue": "苗北藝文中心",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-10-02",
    "end": "2026-12-27",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1487,7 +1412,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 38
+   "no": 36
   },
   {
    "uid": "文化部:69b1c11e26b3242a48a9da86",
@@ -1504,11 +1429,11 @@
    "region": "南部",
    "home": false,
    "venue": "高雄市立歷史博物館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-01",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1524,7 +1449,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 39
+   "no": 37
   },
   {
    "uid": "文化部:6ad1a67beb43ead9f13aebca",
@@ -1562,41 +1487,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 40
-  },
-  {
-   "uid": "ACCUPASS:2609170146281153410910",
-   "key": "免費講座預約一場歐洲春日浪漫漫步荷比童話新竹1107",
-   "title": "免費講座|預約一場歐洲春日浪漫!漫步荷比童話|新竹1107",
-   "url": "https://www.accupass.com/event/2609170146281153410910",
-   "view": "main",
-   "tier": 2,
-   "sources": [
-    "ACCUPASS"
-   ],
-   "org": "",
-   "city": "新竹市",
-   "region": "北部",
-   "home": false,
-   "venue": "",
-   "next": "2026-11-07",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "dates": [
-    "2026-11-07"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 0,
-   "price_label": "免費",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": null,
-   "reg_end": null,
-   "reg_status": "",
-   "no": 41
+   "no": 38
   },
   {
    "uid": "ACCUPASS:2610151407021568851970",
@@ -1630,7 +1521,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 42
+   "no": 39
   },
   {
    "uid": "ACCUPASS:2611020128171184345952",
@@ -1664,7 +1555,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 43
+   "no": 40
   },
   {
    "uid": "ACCUPASS:2609170225319733846260",
@@ -1698,7 +1589,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 44
+   "no": 41
   },
   {
    "uid": "文化部:6acda714eb4399d01039b213",
@@ -1732,7 +1623,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 45
+   "no": 42
   },
   {
    "uid": "ACCUPASS:2609010817537797936980",
@@ -1766,7 +1657,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 46
+   "no": 43
   },
   {
    "uid": "ACCUPASS:2609170235231307750663",
@@ -1800,7 +1691,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 47
+   "no": 44
   },
   {
    "uid": "ACCUPASS:2609170228311641156639",
@@ -1834,7 +1725,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 48
+   "no": 45
   },
   {
    "uid": "文化部:6ad86a3deb43549b707fe240",
@@ -1868,7 +1759,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 49
+   "no": 46
   },
   {
    "uid": "文化部:68ef6e8b07f374a51cc171c4",
@@ -1885,11 +1776,11 @@
    "region": "北部",
    "home": true,
    "venue": "《定格微光》線上攝影展",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2025-10-15",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1902,7 +1793,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 50
+   "no": 47
   },
   {
    "uid": "文化部:690ba12c26b324253c0dabcc",
@@ -1919,11 +1810,11 @@
    "region": "中部",
    "home": false,
    "venue": "臺灣客家文化館(客家委員會客家文化發展中心)",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-01",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -1936,7 +1827,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 51
+   "no": 48
   },
   {
    "uid": "文化部:6a5e735d26b32427d0604202",
@@ -1953,11 +1844,11 @@
    "region": "中部",
    "home": false,
    "venue": "國立雲林科技大學雲泰表演廳",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-10-24",
    "end": "2026-11-13",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": false,
    "weekend": true,
@@ -1970,7 +1861,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 52
+   "no": 49
   },
   {
    "uid": "ACCUPASS:2609170713306130508410",
@@ -1987,11 +1878,11 @@
    "region": "北部",
    "home": true,
    "venue": "",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-11-01",
    "end": "2026-11-22",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": false,
    "weekend": true,
@@ -2004,7 +1895,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 53
+   "no": 50
   },
   {
    "uid": "ACCUPASS:2610161434385037313330",
@@ -2038,7 +1929,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 54
+   "no": 51
   },
   {
    "uid": "ACCUPASS:2610210559011437605606",
@@ -2072,7 +1963,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 55
+   "no": 52
   },
   {
    "uid": "文化部:6ac3e23926b324165c32e5a3",
@@ -2107,7 +1998,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 56
+   "no": 53
   },
   {
    "uid": "華山1914:2026小黃帽交通安全童樂會《成為全家的安全小英雄》",
@@ -2141,7 +2032,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 57
+   "no": 54
   },
   {
    "uid": "ACCUPASS:2607200230091683937007",
@@ -2175,7 +2066,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 58
+   "no": 55
   },
   {
    "uid": "ACCUPASS:2610290056041080385120",
@@ -2209,7 +2100,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 59
+   "no": 56
   },
   {
    "uid": "ACCUPASS:2610070712067255099570",
@@ -2243,7 +2134,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 60
+   "no": 57
   },
   {
    "uid": "ACCUPASS:2611021450392104025524",
@@ -2277,7 +2168,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 61
+   "no": 58
   },
   {
    "uid": "ACCUPASS:2610281738041765395004",
@@ -2314,7 +2205,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 62
+   "no": 59
   },
   {
    "uid": "ACCUPASS:2609240709491854193459",
@@ -2351,7 +2242,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 63
+   "no": 60
   },
   {
    "uid": "ACCUPASS:2610050735426365286850",
@@ -2385,7 +2276,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 64
+   "no": 61
   },
   {
    "uid": "ACCUPASS:2609180746342040531024",
@@ -2419,7 +2310,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 65
+   "no": 62
   },
   {
    "uid": "ACCUPASS:2610050715239999702710",
@@ -2453,7 +2344,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 66
+   "no": 63
   },
   {
    "uid": "ACCUPASS:2609100627583628376120",
@@ -2487,7 +2378,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 67
+   "no": 64
   },
   {
    "uid": "ACCUPASS:2608290851074798096800",
@@ -2521,7 +2412,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 68
+   "no": 65
   },
   {
    "uid": "ACCUPASS:2611020854131026344134",
@@ -2555,7 +2446,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 69
+   "no": 66
   },
   {
    "uid": "ACCUPASS:2610130319212303300100",
@@ -2589,7 +2480,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 70
+   "no": 67
   },
   {
    "uid": "ACCUPASS:2608050848131302334573",
@@ -2626,7 +2517,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 71
+   "no": 68
   },
   {
    "uid": "ACCUPASS:2610090054411518240358",
@@ -2660,7 +2551,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 72
+   "no": 69
   },
   {
    "uid": "ACCUPASS:2610231716091247092638",
@@ -2694,7 +2585,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 73
+   "no": 70
   },
   {
    "uid": "ACCUPASS:2609220302231445306611",
@@ -2728,7 +2619,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 74
+   "no": 71
   },
   {
    "uid": "文化部:6a9f82b1647a795d9251e5a4",
@@ -2762,7 +2653,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 75
+   "no": 72
   },
   {
    "uid": "華山1914:行有所愛｜如孩子般自由《孩子的書屋》27週年年會音樂會",
@@ -2796,7 +2687,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 76
+   "no": 73
   },
   {
    "uid": "ACCUPASS:2609240722001426139443",
@@ -2833,7 +2724,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 77
+   "no": 74
   },
   {
    "uid": "文化部:6ac7d85426b324165c32e5c7",
@@ -2867,7 +2758,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 78
+   "no": 75
   },
   {
    "uid": "文化部:69f8f79326b3243414ccc573",
@@ -2902,7 +2793,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 79
+   "no": 76
   },
   {
    "uid": "華山1914:義興閣掌中劇團《四靈國：天祥書之謎》",
@@ -2936,7 +2827,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 80
+   "no": 77
   },
   {
    "uid": "ACCUPASS:2607230431381490700363",
@@ -2970,7 +2861,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 81
+   "no": 78
   },
   {
    "uid": "ACCUPASS:2610070813566796333600",
@@ -3007,7 +2898,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 82
+   "no": 79
   },
   {
    "uid": "文化部:6ac7d85426b324165c32e5c6",
@@ -3041,7 +2932,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 83
+   "no": 80
   },
   {
    "uid": "ACCUPASS:2608140716141957678810",
@@ -3075,7 +2966,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 84
+   "no": 81
   },
   {
    "uid": "ACCUPASS:2610210755241361274121",
@@ -3109,7 +3000,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 85
+   "no": 82
   },
   {
    "uid": "ACCUPASS:2610240520334192593000",
@@ -3143,7 +3034,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 86
+   "no": 83
+  },
+  {
+   "uid": "ACCUPASS:2611040436232509604160",
+   "key": "實體操作我的孩子需要視覺訓練嗎視覺問題x雙眼協調x訓練方式",
+   "title": "【實體操作】我的孩子需要視覺訓練嗎?視覺問題 x 雙眼協調 x 訓練方式",
+   "url": "https://www.accupass.com/event/2611040436232509604160",
+   "view": "main",
+   "tier": 4,
+   "sources": [
+    "ACCUPASS"
+   ],
+   "org": "",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "",
+   "next": "2026-11-29",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "dates": [
+    "2026-11-29"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": true,
+   "first_seen": "2026-11-05",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 84
   },
   {
    "uid": "ACCUPASS:2608070159545478247100",
@@ -3177,7 +3102,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 87
+   "no": 85
   },
   {
    "uid": "華山1914:我，哪吒",
@@ -3211,7 +3136,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 88
+   "no": 86
   },
   {
    "uid": "ACCUPASS:2608140737162685433640",
@@ -3245,7 +3170,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 89
+   "no": 87
   },
   {
    "uid": "ACCUPASS:2607070513311472114300",
@@ -3279,7 +3204,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 90
+   "no": 88
   },
   {
    "uid": "文化部:6ad112d426b324165c32e604",
@@ -3313,7 +3238,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 91
+   "no": 89
   },
   {
    "uid": "ACCUPASS:2608170824454282588400",
@@ -3347,7 +3272,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 92
+   "no": 90
   },
   {
    "uid": "文化部:699a019826b32454e437c9e9",
@@ -3364,11 +3289,11 @@
    "region": "北部",
    "home": false,
    "venue": "東區(新竹市)=",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-24",
    "end": "2026-12-26",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -3381,7 +3306,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 93
+   "no": 91
   },
   {
    "uid": "ACCUPASS:2608180535451663839841",
@@ -3398,11 +3323,11 @@
    "region": "北部",
    "home": true,
    "venue": "",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-08-18",
    "end": "2027-02-15",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -3415,7 +3340,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 94
+   "no": 92
   },
   {
    "uid": "文化部:69fa478a26b3243414ccc5c1",
@@ -3432,11 +3357,11 @@
    "region": "北部",
    "home": true,
    "venue": "臺北市藝文推廣處-大稻埕戲苑",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-03-10",
    "end": "2026-12-15",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -3449,7 +3374,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 95
+   "no": 93
   },
   {
    "uid": "ACCUPASS:2610070536022108925590",
@@ -3466,11 +3391,11 @@
    "region": "北部",
    "home": true,
    "venue": "",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-10-07",
    "end": "2027-04-11",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -3483,7 +3408,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 96
+   "no": 94
   },
   {
    "uid": "文化部:69cc269326b3242a48a9dfc1",
@@ -3500,11 +3425,11 @@
    "region": "南部",
    "home": false,
    "venue": "嘉義縣表演藝術中心",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-31",
    "end": "2027-01-31",
    "dates": [
-    "2026-11-04",
+    "2026-11-05",
     "2027-01-01"
    ],
    "long": true,
@@ -3518,7 +3443,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 97
+   "no": 95
   },
   {
    "uid": "ACCUPASS:2103301021531578507856",
@@ -3535,11 +3460,11 @@
    "region": "中部",
    "home": false,
    "venue": "",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2023-03-01",
    "end": "2030-12-29",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -3552,7 +3477,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 98
+   "no": 96
   },
   {
    "uid": "文化部:69ebd96026b3242a48a9e6b5",
@@ -3569,11 +3494,11 @@
    "region": "北部",
    "home": false,
    "venue": "新瓦屋客家文化保存區",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-01",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -3586,7 +3511,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 99
+   "no": 97
   },
   {
    "uid": "文化部:6984f0fe26b32454e437c79e",
@@ -3603,11 +3528,11 @@
    "region": "中部",
    "home": false,
    "venue": "欣榮紀念圖書館暨玉蘭文化會館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-03-01",
    "end": "2026-12-20",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -3623,7 +3548,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 100
+   "no": 98
   },
   {
    "uid": "ACCUPASS:2606291307179354507070",
@@ -3640,11 +3565,11 @@
    "region": "北部",
    "home": true,
    "venue": "",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-10-11",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -3657,7 +3582,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 101
+   "no": 99
   },
   {
    "uid": "文化部:699f5a5926b32454e437cb40",
@@ -3674,11 +3599,11 @@
    "region": "南部",
    "home": false,
    "venue": "高雄市電影館",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-01-01",
    "end": "2026-12-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -3691,7 +3616,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 102
+   "no": 100
   },
   {
    "uid": "文化部:5cd25532aaa3f054c2cc6bad",
@@ -3725,7 +3650,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 103
+   "no": 101
   },
   {
    "uid": "觀光署:Event_376550000A_000988",
@@ -3742,11 +3667,11 @@
    "region": "東部",
    "home": false,
    "venue": "花蓮市 你來廣場",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-10-31",
    "end": "2026-11-30",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": false,
    "weekend": true,
@@ -3759,7 +3684,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 104
+   "no": 102
   },
   {
    "uid": "觀光署:Event_382000000A_004034",
@@ -3776,11 +3701,11 @@
    "region": "北部",
    "home": true,
    "venue": "板橋區 新月橋板橋端",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-10-03",
    "end": "2026-11-08",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": false,
    "weekend": true,
@@ -3793,7 +3718,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 105
+   "no": 103
   },
   {
    "uid": "觀光署:Event_A15010000H_081878",
@@ -3810,11 +3735,11 @@
    "region": "中部",
    "home": false,
    "venue": "新社區 行政院農業部種苗改良繁殖場第二苗圃",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-10-31",
    "end": "2026-11-22",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": false,
    "weekend": true,
@@ -3827,7 +3752,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 106
+   "no": 104
   },
   {
    "uid": "觀光署:Event_376540000A_006524",
@@ -3861,7 +3786,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 107
+   "no": 105
   },
   {
    "uid": "觀光署:Event_382000000A_004062",
@@ -3895,7 +3820,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 108
+   "no": 106
   },
   {
    "uid": "觀光署:Event_382000000A_004068",
@@ -3929,7 +3854,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 109
+   "no": 107
   },
   {
    "uid": "觀光署:Event_376550000A_001023",
@@ -3963,7 +3888,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 110
+   "no": 108
   },
   {
    "uid": "觀光署:Event_376430000A_007059",
@@ -3997,7 +3922,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 111
+   "no": 109
   },
   {
    "uid": "觀光署:Event_A15010000H_081661",
@@ -4031,7 +3956,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 112
+   "no": 110
   },
   {
    "uid": "觀光署:Event_382000000A_004081",
@@ -4065,7 +3990,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 113
+   "no": 111
   },
   {
    "uid": "觀光署:Event_397000000A_008041",
@@ -4099,7 +4024,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 114
+   "no": 112
   },
   {
    "uid": "觀光署:Event_371020000A_004200",
@@ -4133,7 +4058,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 115
+   "no": 113
   },
   {
    "uid": "觀光署:Event_376430000A_006854",
@@ -4167,7 +4092,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 116
+   "no": 114
   },
   {
    "uid": "觀光署:Event_371020000A_004243",
@@ -4201,7 +4126,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 117
+   "no": 115
   },
   {
    "uid": "觀光署:Event_376430000A_006685",
@@ -4235,7 +4160,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 118
+   "no": 116
   },
   {
    "uid": "觀光署:Event_376540000A_006294",
@@ -4269,7 +4194,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 119
+   "no": 117
   },
   {
    "uid": "觀光署:Event_A15010600H_000007",
@@ -4286,11 +4211,11 @@
    "region": "中部",
    "home": false,
    "venue": "魚池鄉 水社碼頭",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-09-12",
    "end": "2026-11-15",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -4303,7 +4228,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 120
+   "no": 118
   },
   {
    "uid": "觀光署:Event_395000000A_008060",
@@ -4320,11 +4245,11 @@
    "region": "南部",
    "home": false,
    "venue": "麻豆區 總爺藝文中心及多處場域",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-09-05",
    "end": "2026-12-07",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -4340,7 +4265,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 121
+   "no": 119
   },
   {
    "uid": "觀光署:Event_376550000A_000878",
@@ -4357,11 +4282,11 @@
    "region": "東部",
    "home": false,
    "venue": "吉安鄉 客家文化會館(演藝堂)",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-06-27",
    "end": "2026-11-08",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -4374,7 +4299,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 122
+   "no": 120
   },
   {
    "uid": "觀光署:Event_376420000A_000346",
@@ -4391,11 +4316,11 @@
    "region": "北部",
    "home": false,
    "venue": "五結鄉 宜蘭境內",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-09-19",
    "end": "2026-12-24",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -4408,7 +4333,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 123
+   "no": 121
   },
   {
    "uid": "觀光署:Event_376550000A_000995",
@@ -4425,11 +4350,11 @@
    "region": "東部",
    "home": false,
    "venue": "花蓮市 日出大道F段、大農大富平地森林園區",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-09-24",
    "end": "2026-11-09",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -4442,7 +4367,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 124
+   "no": 122
   },
   {
    "uid": "觀光署:Event_A15010000H_081870",
@@ -4476,7 +4401,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 125
+   "no": 123
   },
   {
    "uid": "花博公園:4460",
@@ -4514,7 +4439,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 126
+   "no": 124
   },
   {
    "uid": "花博公園:4590",
@@ -4548,7 +4473,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 127
+   "no": 125
   },
   {
    "uid": "ACCUPASS:2609030722305019497420",
@@ -4582,7 +4507,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 128
+   "no": 126
+  },
+  {
+   "uid": "花博公園:4624",
+   "key": "2026聖誕頌歌聖誕power市集",
+   "title": "2026 聖誕頌歌・聖誕 POWER 市集",
+   "url": "https://www.expopark.taipei/News_Photo_Content.aspx?n=247&sms=9029&s=4624",
+   "view": "outing",
+   "tier": 2,
+   "sources": [
+    "花博公園"
+   ],
+   "org": "臺北市會展產業發展基金會",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "花博公園 環形廣場",
+   "next": "2026-12-11",
+   "start": "2026-12-11",
+   "end": "2026-12-13",
+   "dates": [
+    "2026-12-11"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": true,
+   "first_seen": "2026-11-05",
+   "price": 0,
+   "price_label": "免費",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 127
   },
   {
    "uid": "花博公園:4618",
@@ -4616,7 +4575,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 129
+   "no": 128
   },
   {
    "uid": "ACCUPASS:2610150721431826384040",
@@ -4650,7 +4609,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 130
+   "no": 129
   },
   {
    "uid": "花博公園:4599",
@@ -4684,7 +4643,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 131
+   "no": 130
   },
   {
    "uid": "ACCUPASS:2610300126118349645600",
@@ -4718,7 +4677,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 132
+   "no": 131
   },
   {
    "uid": "ACCUPASS:2610140532591351597410",
@@ -4752,7 +4711,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 133
+   "no": 132
   },
   {
    "uid": "ACCUPASS:2610020913181925696429",
@@ -4786,41 +4745,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 134
-  },
-  {
-   "uid": "ACCUPASS:2610060749091437228748",
-   "key": "2026高雄wildwild野生活手作帳篷戶外體驗報名專區",
-   "title": "2026高雄WildWild野生活|手作・帳篷・戶外體驗報名專區",
-   "url": "https://www.accupass.com/event/2610060749091437228748",
-   "view": "outing",
-   "tier": 4,
-   "sources": [
-    "ACCUPASS"
-   ],
-   "org": "",
-   "city": "高雄市",
-   "region": "南部",
-   "home": false,
-   "venue": "",
-   "next": "2026-11-07",
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "dates": [
-    "2026-11-07"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": true,
-   "first_seen": "2026-11-04",
-   "price": null,
-   "price_label": "未標示",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": null,
-   "reg_end": null,
-   "reg_status": "",
-   "no": 135
+   "no": 133
   },
   {
    "uid": "ACCUPASS:2610091421201761291259",
@@ -4854,7 +4779,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 136
+   "no": 134
   },
   {
    "uid": "ACCUPASS:2611030844572701677860",
@@ -4888,7 +4813,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 137
+   "no": 135
   },
   {
    "uid": "ACCUPASS:2610220744521764203939",
@@ -4922,7 +4847,41 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 138
+   "no": 136
+  },
+  {
+   "uid": "華山1914:萬海慈善 讓愛閃耀社福市集",
+   "key": "萬海慈善讓愛閃耀社福市集",
+   "title": "萬海慈善 讓愛閃耀社福市集",
+   "url": "https://www.huashan1914.com/exhibition/%E8%90%AC%E6%B5%B7%E6%85%88%E5%96%84%20%E8%AE%93%E6%84%9B%E9%96%83%E8%80%80%E7%A4%BE%E7%A6%8F%E5%B8%82%E9%9B%86",
+   "view": "outing",
+   "tier": 4,
+   "sources": [
+    "華山1914"
+   ],
+   "org": "華山1914文化創意產業園區",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "華山1914 中7B館 維修工場",
+   "next": "2026-11-20",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "dates": [
+    "2026-11-20"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": true,
+   "first_seen": "2026-11-05",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 137
   },
   {
    "uid": "ACCUPASS:2609151000351386470425",
@@ -4956,7 +4915,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 139
+   "no": 138
   },
   {
    "uid": "ACCUPASS:2611020055451018051810",
@@ -4990,7 +4949,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 140
+   "no": 139
   },
   {
    "uid": "ACCUPASS:2611020321359856876500",
@@ -5024,7 +4983,75 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
+   "no": 140
+  },
+  {
+   "uid": "ACCUPASS:2610271121376513690090",
+   "key": "大稻埕永續百貨英倫聖誕嘉年華greatbritishchristmasfestival2026",
+   "title": "大稻埕永續百貨【英倫聖誕嘉年華 Great British Christmas Festival 2026】",
+   "url": "https://www.accupass.com/event/2610271121376513690090",
+   "view": "outing",
+   "tier": 4,
+   "sources": [
+    "ACCUPASS"
+   ],
+   "org": "",
+   "city": "臺北市",
+   "region": "北部",
+   "home": true,
+   "venue": "",
+   "next": "2026-12-10",
+   "start": "2026-12-10",
+   "end": "2026-12-27",
+   "dates": [
+    "2026-12-10"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": true,
+   "first_seen": "2026-11-05",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
    "no": 141
+  },
+  {
+   "uid": "ACCUPASS:2610270334555218792350",
+   "key": "新感覺市集2026neosouthwave",
+   "title": "新感覺市集 2026 〰 NEO SOUTH WAVE 〰",
+   "url": "https://www.accupass.com/event/2610270334555218792350",
+   "view": "outing",
+   "tier": 4,
+   "sources": [
+    "ACCUPASS"
+   ],
+   "org": "",
+   "city": "彰化縣",
+   "region": "中部",
+   "home": false,
+   "venue": "",
+   "next": "2026-12-12",
+   "start": "2026-12-12",
+   "end": "2026-12-13",
+   "dates": [
+    "2026-12-12"
+   ],
+   "long": false,
+   "weekend": false,
+   "new": true,
+   "first_seen": "2026-11-05",
+   "price": null,
+   "price_label": "未標示",
+   "age": null,
+   "age_label": "未標示",
+   "reg_start": null,
+   "reg_end": null,
+   "reg_status": "",
+   "no": 142
   },
   {
    "uid": "ACCUPASS:2610030806245315592890",
@@ -5041,11 +5068,11 @@
    "region": "北部",
    "home": true,
    "venue": "",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-10-10",
    "end": "2027-07-31",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -5058,7 +5085,7 @@
    "reg_start": null,
    "reg_end": null,
    "reg_status": "",
-   "no": 142
+   "no": 143
   },
   {
    "uid": "ACCUPASS:2607310328047136464650",
@@ -5075,45 +5102,11 @@
    "region": "北部",
    "home": true,
    "venue": "",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-09-05",
    "end": "2026-11-15",
    "dates": [
-    "2026-11-04"
-   ],
-   "long": true,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": null,
-   "price_label": "未標示",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": null,
-   "reg_end": null,
-   "reg_status": "",
-   "no": 143
-  },
-  {
-   "uid": "ACCUPASS:2610221128283047139960",
-   "key": "飛吧猛禽一起認識臺灣猛禽里仁誠食市集生態策展",
-   "title": "【飛吧!猛禽】一起認識臺灣猛禽!里仁誠食市集生態策展",
-   "url": "https://www.accupass.com/event/2610221128283047139960",
-   "view": "outing",
-   "tier": 4,
-   "sources": [
-    "ACCUPASS"
-   ],
-   "org": "",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "",
-   "next": "2026-11-04",
-   "start": "2026-10-23",
-   "end": "2027-04-30",
-   "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -5143,11 +5136,11 @@
    "region": "北部",
    "home": true,
    "venue": "",
-   "next": "2026-11-04",
+   "next": "2026-11-05",
    "start": "2026-08-08",
    "end": "2026-11-27",
    "dates": [
-    "2026-11-04"
+    "2026-11-05"
    ],
    "long": true,
    "weekend": true,
@@ -5161,972 +5154,6 @@
    "reg_end": null,
    "reg_status": "",
    "no": 145
-  },
-  {
-   "uid": "科教館:0000008091",
-   "key": "科學節來到養蜂人的家蜜蜂生態導覽體驗",
-   "title": "【科學節】來到養蜂人的家-蜜蜂生態導覽體驗-11月7日10:00",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008091",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-07",
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "dates": [
-    "2026-11-07",
-    "2026-11-08"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 150,
-   "price_label": "150 元",
-   "age": [
-    0,
-    99
-   ],
-   "age_label": "全齡",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 146
-  },
-  {
-   "uid": "科教館:0000008102",
-   "key": "科學節叮魔法料理師",
-   "title": "【科學節】叮!魔法料理師11月07日14:00-16:00",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008102",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-07",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "dates": [
-    "2026-11-07"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 400,
-   "price_label": "400 元",
-   "age": [
-    0,
-    99
-   ],
-   "age_label": "全齡",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 147
-  },
-  {
-   "uid": "科教館:0000008101",
-   "key": "科學節城市裡的食物森林探險隊",
-   "title": "【科學節】城市裡的食物森林探險隊11月07日10:00-12:00",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008101",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-07",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "dates": [
-    "2026-11-07"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 400,
-   "price_label": "400 元",
-   "age": [
-    0,
-    99
-   ],
-   "age_label": "全齡",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 148
-  },
-  {
-   "uid": "科教館:0000008105",
-   "key": "科學節探索光透過程式設計創造全新的光文化科學的10個為什麼系列工作坊",
-   "title": "【科學節】探索光:透過程式設計創造全新的光文化-科學的10個為什麼系列工作坊",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008105",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-07",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "dates": [
-    "2026-11-07"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 400,
-   "price_label": "400 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 149
-  },
-  {
-   "uid": "科教館:0000008106",
-   "key": "科學節為什麼ic可以這麼小半導體晶圓積木工作坊科學的10萬個為什麼工作坊",
-   "title": "【科學節】為什麼IC可以這麼小?半導體晶圓積木工作坊-科學的10萬個為什麼工作坊",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008106",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-07",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "dates": [
-    "2026-11-07"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 450,
-   "price_label": "450 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 150
-  },
-  {
-   "uid": "科教館:0000008095",
-   "key": "科學節心臟解剖工作坊",
-   "title": "【科學節】心臟解剖工作坊-11月8日09:30",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008095",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-08",
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "dates": [
-    "2026-11-08"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 300,
-   "price_label": "300 元",
-   "age": [
-    0,
-    99
-   ],
-   "age_label": "全齡",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 151
-  },
-  {
-   "uid": "科教館:0000008109",
-   "key": "科學節為什麼圖片能夠跑起來手搖西洋鏡科學的10萬個為什麼工作坊",
-   "title": "【科學節】為什麼圖片能夠跑起來?手搖西洋鏡-科學的10萬個為什麼工作坊",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008109",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-08",
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "dates": [
-    "2026-11-08"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 350,
-   "price_label": "350 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 152
-  },
-  {
-   "uid": "科教館:0000008103",
-   "key": "科學節走進泰雅族的小米記憶",
-   "title": "【科學節】走進泰雅族的小米記憶11月8日10:00-12:30",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008103",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-08",
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "dates": [
-    "2026-11-08"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 400,
-   "price_label": "400 元",
-   "age": [
-    0,
-    99
-   ],
-   "age_label": "全齡",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 153
-  },
-  {
-   "uid": "科教館:0000008115",
-   "key": "科學節連鎖反應敲敲打打工作坊特別場",
-   "title": "【科學節】連鎖反應-敲敲打打工作坊特別場:11月8日上午10點場次",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008115",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-08",
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "dates": [
-    "2026-11-08"
-   ],
-   "long": false,
-   "weekend": true,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 200,
-   "price_label": "200 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 154
-  },
-  {
-   "uid": "科教館:0000008112",
-   "key": "科學節為什麼精油這麼香蜂蠟香氛護唇膏科學的10個為什麼工作坊",
-   "title": "【科學節】為什麼精油這麼香?蜂蠟香氛護唇膏-科學的10個為什麼工作坊",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008112",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-14",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "dates": [
-    "2026-11-14"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 400,
-   "price_label": "400 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 155
-  },
-  {
-   "uid": "科教館:0000008111",
-   "key": "科學節為什麼花可以不凋謝永生花鞦韆月曆科學的10個為什麼工作坊",
-   "title": "【科學節】為什麼花可以不凋謝?永生花鞦韆月曆-科學的10個為什麼工作坊",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008111",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-14",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "dates": [
-    "2026-11-14"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 550,
-   "price_label": "550 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 156
-  },
-  {
-   "uid": "科教館:0000008110",
-   "key": "科學節為什麼遊樂器材可以轉起來手做宇宙迴旋玩具科學的10個為什麼工作坊",
-   "title": "【科學節】為什麼遊樂器材可以轉起來?手做宇宙迴旋玩具-科學的10個為什麼工作坊",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008110",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-14",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "dates": [
-    "2026-11-14"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 350,
-   "price_label": "350 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 157
-  },
-  {
-   "uid": "科教館:0000008152",
-   "key": "科學地下城不插電賽車手超能小車大狂飆",
-   "title": "科學地下城-【不插電賽車手,超能小車大狂飆】第一場",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008152",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-14",
-   "start": "2026-11-14",
-   "end": "2026-11-15",
-   "dates": [
-    "2026-11-14",
-    "2026-11-15"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 500,
-   "price_label": "500 元",
-   "age": [
-    6,
-    12
-   ],
-   "age_label": "6～12歲",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 158
-  },
-  {
-   "uid": "科教館:0000008089",
-   "key": "科學地下城移洞玩家",
-   "title": "科學地下城-【移洞玩家】",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008089",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-14",
-   "start": "2026-11-14",
-   "end": "2026-11-15",
-   "dates": [
-    "2026-11-14",
-    "2026-11-15"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 400,
-   "price_label": "400 元",
-   "age": [
-    6,
-    12
-   ],
-   "age_label": "6～12歲",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 159
-  },
-  {
-   "uid": "科教館:0000008114",
-   "key": "科學節為什麼植物可以拿來染色植物敲染手提袋科學的10個為什麼工作坊",
-   "title": "【科學節】為什麼植物可以拿來染色?植物敲染手提袋-科學的10個為什麼工作坊",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008114",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-15",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "dates": [
-    "2026-11-15"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 350,
-   "price_label": "350 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 160
-  },
-  {
-   "uid": "科教館:0000008113",
-   "key": "科學節為什麼陀螺可以轉不停手做陀螺玩具科學的10個為什麼工作坊",
-   "title": "【科學節】為什麼陀螺可以轉不停?-手做陀螺玩具-科學的10個為什麼工作坊",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008113",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-15",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "dates": [
-    "2026-11-15"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 350,
-   "price_label": "350 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 161
-  },
-  {
-   "uid": "科教館:0000008117",
-   "key": "科學節聽故事學母語",
-   "title": "【科學節】聽故事學母語:11月15日上午10點場次",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008117",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-15",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "dates": [
-    "2026-11-15"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 250,
-   "price_label": "250 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 162
-  },
-  {
-   "uid": "科教館:0000008087",
-   "key": "科學地下城平面磁鐵",
-   "title": "科學地下城-【平面磁鐵】第一場",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008087",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-15",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "dates": [
-    "2026-11-15"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 200,
-   "price_label": "200 元",
-   "age": [
-    6,
-    12
-   ],
-   "age_label": "6～12歲",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 163
-  },
-  {
-   "uid": "科教館:0000008140",
-   "key": "科學地下城從表演藝術體驗社會情緒學習氣球奇遇親子版",
-   "title": "科學地下城-【從表演藝術體驗社會情緒學習-氣球奇遇(親子版)】",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008140",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-15",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "dates": [
-    "2026-11-15"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 200,
-   "price_label": "200 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 164
-  },
-  {
-   "uid": "科教館:0000008149",
-   "key": "科學地下城桌遊神經風暴你的大腦現在正在傳什麼訊號",
-   "title": "科學地下城-【桌遊《神經風暴》——你的大腦現在正在傳什麼訊號?】第四場",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008149",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-15",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "dates": [
-    "2026-11-15"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 100,
-   "price_label": "100 元",
-   "age": [
-    6,
-    12
-   ],
-   "age_label": "6～12歲",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 165
-  },
-  {
-   "uid": "科教館:0000008135",
-   "key": "科學地下城植物敲染diy",
-   "title": "科學地下城-【植物敲染DIY】第三場",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008135",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-15",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "dates": [
-    "2026-11-15"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 200,
-   "price_label": "200 元",
-   "age": null,
-   "age_label": "未標示",
-   "reg_start": "2026-10-15",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 166
-  },
-  {
-   "uid": "科教館:0000008074",
-   "key": "里山農夫的昆蟲寶石有機農場的昆蟲解密和創作",
-   "title": "里山農夫的昆蟲寶石-有機農場的昆蟲解密和創作(第一梯)",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008074",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-11-28",
-   "start": "2026-11-28",
-   "end": "2026-11-28",
-   "dates": [
-    "2026-11-28"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 250,
-   "price_label": "250 元",
-   "age": [
-    0,
-    99
-   ],
-   "age_label": "全齡",
-   "reg_start": "2026-09-05",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 167
-  },
-  {
-   "uid": "科教館:0000008183",
-   "key": "神經風暴研究所神經細胞大解密",
-   "title": "神經風暴研究所:神經細胞大解密",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008183",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-12-05",
-   "start": "2026-12-05",
-   "end": "2026-12-05",
-   "dates": [
-    "2026-12-05"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": true,
-   "first_seen": "2026-11-03",
-   "price": 500,
-   "price_label": "500 元",
-   "age": [
-    6,
-    12
-   ],
-   "age_label": "6～12歲",
-   "reg_start": "2026-11-02",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 168
-  },
-  {
-   "uid": "科教館:0000008068",
-   "key": "昆蟲標本家蚱蜢標本與型態多樣性",
-   "title": "【昆蟲標本家】蚱蜢標本與型態多樣性",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008068",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-12-06",
-   "start": "2026-12-06",
-   "end": "2026-12-06",
-   "dates": [
-    "2026-12-06"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 900,
-   "price_label": "900 元",
-   "age": [
-    6,
-    12
-   ],
-   "age_label": "6～12歲",
-   "reg_start": "2026-08-25",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 169
-  },
-  {
-   "uid": "科教館:0000008184",
-   "key": "2026121220261212",
-   "title": "2026/12/12 ~ 2026/12/12",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008184",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-12-12",
-   "start": "2026-12-12",
-   "end": "2026-12-12",
-   "dates": [
-    "2026-12-12"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": true,
-   "first_seen": "2026-11-03",
-   "price": 700,
-   "price_label": "700 元",
-   "age": [
-    0,
-    99
-   ],
-   "age_label": "全齡",
-   "reg_start": "2026-11-02",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 170
-  },
-  {
-   "uid": "科教館:0000008076",
-   "key": "森林樵夫的昆蟲寶石森林棲地的昆蟲解密和創作",
-   "title": "森林樵夫的昆蟲寶石-森林棲地的昆蟲解密和創作(第一梯)",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008076",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-12-12",
-   "start": "2026-12-12",
-   "end": "2026-12-12",
-   "dates": [
-    "2026-12-12"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 250,
-   "price_label": "250 元",
-   "age": [
-    0,
-    99
-   ],
-   "age_label": "全齡",
-   "reg_start": "2026-09-05",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 171
-  },
-  {
-   "uid": "科教館:0000008080",
-   "key": "跳跳小丑魚花蝴蝶翻跟斗",
-   "title": "跳跳小丑魚&花蝴蝶翻跟斗",
-   "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008080",
-   "view": "own",
-   "tier": 1,
-   "sources": [
-    "科教館"
-   ],
-   "org": "國立臺灣科學教育館",
-   "city": "臺北市",
-   "region": "北部",
-   "home": true,
-   "venue": "國立臺灣科學教育館",
-   "next": "2026-12-19",
-   "start": "2026-12-19",
-   "end": "2026-12-19",
-   "dates": [
-    "2026-12-19"
-   ],
-   "long": false,
-   "weekend": false,
-   "new": false,
-   "first_seen": "2026-10-31",
-   "price": 1000,
-   "price_label": "1,000 元",
-   "age": [
-    3,
-    6
-   ],
-   "age_label": "3～6歲",
-   "reg_start": "2026-09-05",
-   "reg_end": null,
-   "reg_status": "報名中",
-   "no": 172
   }
  ]
 }

@@ -1,90 +1,90 @@
 {
- "time": "2026-11-04 02:29",
+ "time": "2026-11-05 02:41",
  "sources": [
   {
    "source": "文化部",
    "status": "成功",
-   "fetched": 428,
+   "fetched": 434,
    "kept": 53,
-   "seconds": 3.1
+   "seconds": 2.6
   },
   {
    "source": "觀光署",
    "status": "成功",
-   "fetched": 1173,
+   "fetched": 1177,
    "kept": 30,
-   "seconds": 5.7
+   "seconds": 2.7
   },
   {
    "source": "北市圖",
    "status": "成功",
-   "fetched": 12,
-   "kept": 7,
-   "seconds": 0.9
+   "fetched": 11,
+   "kept": 6,
+   "seconds": 2.9
   },
   {
    "source": "新北圖",
    "status": "成功",
-   "fetched": 11,
-   "kept": 9,
-   "seconds": 5.0
+   "fetched": 10,
+   "kept": 8,
+   "seconds": 5.1
   },
   {
    "source": "科教館",
-   "status": "成功",
-   "fetched": 79,
-   "kept": 53,
-   "seconds": 54.2
+   "status": "失敗：SSLError HTTPSConnectionPool(host='estore.ntsec.gov.tw', port=443): Max retries exceeded with url: /classes.aspx?TYPE2=1 (Caused ",
+   "fetched": 0,
+   "kept": 0,
+   "seconds": 16.6
   },
   {
    "source": "桃園市民卡",
    "status": "成功",
    "fetched": 0,
    "kept": 0,
-   "seconds": 0.8
+   "seconds": 1.5
   },
   {
    "source": "ACCUPASS",
    "status": "成功",
-   "fetched": 137,
-   "kept": 70,
-   "seconds": 6.9
+   "fetched": 139,
+   "kept": 69,
+   "seconds": 6.7
   },
   {
    "source": "花博公園",
    "status": "成功",
-   "fetched": 25,
-   "kept": 8,
-   "seconds": 1.6
+   "fetched": 26,
+   "kept": 9,
+   "seconds": 3.3
   },
   {
    "source": "華山1914",
    "status": "成功",
-   "fetched": 35,
-   "kept": 4,
-   "seconds": 6.5
+   "fetched": 39,
+   "kept": 5,
+   "seconds": 4.9
   },
   {
    "source": "松山文創園區",
    "status": "成功",
    "fetched": 18,
    "kept": 0,
-   "seconds": 1.4
+   "seconds": 1.0
   },
   {
    "source": "新聞線索",
    "status": "成功",
-   "fetched": 74,
-   "kept": 74
+   "fetched": 62,
+   "kept": 62
   }
  ],
  "stats": {
-  "原始": 234,
-  "排除字": 17,
+  "原始": 180,
+  "排除字": 16,
   "非兒童": 1,
-  "年齡不符": 11,
-  "超過價格": 2,
+  "年齡不符": 6,
+  "超過價格": 0,
   "已排除": 0,
-  "收錄": 172
+  "收錄": 145
  }
 }
