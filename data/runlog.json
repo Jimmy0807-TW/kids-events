@@ -1,75 +1,75 @@
 {
- "time": "2026-11-05 02:41",
+ "time": "2026-11-06 02:48",
  "sources": [
   {
    "source": "文化部",
    "status": "成功",
-   "fetched": 434,
-   "kept": 53,
+   "fetched": 437,
+   "kept": 54,
    "seconds": 2.6
   },
   {
    "source": "觀光署",
    "status": "成功",
-   "fetched": 1177,
-   "kept": 30,
-   "seconds": 2.7
+   "fetched": 1179,
+   "kept": 31,
+   "seconds": 4.6
   },
   {
    "source": "北市圖",
    "status": "成功",
    "fetched": 11,
    "kept": 6,
-   "seconds": 2.9
+   "seconds": 0.8
   },
   {
    "source": "新北圖",
    "status": "成功",
    "fetched": 10,
    "kept": 8,
-   "seconds": 5.1
+   "seconds": 5.4
   },
   {
    "source": "科教館",
-   "status": "失敗：SSLError HTTPSConnectionPool(host='estore.ntsec.gov.tw', port=443): Max retries exceeded with url: /classes.aspx?TYPE2=1 (Caused ",
-   "fetched": 0,
-   "kept": 0,
-   "seconds": 16.6
+   "status": "成功",
+   "fetched": 73,
+   "kept": 47,
+   "seconds": 54.2
   },
   {
    "source": "桃園市民卡",
    "status": "成功",
    "fetched": 0,
    "kept": 0,
-   "seconds": 1.5
+   "seconds": 0.8
   },
   {
    "source": "ACCUPASS",
    "status": "成功",
-   "fetched": 139,
-   "kept": 69,
-   "seconds": 6.7
+   "fetched": 140,
+   "kept": 72,
+   "seconds": 8.7
   },
   {
    "source": "花博公園",
    "status": "成功",
    "fetched": 26,
    "kept": 9,
-   "seconds": 3.3
+   "seconds": 1.1
   },
   {
    "source": "華山1914",
    "status": "成功",
-   "fetched": 39,
+   "fetched": 40,
    "kept": 5,
-   "seconds": 4.9
+   "seconds": 5.1
   },
   {
    "source": "松山文創園區",
    "status": "成功",
-   "fetched": 18,
-   "kept": 0,
-   "seconds": 1.0
+   "fetched": 21,
+   "kept": 1,
+   "seconds": 1.1
   },
   {
    "source": "新聞線索",
@@ -79,12 +79,12 @@
   }
  ],
  "stats": {
-  "原始": 180,
+  "原始": 233,
   "排除字": 16,
   "非兒童": 1,
-  "年齡不符": 6,
-  "超過價格": 0,
+  "年齡不符": 10,
+  "超過價格": 2,
   "已排除": 0,
-  "收錄": 145
+  "收錄": 176
  }
 }
