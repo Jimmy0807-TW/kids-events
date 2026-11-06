@@ -263,7 +263,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-06",
+    "start": "2026-11-07",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -285,7 +285,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-07",
+    "start": "2026-11-08",
     "end": "2029-12-30",
     "city": "臺南市",
     "venue": "藍晒圖文創園區"
@@ -494,7 +494,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-06",
+    "start": "2026-11-07",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -2132,6 +2132,34 @@
  },
  {
   "source": "新北圖",
+  "uid": "新北圖:752f829f408e4bf4a1a17945dfde4725",
+  "title": "【總館】115年11月新住民媽媽說故事活動,歡迎親子一起體驗多元閱讀文化~",
+  "url": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=752f829f408e4bf4a1a17945dfde4725",
+  "org": "新北市立圖書館",
+  "gov": true,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-08",
+    "end": "2026-11-08",
+    "city": "新北市",
+    "venue": "總館"
+   },
+   {
+    "start": "2026-11-22",
+    "end": "2026-11-22",
+    "city": "新北市",
+    "venue": "總館"
+   }
+  ],
+  "text": "article-page paging-content\">\n【總館】115年11月新住民媽媽說故事活動，歡迎親子一起體驗多元閱讀文化~\n【總館】115年11月新住民媽媽說故事活動\n本館辦理新住民媽媽說故事活動，由來自不同國家的媽媽們，分享精采的家鄉故事及充滿童趣的家鄉遊戲，歡迎大家一起來圖書館認識多元文化!\n11月08日(週日)11:00-12:00\n1.越 南(故事) / 母乳果的由來/ 小璇媽媽\n2.緬 甸(故事) /五隻青蛙 / 菁花媽媽\n3.越 南(故事) /很鹹很鹹的海水 / 富蓮媽媽\n4.柬埔寨(DIY) / 製作水燈/ 喜玲媽媽\n11月22日(週日)11:00-12:00\n1.越 南(故事) / 這是我的智慧/ 小璇媽媽\n2.柬埔寨(故事) /宋干節/ 喜玲媽媽\n3.緬 甸(故事) /誰的孩子 / 萍芬媽媽\n4.印 尼(童謠) / 帽子歌 / 蘭妮媽媽\n※本館保留隨時修改、變更、暫停或終止本活動內容之權利，並以本館網站公告為準。",
+  "kid_required": false
+ },
+ {
+  "source": "新北圖",
   "uid": "新北圖:7446c94780c441b6ad7d02b03e1c6938",
   "title": "【淡水分館】 115年11月繪本工作坊:《打開繪本的秘密心世界》",
   "url": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=7446c94780c441b6ad7d02b03e1c6938",
@@ -2211,28 +2239,6 @@
    }
   ],
   "text": "article-page paging-content\">\n【新莊中港分館】「明志科技大學×多元文化」英語說故事活動\n10/22公告：調整11/15故事主題國 ；11/29主題國待定。\n-----\n📚 明志科技大學「Multicultural Bookworms 社區圖書館多元文化故事分享」文化交流活動\n想讓孩子不出國也能認識世界嗎？✈️\n今年 11 月，明志科技大學的大哥哥、大姊姊們 將來到中港分館，帶來精彩的跨文化故事與趣味手作！\n歡迎大家一起來聽故事、玩手作，度過快樂的週末時光！✨\n※ 現場皆有翻譯人員，英語 0 基礎也 OK 喔！\n🌟 精彩活動介紹\n• 雙語故事屋：由境外留學生生動導讀各國經典童話，搭配在地大學生現場雙語口譯，讓孩子輕鬆聽懂、快樂學習。\n• 創意手作 DIY：動手玩創意！現場翻玩趣味手工 DIY，共同發揮想像力。\n📅 活動時間（#可單場報名）\n• 第一場 \n馬來西亞 (Malaysia)\n ：11/15(日)下午 14:00 - 16:00\n• 第二場 印度 (India)：11/22(日)下午 14:00 - 16:00\n• 第三場 \n待定\n (俄羅斯或法國)",
-  "kid_required": false
- },
- {
-  "source": "新北圖",
-  "uid": "新北圖:752f829f408e4bf4a1a17945dfde4725",
-  "title": "【總館】115年11月新住民媽媽說故事活動~",
-  "url": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=752f829f408e4bf4a1a17945dfde4725",
-  "org": "新北市立圖書館",
-  "gov": true,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "新北市",
-    "venue": "總館"
-   }
-  ],
-  "text": "article-page paging-content\">\n【總館】115年11月新住民媽媽說故事活動~\n【總館】115年11月新住民媽媽說故事活動~\n本館辦理新住民媽媽說故事活動，由來自印尼、緬甸、菲律賓、越南、柬埔寨、日本、馬來西亞、菲律賓等國家的媽媽們，分享家鄉故事外，也會不定期辦理家鄉故事劇表演，歡迎大家一起來認識多元文化。\n11月假日說故事\n活動時間：\n11月08日(週日)\n11:00-12:00\n1.越 南(故事) / 母乳果的由來/ 小璇媽媽\n2.緬 甸(故事) /五隻青蛙 / 菁花媽媽\n3.越 南(故事) /很鹹很鹹的海水 / 富蓮媽媽\n4.柬埔寨(DIY) / 製作水燈(柬埔寨送水節) / 喜玲媽媽\n11月22日(週日)\n11:00-12:00\n1.越 南(故事) / 這是我的智慧/ 小璇媽媽\n2.柬埔寨(故事) /宋干節(柬新年的由來)/ 喜玲媽媽\n3.緬 甸(故事) /誰的孩子 / 萍芬媽媽\n4.印 尼(童謠) / 帽子歌 / 蘭妮媽媽",
   "kid_required": false
  },
  {
@@ -3070,321 +3076,27 @@
  },
  {
   "source": "科教館",
-  "uid": "科教館:0000008091",
-  "title": "【科學節】來到養蜂人的家-蜜蜂生態導覽體驗-11月7日10:00",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008091",
+  "uid": "科教館:0000008186",
+  "title": "12/24【 生科大師實驗營包班-Vickie 】",
+  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008186",
   "org": "國立臺灣科學教育館",
   "gov": true,
-  "price": 150,
+  "price": 29700,
   "age": [
-   0,
-   99
+   12,
+   15
   ],
-  "reg_start": "2026-10-15",
+  "reg_start": "2026-11-06",
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
+    "start": "2026-12-24",
+    "end": "2026-12-24",
     "city": "臺北市",
     "venue": "國立臺灣科學教育館"
    }
   ],
-  "text": "【科學節】來到養蜂人的家－蜜蜂生態導覽體驗-11月7日10:00",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008101",
-  "title": "【科學節】城市裡的食物森林探險隊11月07日10:00-12:00",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008101",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 400,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】城市裡的食物森林探險隊11月07日10:00-12:00",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008105",
-  "title": "【科學節】探索光:透過程式設計創造全新的光文化-科學的10個為什麼系列工作坊",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008105",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 400,
-  "age": null,
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】探索光：透過程式設計創造全新的光文化-科學的10個為什麼系列工作坊\n、上課人數與報名期程,詳細活動內容以官網、FB粉絲頁及現場公告為準。 推廣教育活動報名須知 :請下載觀看確認報名繳費及相關規定 使用以 Scratch 為基礎的程式設計,讓參與者自由控制 IoT 燈光的色彩、亮度與動態變化,並挑戰透過光來創造一個能讓人感到平靜、舒適的空間。 講師介紹 高田和登 Kazutoyo Takata 現任 日本福島縣西會津町教育長 曾任 Panasonic「Scratch 家庭學校—Panasonic 學校」創意學習專案發起人(2023) 麻省理工學院媒體實驗室 MIT Media Lab「Lifelong Kindergarten Group」客座研究員(2016–2019) Panasonic 技術部門主任研究員,從事人工智慧、人類認知與創意學習研究 123 123 注意事項",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008106",
-  "title": "【科學節】為什麼IC可以這麼小?半導體晶圓積木工作坊-科學的10萬個為什麼工作坊",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008106",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 450,
-  "age": null,
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】為什麼IC可以這麼小?半導體晶圓積木工作坊-科學的10萬個為什麼工作坊\n、上課人數與報名期程,詳細活動內容以官網、FB粉絲頁及現場公告為準。 推廣教育活動報名須知 :請下載觀看確認報名繳費及相關規定 從日常生活中的手機、電腦出發,認識小小IC裡藏著什麼秘密?透過積木模擬半導體製程,動手完成晶圓與電路,了解晶片如何在有限的空間中,容納大量的電路與功能,探索半導體科技的奧妙 123 123 注意事項",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008102",
-  "title": "【科學節】叮!魔法料理師11月07日14:00-16:00",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008102",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 400,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】叮！魔法料理師11月07日14:00-16:00",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008095",
-  "title": "【科學節】心臟解剖工作坊-11月8日09:30",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008095",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 300,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】心臟解剖工作坊-11月8日09:30",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008093",
-  "title": "【科學節】來到養蜂人的家-蜜蜂生態導覽體驗-11月8日10:00",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008093",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 150,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】來到養蜂人的家－蜜蜂生態導覽體驗-11月8日10:00",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008103",
-  "title": "【科學節】走進泰雅族的小米記憶11月8日10:00-12:30",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008103",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 400,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】走進泰雅族的小米記憶11月8日10:00-12:30",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008099",
-  "title": "【科學節】心臟解剖工作坊-11月8日11:00",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008099",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 300,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】心臟解剖工作坊-11月8日11:00",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008098",
-  "title": "【科學節】心臟解剖工作坊-11月8日13:00",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008098",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 300,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】心臟解剖工作坊-11月8日13:00",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008097",
-  "title": "【科學節】心臟解剖工作坊-11月8日14:30",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008097",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 300,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】心臟解剖工作坊-11月8日14:30",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008104",
-  "title": "【科學節】走進泰雅族的小米記憶11月8日14:00-16:30",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008104",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 400,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】走進泰雅族的小米記憶11月8日14:00-16:30",
-  "kid_required": false
- },
- {
-  "source": "科教館",
-  "uid": "科教館:0000008096",
-  "title": "【科學節】心臟解剖工作坊-11月8日16:00",
-  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008096",
-  "org": "國立臺灣科學教育館",
-  "gov": true,
-  "price": 300,
-  "age": [
-   0,
-   99
-  ],
-  "reg_start": "2026-10-15",
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-08",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": "國立臺灣科學教育館"
-   }
-  ],
-  "text": "【科學節】心臟解剖工作坊-11月8日16:00",
+  "text": "12/24【 生科大師實驗營包班-Vickie 】",
   "kid_required": false
  },
  {
@@ -3863,28 +3575,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611021450392104025524",
-  "title": "🌈 【善良是種超能力】這個週六,帶孩子一起玩出好品格!",
-  "url": "https://www.accupass.com/event/2611021450392104025524",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "高雄市",
-    "venue": ""
-   }
-  ],
-  "text": "🌈 【善良是種超能力】這個週六，帶孩子一起玩出好品格！ 善良",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610050715239999702710",
   "title": "《臺中親子自然課程》神祕爬蟲大冒險|爬蟲活體觀察 × 生態探索 × 兒童自然體驗",
   "url": "https://www.accupass.com/event/2610050715239999702710",
@@ -3903,6 +3593,28 @@
    }
   ],
   "text": "《台中親子自然課程》神祕爬蟲大冒險｜爬蟲活體觀察 × 生態探索 × 兒童自然體驗 台中親子",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610270827318124717390",
+  "title": "閱讀好食光|11月親子繪本故事時間",
+  "url": "https://www.accupass.com/event/2610270827318124717390",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-28",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "閱讀好食光｜11月親子繪本故事時間 繪本故事屋",
   "kid_required": true
  },
  {
@@ -4020,28 +3732,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610242126064334681120",
-  "title": "90天翻轉兒童長高與過敏",
-  "url": "https://www.accupass.com/event/2610242126064334681120",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-10-25",
-    "end": "2026-11-08",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "90天翻轉兒童長高與過敏 免費",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2611040436232509604160",
   "title": "【實體操作】我的孩子需要視覺訓練嗎?視覺問題 x 雙眼協調 x 訓練方式",
   "url": "https://www.accupass.com/event/2611040436232509604160",
@@ -4085,28 +3775,6 @@
    }
   ],
   "text": "孩子扁平足，一定要治療嗎？不只看腳型，更看孩子怎麼走｜學齡前足部發展與居家練習 兒童發展",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610010350371993342605",
-  "title": "做伙來踅菜市仔—臺語兒童繪本圖文手作工作坊/希希媽咪識童繪",
-  "url": "https://www.accupass.com/event/2610010350371993342605",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "桃園市",
-    "venue": ""
-   }
-  ],
-  "text": "做伙來踅菜市仔—台語兒童繪本圖文手作工作坊／希希媽咪識童繪 桃園",
   "kid_required": true
  },
  {
@@ -4265,6 +3933,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610242126064334681120",
+  "title": "90天翻轉兒童長高與過敏",
+  "url": "https://www.accupass.com/event/2610242126064334681120",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-10-25",
+    "end": "2026-11-08",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "90天翻轉兒童長高與過敏 免費",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2103301021531578507856",
   "title": "兒童 • 創意寫作 ┊作文班",
   "url": "https://www.accupass.com/event/2103301021531578507856",
@@ -4283,6 +3973,28 @@
    }
   ],
   "text": "兒童 • 創意寫作 ┊作文班 作文",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610010350371993342605",
+  "title": "做伙來踅菜市仔—臺語兒童繪本圖文手作工作坊/希希媽咪識童繪",
+  "url": "https://www.accupass.com/event/2610010350371993342605",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "做伙來踅菜市仔—台語兒童繪本圖文手作工作坊／希希媽咪識童繪 桃園",
   "kid_required": true
  },
  {
@@ -4440,50 +4152,6 @@
    }
   ],
   "text": "黏土仿真蘭花藤圈(親子班) 仿真黏土",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610161434385037313330",
-  "title": "【臺中場】帶孩子第一次去日本滑雪就上手:二世谷、Tomamu、越後湯澤,我家該去哪?親子雪場全攻略",
-  "url": "https://www.accupass.com/event/2610161434385037313330",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-06",
-    "end": "2026-11-06",
-    "city": "臺中市",
-    "venue": ""
-   }
-  ],
-  "text": "【台中場】帶孩子第一次去日本滑雪就上手：二世谷、Tomamu、越後湯澤，我家該去哪？親子雪場全攻略 冬季旅行",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610270827318124717390",
-  "title": "閱讀好食光|11月親子繪本故事時間",
-  "url": "https://www.accupass.com/event/2610270827318124717390",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-28",
-    "city": "桃園市",
-    "venue": ""
-   }
-  ],
-  "text": "閱讀好食光｜11月親子繪本故事時間 繪本故事屋",
   "kid_required": true
  },
  {
@@ -4752,28 +4420,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2607310328047136464650",
-  "title": "《ina趕集趣》Lipahak野菜原風市集🥒🥬🥕",
-  "url": "https://www.accupass.com/event/2607310328047136464650",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-09-05",
-    "end": "2026-11-15",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "《ina趕集趣》Lipahak野菜原風市集🥒🥬🥕 野菜文化",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610140532591351597410",
   "title": "2026 新北市客家文化園區市集日-秋漬市集日",
   "url": "https://www.accupass.com/event/2610140532591351597410",
@@ -4927,28 +4573,6 @@
    }
   ],
   "text": "[專人帶隊體驗] 行動代號：未盡之愛｜西門町HIV戶外實境解謎 實境遊戲",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610091421201761291259",
-  "title": "新竹縣臺灣好行-雙線嘉年華",
-  "url": "https://www.accupass.com/event/2610091421201761291259",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-11-07",
-    "city": "新竹縣",
-    "venue": ""
-   }
-  ],
-  "text": "新竹縣台灣好行－雙線嘉年華",
   "kid_required": true
  },
  {
@@ -5125,6 +4749,28 @@
    }
   ],
   "text": "2026死亡嘉年華-為關懷發聲｜專家論壇：除非早逝，否則老去！ 哲學家如何看死亡與衰老 死亡嘉年華",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610091421201761291259",
+  "title": "新竹縣臺灣好行-雙線嘉年華",
+  "url": "https://www.accupass.com/event/2610091421201761291259",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "city": "新竹縣",
+    "venue": ""
+   }
+  ],
+  "text": "新竹縣台灣好行－雙線嘉年華",
   "kid_required": true
  },
  {
