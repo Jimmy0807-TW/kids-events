@@ -1,90 +1,90 @@
 {
- "time": "2026-11-08 00:53",
+ "time": "2026-11-09 01:08",
  "sources": [
   {
    "source": "文化部",
    "status": "成功",
-   "fetched": 1178,
-   "kept": 106,
-   "seconds": 3.0
+   "fetched": 1139,
+   "kept": 101,
+   "seconds": 3.5
   },
   {
    "source": "觀光署",
    "status": "成功",
    "fetched": 1186,
-   "kept": 34,
-   "seconds": 2.8
+   "kept": 30,
+   "seconds": 3.1
   },
   {
    "source": "北市圖",
    "status": "成功",
-   "fetched": 11,
-   "kept": 6,
-   "seconds": 2.8
+   "fetched": 10,
+   "kept": 5,
+   "seconds": 2.9
   },
   {
    "source": "新北圖",
    "status": "成功",
    "fetched": 9,
    "kept": 6,
-   "seconds": 7.8
+   "seconds": 4.6
   },
   {
    "source": "科教館",
    "status": "成功",
-   "fetched": 61,
-   "kept": 35,
-   "seconds": 48.6
+   "fetched": 44,
+   "kept": 18,
+   "seconds": 33.7
   },
   {
    "source": "桃園市民卡",
    "status": "成功",
    "fetched": 0,
    "kept": 0,
-   "seconds": 1.6
+   "seconds": 1.5
   },
   {
    "source": "ACCUPASS",
-   "status": "成功",
-   "fetched": 138,
-   "kept": 67,
-   "seconds": 4.3
+   "status": "失敗：ConnectionError HTTPSConnectionPool(host='www.accupass.com', port=443): Read timed out.",
+   "fetched": 0,
+   "kept": 0,
+   "seconds": 106.2
   },
   {
    "source": "花博公園",
    "status": "成功",
    "fetched": 26,
-   "kept": 9,
-   "seconds": 1.1
+   "kept": 8,
+   "seconds": 1.7
   },
   {
    "source": "華山1914",
    "status": "成功",
-   "fetched": 38,
+   "fetched": 35,
    "kept": 4,
-   "seconds": 5.1
+   "seconds": 5.4
   },
   {
    "source": "松山文創園區",
    "status": "成功",
    "fetched": 21,
    "kept": 1,
-   "seconds": 0.9
+   "seconds": 1.0
   },
   {
    "source": "新聞線索",
    "status": "成功",
-   "fetched": 57,
-   "kept": 57
+   "fetched": 55,
+   "kept": 55
   }
  ],
  "stats": {
-  "原始": 268,
-  "排除字": 16,
+  "原始": 173,
+  "排除字": 7,
   "非兒童": 1,
-  "年齡不符": 10,
+  "年齡不符": 5,
   "超過價格": 2,
   "已排除": 0,
-  "收錄": 218
+  "收錄": 145
  }
 }
