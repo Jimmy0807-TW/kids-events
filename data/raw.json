@@ -232,7 +232,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-11",
+    "start": "2026-11-12",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -401,7 +401,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-11",
+    "start": "2026-11-12",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -1250,6 +1250,28 @@
  },
  {
   "source": "觀光署",
+  "uid": "觀光署:Event_376430000A_007127",
+  "title": "2026富岡鐵道藝術生活節",
+  "url": "",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-05",
+    "end": "2026-12-21",
+    "city": "桃園市",
+    "venue": "楊梅區 富岡車站前廣場及周邊街區"
+   }
+  ],
+  "text": "2026富岡鐵道藝術生活節 無",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
   "uid": "觀光署:Event_376540000A_006294",
   "title": "2027臺東跨年晚會-東漂去旅行",
   "url": "",
@@ -1491,6 +1513,28 @@
    }
   ],
   "text": "OPEN!夢想音樂節 國際韓星 ✖︎ 台灣偶像為大家集結夢幻台韓陣容。12/4-12/5 雙日音樂盛典，滿足你的視聽覺多重享受。活動日期｜2026/12/4(五)、12/5(六)活動地點｜高雄夢時代 時代大道售票日期｜-9/30 12:00 中信卡友優先購-10/1 12:00 全面啟售✦ 票種超級搖滾座位區(座位)搖滾座位區預售票(座位)一般區(站位)✦ 加購１元即享限量粉絲福利需於購票時同步加購福利項目於首次入場驗票時領取✦超級搖滾座位區- 韓星限定小卡１組 (當日韓星)- 韓星A3海報１組 (當日韓星)- 韓星專屬明信片１組 (當日韓星)- 四位韓星紀念手幅１件 (集結四組韓星)✦搖滾座位區- 韓星限定小卡１組 (當日韓星)- 韓星專屬明信片１組 (當日韓星)- 四位韓星紀念手幅１件 (集結四組韓星)✦一般區 (含愛心票)- 韓星專屬明信片１組 (當日韓星)",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_397000000A_008188",
+  "title": "2026高流聖誕趴",
+  "url": "",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2027-01-04",
+    "city": "高雄市",
+    "venue": "鹽埕區 高雄流行音樂中心 珊瑚礁群、鯨魚堤岸"
+   }
+  ],
+  "text": "2026高流聖誕趴 港灣聖誕樹呼應高流五週年，以品牌色系粉熱鬧登場！自 11/14 起，超過 50 天點亮夜空，吹起冬日序曲，海景第一排化身最浪漫的打卡景點。17 米巨型粉勾TREE璀璨矗立，又「粉」又「勾錐」的夢幻之姿登場！從下午 5 點半開始，每半小時一場燈光展演，倒映波光粼粼的海灣，創造白天到夜晚都絕美的聖誕港景！加碼新增浪漫旋轉木馬在港灣夜色下定格溫暖夢幻的童話瞬間，溫馨提醒聖誕佈置僅供拍攝，恕無法乘坐哦！3 大主題舞台、15 組音樂人金曲樂團、歌手接力開唱，多元曲風不間斷！聖誕市集還有超萌麋鹿造型，伴著海風、市集美食，歡度聖誕佳節港灣聖誕趴．金光糖果市集與街頭藝人互動精選品牌市集進駐、多樣互動式街頭表演快閃每周六日登場，共度溫馨親子時光！活動時間：▸粉勾TREE日期：2026/11/14 – 2027/1/3時間：17:30 - 22:30 每30分鐘一場、3分鐘燈光音樂展演，最後一場次為22:30▸聖誕特燈日期：2026/11/23 – 2027/1/3時間：17:30 - 23:00▸高流聖誕趴 × 聖誕市集日期：2026/12/25 – 2026/12/27時間：16:",
   "kid_required": true
  },
  {
@@ -1737,6 +1781,31 @@
  },
  {
   "source": "北市圖",
+  "uid": "北市圖:7C764822750EB7D0",
+  "title": "親子美育數位圖書館「佳節叮噹:聖誕毬果創作」講座",
+  "url": "https://tpml.gov.taipei/News_Content.aspx?n=49F42C0F3A955E81&s=7C764822750EB7D0",
+  "org": "臺北市立圖書館",
+  "gov": true,
+  "price": 0,
+  "age": [
+   6,
+   12
+  ],
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-06",
+    "end": "2026-12-06",
+    "city": "臺北市",
+    "venue": "親子美育數位圖書館2樓多功能放映室 (臺北市南港區研究院路2段61巷15號2樓)"
+   }
+  ],
+  "text": "聖誕節的腳步近了！今年冬天，邀請大小朋友一起透過繪本「選棵松樹過聖誕」、「我就是這樣的一棵樹」以及「我是聖誕樹」，走進充滿溫暖與想像的聖誕世界，讓閱讀與手作為節日增添美好回憶。藉由精采的故事內容，認識不同國家的聖誕文化，在故事中學習接納不完美，發現每個人、每件事都有獨特的美好。並且，活動中老師將帶領大小朋友運用天然松果與繽紛毛球，發揮創意與想像力，親手製作可愛的聖誕毬果吊飾。讓原本平凡的松果，搖身一變成為充滿節慶氣息的獨特作品！\n一、\n活動講題：\n佳節叮噹:聖誕毬果創作\n二、\n活動時間：\n12月6日(日) 下午2時至4時\n三、\n活動講師：\n佘心亭老師\n新北市國際藝術村駐村藝術家\n四、\n活動地點：\n親子美育數位圖書館2樓多功能放映室\n(臺北市南港區研究院路2段61巷15號2樓)\n五、\n報名方式：\n線上報名：\nhttps://forms.gle/UwHf4aTbJ48Vu8t68\n六、\n活動對象：\n6歲至12歲兒童及其家長\n(名額限定12組親子，活動開始後10分鐘未到者，則將名額開放現場候補參加者。)\n七、\n交通路線\n交通路線：\nhttps://reurl.cc/yYX9Xl",
+  "kid_required": false
+ },
+ {
+  "source": "北市圖",
   "uid": "北市圖:7117EA16AAFD71B2",
   "title": "總館小小世界「咚咚!打開日文繪本之門」-日文故事時間,歡迎參加!",
   "url": "https://tpml.gov.taipei/News_Content.aspx?n=49F42C0F3A955E81&s=7117EA16AAFD71B2",
@@ -1750,12 +1819,6 @@
   "reg_start": null,
   "reg_end": null,
   "sessions": [
-   {
-    "start": "2026-11-11",
-    "end": "2026-11-11",
-    "city": "臺北市",
-    "venue": "總館地下2樓小小世界外文圖書館「多功能活動室」 小小世界外文圖書館 地址:臺北市大安區建國南路2段125號地下2樓 服務"
-   },
    {
     "start": "2026-11-18",
     "end": "2026-11-18",
@@ -2555,26 +2618,26 @@
   "kid_required": false
  },
  {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610210755241361274121",
-  "title": "小小花卉職人體驗營",
-  "url": "https://www.accupass.com/event/2610210755241361274121",
-  "org": "",
-  "gov": false,
-  "price": null,
+  "source": "科教館",
+  "uid": "科教館:0000008187",
+  "title": "「『家園風景:連結、修復與創造』 部落裡的科學節",
+  "url": "https://estore.ntsec.gov.tw/classDetail.aspx?CLASS_NUM=0000008187",
+  "org": "國立臺灣科學教育館",
+  "gov": true,
+  "price": 500,
   "age": null,
-  "reg_start": null,
+  "reg_start": "2026-11-11",
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-28",
-    "end": "2026-11-29",
+    "start": "2026-11-21",
+    "end": "2026-11-28",
     "city": "臺北市",
-    "venue": ""
+    "venue": "國立臺灣科學教育館"
    }
   ],
-  "text": "小小花卉職人體驗營 小小職人",
-  "kid_required": true
+  "text": "「『家園風景：連結、修復與創造』 部落裡的科學節",
+  "kid_required": false
  },
  {
   "source": "ACCUPASS",
@@ -2810,28 +2873,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609010817537797936980",
-  "title": "2026 11月 花蓮「親子繪本共讀活動」(免費參加)",
-  "url": "https://www.accupass.com/event/2609010817537797936980",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-15",
-    "end": "2026-11-15",
-    "city": "花蓮縣",
-    "venue": ""
-   }
-  ],
-  "text": "2026 11月 花蓮「親子繪本共讀活動」（免費參加） 繪本故事屋",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610050735426365286850",
   "title": "《臺中親子手作課程》刺蝟先生的森林麵包店|兒童黏土創作 × 親子藝術體驗",
   "url": "https://www.accupass.com/event/2610050735426365286850",
@@ -2894,28 +2935,6 @@
    }
   ],
   "text": "伊萊克斯親子廚房:楓糖蒙布朗 兒童烘焙",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610031249482145892451",
-  "title": "2026-2027雙年賞蝶季系列活動|賞蝶親子體驗活動",
-  "url": "https://www.accupass.com/event/2610031249482145892451",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-21",
-    "end": "2027-01-16",
-    "city": "高雄市",
-    "venue": ""
-   }
-  ],
-  "text": "2026-2027雙年賞蝶季系列活動｜賞蝶親子體驗活動 賞蝶季",
   "kid_required": true
  },
  {
@@ -2986,24 +3005,24 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610050715239999702710",
-  "title": "《臺中親子自然課程》神祕爬蟲大冒險|爬蟲活體觀察 × 生態探索 × 兒童自然體驗",
-  "url": "https://www.accupass.com/event/2610050715239999702710",
+  "uid": "ACCUPASS:2609010817537797936980",
+  "title": "2026 11月 花蓮「親子繪本共讀活動」(免費參加)",
+  "url": "https://www.accupass.com/event/2609010817537797936980",
   "org": "",
   "gov": false,
-  "price": null,
+  "price": 0,
   "age": null,
   "reg_start": null,
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-14",
-    "end": "2026-11-14",
-    "city": "臺中市",
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "city": "花蓮縣",
     "venue": ""
    }
   ],
-  "text": "《台中親子自然課程》神祕爬蟲大冒險｜爬蟲活體觀察 × 生態探索 × 兒童自然體驗 台中親子",
+  "text": "2026 11月 花蓮「親子繪本共讀活動」（免費參加） 繪本故事屋",
   "kid_required": true
  },
  {
@@ -3121,6 +3140,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611061804132113117292",
+  "title": "Ta-da!一本不正經?親子手工書製作工作坊 —— 創造我的百變故事盒 @外埔",
+  "url": "https://www.accupass.com/event/2611061804132113117292",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-20",
+    "end": "2026-12-20",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "Ta-da！一本不正經？親子手工書製作工作坊 —— 創造我的百變故事盒 ＠外埔 工作坊",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2611020128171184345952",
   "title": "【免費線上講座】如何陪跑 4–10 歲孩子的數學學習?不同年齡到底該學什麼?",
   "url": "https://www.accupass.com/event/2611020128171184345952",
@@ -3187,6 +3228,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611061847353175404570",
+  "title": "Ta-da!一本不正經?親子手工書製作工作坊——創造我的百變故事盒 @東勢",
+  "url": "https://www.accupass.com/event/2611061847353175404570",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-26",
+    "end": "2026-12-26",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "Ta-da！一本不正經？親子手工書製作工作坊——創造我的百變故事盒 ＠東勢 工作坊",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2611100428257197253550",
   "title": "【實體教學】兒童專注力訓練師認證輔導《免費課程體驗及說明會》",
   "url": "https://www.accupass.com/event/2611100428257197253550",
@@ -3227,28 +3290,6 @@
    }
   ],
   "text": "［孩子過敏］總是一下好、一下又來?家有過敏兒，爸媽少走冤枉路講座 皮膚過敏",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611100441481278315950",
-  "title": "【遠距教學】兒童專注力訓練師認證輔導《免費課程體驗及說明會》",
-  "url": "https://www.accupass.com/event/2611100441481278315950",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-12-21",
-    "end": "2026-12-21",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "【遠距教學】兒童專注力訓練師認證輔導《免費課程體驗及說明會》 免費",
   "kid_required": true
  },
  {
@@ -3344,9 +3385,9 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611061847353175404570",
-  "title": "Ta-da!一本不正經?親子手工書製作工作坊——創造我的百變故事盒 @東勢",
-  "url": "https://www.accupass.com/event/2611061847353175404570",
+  "uid": "ACCUPASS:2610031249482145892451",
+  "title": "2026-2027雙年賞蝶季系列活動|賞蝶親子體驗活動",
+  "url": "https://www.accupass.com/event/2610031249482145892451",
   "org": "",
   "gov": false,
   "price": null,
@@ -3355,35 +3396,13 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-12-26",
-    "end": "2026-12-26",
-    "city": "臺中市",
+    "start": "2026-11-21",
+    "end": "2027-01-16",
+    "city": "高雄市",
     "venue": ""
    }
   ],
-  "text": "Ta-da！一本不正經？親子手工書製作工作坊——創造我的百變故事盒 ＠東勢 工作坊",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2608140737162685433640",
-  "title": "【臺北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動",
-  "url": "https://www.accupass.com/event/2608140737162685433640",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-12-12",
-    "end": "2026-12-12",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "【台北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動 親子理財",
+  "text": "2026-2027雙年賞蝶季系列活動｜賞蝶親子體驗活動 賞蝶季",
   "kid_required": true
  },
  {
@@ -3428,6 +3447,28 @@
    }
   ],
   "text": "【桃園-下午小童場】11/28 親子金錢探險日 | 富小孩養成基地系列活動 親子理財",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2608140737162685433640",
+  "title": "【臺北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動",
+  "url": "https://www.accupass.com/event/2608140737162685433640",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-12",
+    "end": "2026-12-12",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "【台北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動 親子理財",
   "kid_required": true
  },
  {
@@ -3630,28 +3671,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611030748172122816051",
-  "title": "拾木再生:蟾蜍山循環工藝市集 ✗ 系列活動",
-  "url": "https://www.accupass.com/event/2611030748172122816051",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-21",
-    "end": "2026-11-22",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "拾木再生：蟾蜍山循環工藝市集 ✗ 系列活動 綠色工藝",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2611030844572701677860",
   "title": "2026溪洲路開唱-原潮市集",
   "url": "https://www.accupass.com/event/2611030844572701677860",
@@ -3670,6 +3689,28 @@
    }
   ],
   "text": "2026溪洲路開唱-原潮市集 原住民族",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611030748172122816051",
+  "title": "拾木再生:蟾蜍山循環工藝市集 ✗ 系列活動",
+  "url": "https://www.accupass.com/event/2611030748172122816051",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-21",
+    "end": "2026-11-22",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "拾木再生：蟾蜍山循環工藝市集 ✗ 系列活動 綠色工藝",
   "kid_required": true
  },
  {
@@ -3696,72 +3737,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610220744521764203939",
-  "title": "☃ 迷你二手換物市集 | 聖誕物資大拯救 ❘ 冬天及日常新舊好物交換 環保零廢生活.ᐟ.ᐟ",
-  "url": "https://www.accupass.com/event/2610220744521764203939",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-15",
-    "end": "2026-11-15",
-    "city": "高雄市",
-    "venue": ""
-   }
-  ],
-  "text": "☃ 迷你二手換物市集 | 聖誕物資大拯救 ❘ 冬天及日常新舊好物交換 環保零廢生活.ᐟ.ᐟ 二手",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611020321359856876500",
-  "title": "【淡水生活節】畸零地工作室OPEN STUDIO|RE:IMAGINING 創作者想想生活市集",
-  "url": "https://www.accupass.com/event/2611020321359856876500",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-22",
-    "end": "2026-11-22",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "【淡水生活節】畸零地工作室OPEN STUDIO｜RE:IMAGINING 創作者想想生活市集 藝術工作室",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611090906491220836481",
-  "title": "吃的未來式|11/14 到客家主題公園逛市集、嚐蔬食【2026 永續飲食生活節】",
-  "url": "https://www.accupass.com/event/2611090906491220836481",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-14",
-    "end": "2026-11-14",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "吃的未來式｜11/14 到客家主題公園逛市集、嚐蔬食【2026 永續飲食生活節】 蔬食料理",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2608170824454282588400",
   "title": "療癒滾滾苔球課程(親子班)",
   "url": "https://www.accupass.com/event/2608170824454282588400",
@@ -3780,28 +3755,6 @@
    }
   ],
   "text": "療癒滾滾苔球課程(親子班) 綠植",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611020854131026344134",
-  "title": "泥土上的「綠」動音符~11/14(六)新瓦屋・親子綠生活嘉年華",
-  "url": "https://www.accupass.com/event/2611020854131026344134",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-14",
-    "end": "2026-11-14",
-    "city": "新竹縣",
-    "venue": ""
-   }
-  ],
-  "text": "泥土上的「綠」動音符~11/14（六）新瓦屋・親子綠生活嘉年華 新瓦屋 #食農教育 #音樂體驗 #親子 #市集",
   "kid_required": true
  },
  {
@@ -3934,6 +3887,28 @@
    }
   ],
   "text": "大稻埕永續百貨【英倫聖誕嘉年華 Great British Christmas Festival 2026】 ＠聖誕",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611020854131026344134",
+  "title": "泥土上的「綠」動音符~11/14(六)新瓦屋・親子綠生活嘉年華",
+  "url": "https://www.accupass.com/event/2611020854131026344134",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "city": "新竹縣",
+    "venue": ""
+   }
+  ],
+  "text": "泥土上的「綠」動音符~11/14（六）新瓦屋・親子綠生活嘉年華 新瓦屋 #食農教育 #音樂體驗 #親子 #市集",
   "kid_required": true
  },
  {
@@ -4383,6 +4358,28 @@
    }
   ],
   "text": "【群益挺你生・幸福安心養】2026 群益寶寶慶生會暨幸福親子日",
+  "kid_required": true
+ },
+ {
+  "source": "松山文創園區",
+  "uid": "松山文創園區:edeb0a7c-5f69-402d-ab13-18d4520c5e22",
+  "title": "舒喜市集:臺灣故鄉祭",
+  "url": "https://www.songshanculturalpark.org/exhibition/activity/edeb0a7c-5f69-402d-ab13-18d4520c5e22",
+  "org": "松山文創園區",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-28",
+    "end": "2026-11-29",
+    "city": "臺北市",
+    "venue": "松山文創園區"
+   }
+  ],
+  "text": "舒喜市集：台灣故鄉祭",
   "kid_required": true
  }
 ]
