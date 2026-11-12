@@ -133,6 +133,28 @@
  },
  {
   "source": "文化部",
+  "uid": "文化部:6af57ff726b3245efc7537c5",
+  "title": "星亞寶貝公益音樂會暨IVY English 檢定頒獎典禮",
+  "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1IEMZGO",
+  "org": "年代",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-06",
+    "end": "2026-12-06",
+    "city": "臺北市",
+    "venue": "臺北市議會B1禮堂"
+   }
+  ],
+  "text": "星亞寶貝公益音樂會暨IVY English 檢定頒獎典禮 200",
+  "kid_required": false
+ },
+ {
+  "source": "文化部",
   "uid": "文化部:6acf2331eb4399d01039b21c",
   "title": "草圖—林明弘特展",
   "url": "https://www.miaobeiac.org/mod/course/index.php?REQUEST_ID=SAJTHC1UVXxKWXA2XS9BWQ1TBUo",
@@ -232,7 +254,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-12",
+    "start": "2026-11-13",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -401,7 +423,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-12",
+    "start": "2026-11-13",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -1294,6 +1316,28 @@
  },
  {
   "source": "觀光署",
+  "uid": "觀光署:Event_376540000A_006459",
+  "title": "2026臺東香草生活節",
+  "url": "",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-11",
+    "end": "2026-12-12",
+    "city": "臺東縣",
+    "venue": "臺東市 鐵花步道旁草坪(近微光集與波浪屋)"
+   }
+  ],
+  "text": "2026台東香草生活節 2026台東香草生活節以「在風裡，遇見香氣的生活」為主題， 邀集台東香草品牌、風格店家與在地小農齊聚台東，透過香氣、 植物、飲食與手作體驗，帶領旅人走進香草的日常， 感受植物與土地交織出的慢生活魅力。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
   "uid": "觀光署:Event_376540000A_006539",
   "title": "2027綠島海陸跨年演唱會",
   "url": "",
@@ -1334,6 +1378,28 @@
    }
   ],
   "text": "2026 花蓮國際石雕藝術季 「2026花蓮國際石雕藝術季」即將登場，本屆邀請策展人胡朝聖操刀規劃， 以《膚土之下：裂縫、痕跡與重生》為題，將視角由宇宙尺度轉向微觀、親密且深層的感知。",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_376550000A_000995",
+  "title": "石頭在呼吸— Iwagumi Air Scape 戶外光影裝置展",
+  "url": "",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-09-24",
+    "end": "2026-11-17",
+    "city": "花蓮縣",
+    "venue": "花蓮市 日出大道F段、大農大富平地森林園區"
+   }
+  ],
+  "text": "石頭在呼吸— Iwagumi Air Scape 戶外光影裝置展 ※因受天候因素影響，大農大富展覽與接駁因應颱風暫停",
   "kid_required": true
  },
  {
@@ -1491,6 +1557,28 @@
    }
   ],
   "text": "2026Mattauw大地藝術季 ​ ​ 大地藝術季 曲流擺｜曾文溪的裏淺山感官田野 × 公眾對話 × 聚落現場14 項子計畫 × 37 位藝術家／團隊× 41 組作品 × 展區限定活動​❐ ｜去哪裡看？沿著曾文溪，今年共有不同類型的展區，從總爺藝文中心一路走進曾文溪流域。❶ 主展場｜總爺藝文中心❷ 焦點展區｜曾文水庫❸ 聚落展區｜官田・拔林❹ 聚落展區｜六甲・匏仔寮❺ 聚落展區｜左鎮❻ 聚落展區｜楠西・照興❼ 聚落展區｜楠西・密枝❽ 衛星展場｜七股・頂山國小▸ 展區介紹｜https://reurl.cc/Le58VL展區怎麼選？可以依照自己的時間，選定一個展區深入走，也可以參與「流域巴士行程」，沿著曾文溪，把不同展區串起來。❐ ｜月活動行事曆來囉！展覽之外，每個週末都有不同的流域活動。把本月精彩活動，放進你的行事曆吧！－－－－－－－－－－－－－－✦ /（六）｜開幕市集 ✦〔循流好市｜藝術 × 生活 × 永續〕╰┈➤ 搶先 OPEN！大地藝術季主展場總爺藝文中心正式開展由藝術家與策展團隊帶路，一起認識展區作品。╰┈➤ 最放鬆！草皮上的音樂饗宴╰┈➤ 逛起來！特色環境永續品牌攤商╰┈➤ ",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_395000000A_008099",
+  "title": "2026 臺南南島文化節《南島食光,用味道走進文化》",
+  "url": "",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-19",
+    "end": "2026-12-21",
+    "city": "臺南市",
+    "venue": "安平區 安億路公有停車場(近Tabe 札哈木樂原)"
+   }
+  ],
+  "text": "2026 臺南南島文化節《南島食光，用味道走進文化》 「2026臺南南島文化節《南島食光，用味道走進文化》」於12月19、20日在安億路公有停車場登場，集結來自各地的原住民族美食與文創品牌，透過料理、工藝與設計，展現南島文化豐富多元的生活樣貌。現場規劃百攤大型南島市集，邀請遊客從味覺出發，感受部落文化與現代創意交織的獨特魅力。【活動資訊】・活動日期｜2026年12月19日至12月20日・活動時間｜15:00－20:00・活動地點｜臺南市安億路公有停車場更多資訊請參閱 2026臺南南島文化節《南島食光，用味道走進文化》臉書粉絲專頁",
   "kid_required": true
  },
  {
@@ -1776,7 +1864,7 @@
     "venue": "太保市 東勢里故宮大道888號"
    }
   ],
-  "text": "「2026極點慢旅，浪漫玩騎雲嘉南」嘉義故宮高跟鞋教堂 「2026極點慢旅，浪漫玩騎雲嘉南」嘉義故宮高跟鞋教堂自行車騎乘活動資訊：活動日期：2026年11月21日（星期六）集合地點：：嘉義故宮南院北大口慶典花園草坪（嘉義縣太保市東勢里故宮大道888號）路線全程：約 58.3 公里/約 58.3 公里路線路線：挑戰組/故宮南院－慶典花園草坪故宮南院（慶典花園草坪 / 起點）→ 園區繞行一圈 → 嘉58 → 蒜頭糖廠蔗埕文化園區 → 南宮路 → 朴子溪自行車道 → 台19線 → 防汛道路 → 嘉12 → 港墘大排 → 嘉44 → 157線 → 台17線 → 海港大道 → 高跟鞋教堂（折返點）→ 海港大道 → 台17線 → 157線 → 168線 → 台19線 → 南宮路 → 故宮南院（慶典花園草坪 / 終點）逍遙遊/故宮南院－慶典花園草坪故宮南院（慶典花園草坪 / 起點）→ 園區繞行一圈 → 嘉58 → 蒜頭糖廠蔗埕文化園區 → 南宮路 → 朴子溪自行車道 → 蒜鰲自行車道（阿勃勒黃金隧道）→ 166線 → 用九柑仔店 → 火車來去裝置藝術 → 嘉57 → 南宮路 → 故宮南院（慶典花園草",
+  "text": "「2026極點慢旅，浪漫玩騎雲嘉南」嘉義故宮高跟鞋教堂 「2026極點慢旅，浪漫玩騎雲嘉南」嘉義故宮高跟鞋教堂自行車騎乘活動資訊：活動日期：2026年11月21日（星期六）集合地點：嘉義故宮南院南大門入口廣場（嘉義縣太保市東勢里故宮大道888號）路線全程：約 58.3 公里/約 58.3 公里路線路線：挑戰組/故宮南院－慶典花園草坪故宮南院 - 南大門廣場/起點－園區繞行半圈-嘉58-蒜頭糖廠-蔗埕文化園區-南宮路-朴子溪自行車道-台19線-港口大橋-157線-台17線-海港大道-高跟鞋教堂/折返點-海港大道-台17線-157線-168線-台19線-南宮路-故宮南院－南大門廣場/終點，全程約60公里逍遙遊/故宮南院－慶典花園草坪故宮南院－南大門廣場/起點－園區繞行半圈-嘉58-蒜頭糖廠-蔗埕文化園區-南宮路-朴子溪自行車道-蒜鰲自行車道 阿勃勒黃金隧道-166線-用九柑仔店-火車來去裝置藝術-嘉57-南宮路-故宮南院－南大門廣場/終點。全程約16公里。活動流程：07:00 參加者報到07:30 暖身操及路線與騎乘注意事項說明07:40 開幕儀式08:00 鳴笛出發11:00 參加者陸續",
   "kid_required": true
  },
  {
@@ -2001,6 +2089,37 @@
    }
   ],
   "text": "活動內容:\n選擇適齡的中、英文繪本，搭配中、英文童謠、手指謠，帶領小朋友接觸有趣的繪本故事，為學齡前小朋友開啟雙語閱讀的第一扇大門。\n活動時間:\n第一、三、五週週五上午10時30分至11時\n活動時間：\n1/2、1/16、1/30、2/6、3/6、3/20、4/17、5/15、5/29、6/5、7/3、7/17、7/31、8/7、8/21、9/4、9/18、10/2、10/16、10/30、11/6、11/20、12/4、12/18\n活動地點:\n總館地下2樓小小世界外文圖書館「多功能活動室」\n對象及人數:\n適合學齡前2-6歲的親子參加，人數不限。\n參加辦法:\n不須事先報名，於活動開始前5分鐘開放進場，請準時參加。\n交通資訊：\n小小世界外文圖書館\n地址：臺北市大安區建國南路2段125號地下2樓\n服務時間：週一、週日9：00～17：00；週二至週六9：00～18：00\n洽詢電話：（02）2755-2823 #2140\n交通資訊：\nhttps://reurl.cc/mrXRm9",
+  "kid_required": false
+ },
+ {
+  "source": "新北圖",
+  "uid": "新北圖:4d30bcb0888143e2b4b4da4ec4dd9bdc",
+  "title": "【蘆洲永平分館】《 擁抱微光・感謝有你:心靈的溫暖停靠站 》~ 停下腳步謝謝努力的自己,學會自我照顧與彼此感謝 ~",
+  "url": "https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=4d30bcb0888143e2b4b4da4ec4dd9bdc",
+  "org": "新北市立圖書館",
+  "gov": true,
+  "price": 0,
+  "age": [
+   0,
+   99
+  ],
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-15",
+    "end": "2026-11-15",
+    "city": "新北市",
+    "venue": "新北市立圖書館蘆洲永平分館 現代生活快節奏且高壓力,本系列活動結合社會情緒學習 SEL(Social-Emotiona"
+   },
+   {
+    "start": "2026-12-20",
+    "end": "2026-12-20",
+    "city": "新北市",
+    "venue": "新北市立圖書館蘆洲永平分館 現代生活快節奏且高壓力,本系列活動結合社會情緒學習 SEL(Social-Emotiona"
+   }
+  ],
+  "text": "article-page paging-content\">\n【蘆洲永平分館】《 擁抱微光・感謝有你：心靈的溫暖停靠站 》~ 停下腳步謝謝努力的自己，學會自我照顧與彼此感謝 ~\n《 擁抱微光・感謝有你：心靈的溫暖停靠站 》~ 停下腳步謝謝努力的自己，學會自我照顧與彼此感謝 ~ \n辦理期程： 115年11月15日(日) ~ 115年12月20日(日) \n活動地點： 新北市立圖書館蘆洲永平分館 \n現代生活快節奏且高壓力，本系列活動結合社會情緒學習 SEL（Social-Emotional Learning）理念與「五感沉浸體驗」（視、聽、嗅、味、觸），規劃 2 場專業心理與親職專家講座，及4場正念手作療癒工作坊。透過圖書館靜謐的閱讀氛圍與空間，開立城市心靈處方籤，引導民眾與親子家庭練習自我覺察、釋放日常焦慮、建立正向連結，打造社區專屬的心靈避風港。 \n把「SEL療癒」轉化為「感謝的三重奏」\n1.第一重：感謝自己（自我照顧 Self-Care）：結合蔡宜芳心理師講座與精油香氛擴香石手作，在繁忙年末好好愛自己。\n2.第二重：感謝家人與孩子（親子連結 Self & Others）：結合澤爸、王心怡",
   "kid_required": false
  },
  {
@@ -2848,27 +2967,24 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609240709491854193459",
-  "title": "(再興場)小一新生韌力齊步走-親子共學營",
-  "url": "https://www.accupass.com/event/2609240709491854193459",
+  "uid": "ACCUPASS:2611120818255581780900",
+  "title": "2027 親子與青少年冬夏令營免費線上說明會",
+  "url": "https://www.accupass.com/event/2611120818255581780900",
   "org": "",
   "gov": false,
-  "price": null,
-  "age": [
-   6,
-   7
-  ],
+  "price": 0,
+  "age": null,
   "reg_start": null,
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-14",
-    "end": "2026-11-14",
+    "start": "2026-11-22",
+    "end": "2026-11-22",
     "city": "臺北市",
     "venue": ""
    }
   ],
-  "text": "(再興場)小一新生韌力齊步走-親子共學營 再興小學",
+  "text": "2027 親子與青少年冬夏令營免費線上說明會 冬令營",
   "kid_required": true
  },
  {
@@ -2917,24 +3033,27 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2608290851074798096800",
-  "title": "伊萊克斯親子廚房:楓糖蒙布朗",
-  "url": "https://www.accupass.com/event/2608290851074798096800",
+  "uid": "ACCUPASS:2611111618148448696210",
+  "title": "大竹親子科普-時間守護者:準確的秘密(1-2年級)",
+  "url": "https://www.accupass.com/event/2611111618148448696210",
   "org": "",
   "gov": false,
   "price": null,
-  "age": null,
+  "age": [
+   6,
+   8
+  ],
   "reg_start": null,
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-14",
-    "end": "2026-11-14",
-    "city": "臺北市",
+    "start": "2026-11-29",
+    "end": "2026-11-29",
+    "city": "桃園市",
     "venue": ""
    }
   ],
-  "text": "伊萊克斯親子廚房:楓糖蒙布朗 兒童烘焙",
+  "text": "大竹親子科普－時間守護者：準確的秘密（1-2年級） 學科學習",
   "kid_required": true
  },
  {
@@ -3001,6 +3120,31 @@
    }
   ],
   "text": "【❤️秋季親子同樂活動❤️南港公園親子定向尋寶】結合『運動x觀察x挑戰』，一起尋找藏在公園裡的秘密吧！ 假日親子活動",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609240709491854193459",
+  "title": "(再興場)小一新生韌力齊步走-親子共學營",
+  "url": "https://www.accupass.com/event/2609240709491854193459",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": [
+   6,
+   7
+  ],
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "(再興場)小一新生韌力齊步走-親子共學營 再興小學",
   "kid_required": true
  },
  {
@@ -3140,6 +3284,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611061847353175404570",
+  "title": "Ta-da!一本不正經?親子手工書製作工作坊——創造我的百變故事盒 @東勢",
+  "url": "https://www.accupass.com/event/2611061847353175404570",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-26",
+    "end": "2026-12-26",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "Ta-da！一本不正經？親子手工書製作工作坊——創造我的百變故事盒 ＠東勢 工作坊",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2611061804132113117292",
   "title": "Ta-da!一本不正經?親子手工書製作工作坊 —— 創造我的百變故事盒 @外埔",
   "url": "https://www.accupass.com/event/2611061804132113117292",
@@ -3224,28 +3390,6 @@
    }
   ],
   "text": "肌能系貼紮技術 神經與兒童領域專題班(台中場) EDF",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611061847353175404570",
-  "title": "Ta-da!一本不正經?親子手工書製作工作坊——創造我的百變故事盒 @東勢",
-  "url": "https://www.accupass.com/event/2611061847353175404570",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-12-26",
-    "end": "2026-12-26",
-    "city": "臺中市",
-    "venue": ""
-   }
-  ],
-  "text": "Ta-da！一本不正經？親子手工書製作工作坊——創造我的百變故事盒 ＠東勢 工作坊",
   "kid_required": true
  },
  {
@@ -3407,6 +3551,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2610130319212303300100",
+  "title": "🎤【桃市圖臺語親子音樂會】聽囡仔歌踅世界|臺語路親子樂團 × 青虫aoi",
+  "url": "https://www.accupass.com/event/2610130319212303300100",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "🎤【桃市圖台語親子音樂會】聽囡仔歌踅世界｜台語路親子樂團 × 青虫aoi 本土語言",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2609170713306130508410",
   "title": "【親子工作坊】11月活動",
   "url": "https://www.accupass.com/event/2609170713306130508410",
@@ -3473,31 +3639,9 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2607230431381490700363",
-  "title": "黏土仿真蘭花藤圈(親子班)",
-  "url": "https://www.accupass.com/event/2607230431381490700363",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-21",
-    "end": "2026-11-21",
-    "city": "高雄市",
-    "venue": ""
-   }
-  ],
-  "text": "黏土仿真蘭花藤圈(親子班) 仿真黏土",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610130319212303300100",
-  "title": "🎤【桃市圖臺語親子音樂會】聽囡仔歌踅世界|臺語路親子樂團 × 青虫aoi",
-  "url": "https://www.accupass.com/event/2610130319212303300100",
+  "uid": "ACCUPASS:2608290851074798096800",
+  "title": "伊萊克斯親子廚房:楓糖蒙布朗",
+  "url": "https://www.accupass.com/event/2608290851074798096800",
   "org": "",
   "gov": false,
   "price": null,
@@ -3508,11 +3652,33 @@
    {
     "start": "2026-11-14",
     "end": "2026-11-14",
-    "city": "桃園市",
+    "city": "臺北市",
     "venue": ""
    }
   ],
-  "text": "🎤【桃市圖台語親子音樂會】聽囡仔歌踅世界｜台語路親子樂團 × 青虫aoi 本土語言",
+  "text": "伊萊克斯親子廚房:楓糖蒙布朗 兒童烘焙",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611091023162132916146",
+  "title": "「續行」早午餐小小店長體驗活動",
+  "url": "https://www.accupass.com/event/2611091023162132916146",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-21",
+    "end": "2026-11-22",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "「續行」早午餐小小店長體驗活動 小小店長",
   "kid_required": true
  },
  {
@@ -3649,6 +3815,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611121319088832805610",
+  "title": "Paloma土地生活節 市集攤商報名",
+  "url": "https://www.accupass.com/event/2611121319088832805610",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-22",
+    "end": "2026-11-22",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "Paloma土地生活節 市集攤商報名 土地生活節",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2611020055451018051810",
   "title": "𖥔𖥠風格生活 × 靈性療癒 × 週末冒險𖥔𖥠公館禮客戶外市集",
   "url": "https://www.accupass.com/event/2611020055451018051810",
@@ -3667,28 +3855,6 @@
    }
   ],
   "text": "𖥔𖥠風格生活 × 靈性療癒 × 週末冒險𖥔𖥠公館禮客戶外市集 微景 小物 植栽 紓壓 療癒 手作 創意",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611030844572701677860",
-  "title": "2026溪洲路開唱-原潮市集",
-  "url": "https://www.accupass.com/event/2611030844572701677860",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-14",
-    "end": "2026-11-14",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "2026溪洲路開唱-原潮市集 原住民族",
   "kid_required": true
  },
  {
@@ -3715,9 +3881,9 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609151000351386470425",
-  "title": "【2026 麻布山林 X 或者】月光.山市集 Moonlight Mountain Market",
-  "url": "https://www.accupass.com/event/2609151000351386470425",
+  "uid": "ACCUPASS:2611030844572701677860",
+  "title": "2026溪洲路開唱-原潮市集",
+  "url": "https://www.accupass.com/event/2611030844572701677860",
   "org": "",
   "gov": false,
   "price": null,
@@ -3726,13 +3892,13 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-21",
-    "end": "2026-11-22",
-    "city": "新竹縣",
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "city": "臺北市",
     "venue": ""
    }
   ],
-  "text": "【2026 麻布山林 X 或者】月光．山市集 Moonlight Mountain Market 或者",
+  "text": "2026溪洲路開唱-原潮市集 原住民族",
   "kid_required": true
  },
  {
@@ -3755,6 +3921,28 @@
    }
   ],
   "text": "療癒滾滾苔球課程(親子班) 綠植",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609151000351386470425",
+  "title": "【2026 麻布山林 X 或者】月光.山市集 Moonlight Mountain Market",
+  "url": "https://www.accupass.com/event/2609151000351386470425",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-21",
+    "end": "2026-11-22",
+    "city": "新竹縣",
+    "venue": ""
+   }
+  ],
+  "text": "【2026 麻布山林 X 或者】月光．山市集 Moonlight Mountain Market 或者",
   "kid_required": true
  },
  {
@@ -3803,9 +3991,9 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611021554546510633400",
-  "title": "✦中壢OPEN小力玩.ㄅㄧㄤˋ世代✦【說故事培訓工作坊】",
-  "url": "https://www.accupass.com/event/2611021554546510633400",
+  "uid": "ACCUPASS:2610020808155120683930",
+  "title": "🌴【高雄戶外體驗】微風景攝影散步任務|邊走邊拍邊聊 × 認識不同「E / I」異性",
+  "url": "https://www.accupass.com/event/2610020808155120683930",
   "org": "",
   "gov": false,
   "price": null,
@@ -3814,13 +4002,13 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-12",
-    "end": "2026-11-21",
-    "city": "桃園市",
+    "start": "2026-11-21",
+    "end": "2026-11-22",
+    "city": "高雄市",
     "venue": ""
    }
   ],
-  "text": "✦中壢OPEN小力玩．ㄅㄧㄤˋ世代✦【說故事培訓工作坊】 說故事",
+  "text": "🌴【高雄戶外體驗】微風景攝影散步任務｜邊走邊拍邊聊 × 認識不同「E / I」異性 學習",
   "kid_required": true
  },
  {
@@ -3847,9 +4035,9 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610020808155120683930",
-  "title": "🌴【高雄戶外體驗】微風景攝影散步任務|邊走邊拍邊聊 × 認識不同「E / I」異性",
-  "url": "https://www.accupass.com/event/2610020808155120683930",
+  "uid": "ACCUPASS:2611021554546510633400",
+  "title": "✦中壢OPEN小力玩.ㄅㄧㄤˋ世代✦【說故事培訓工作坊】",
+  "url": "https://www.accupass.com/event/2611021554546510633400",
   "org": "",
   "gov": false,
   "price": null,
@@ -3858,13 +4046,13 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-21",
-    "end": "2026-11-22",
-    "city": "高雄市",
+    "start": "2026-11-12",
+    "end": "2026-11-21",
+    "city": "桃園市",
     "venue": ""
    }
   ],
-  "text": "🌴【高雄戶外體驗】微風景攝影散步任務｜邊走邊拍邊聊 × 認識不同「E / I」異性 學習",
+  "text": "✦中壢OPEN小力玩．ㄅㄧㄤˋ世代✦【說故事培訓工作坊】 說故事",
   "kid_required": true
  },
  {
@@ -4001,28 +4189,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609170225319733846260",
-  "title": "免費講座|預約一場歐洲春日浪漫!漫步荷比童話|臺中1114",
-  "url": "https://www.accupass.com/event/2609170225319733846260",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-14",
-    "end": "2026-11-14",
-    "city": "臺中市",
-    "venue": ""
-   }
-  ],
-  "text": "免費講座｜預約一場歐洲春日浪漫！漫步荷比童話｜台中1114 荷蘭",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610161356482049449150",
   "title": "2026死亡嘉年華-為關懷發聲|專家論壇:除非早逝,否則老去! 哲學家如何看死亡與衰老",
   "url": "https://www.accupass.com/event/2610161356482049449150",
@@ -4041,6 +4207,28 @@
    }
   ],
   "text": "2026死亡嘉年華-為關懷發聲｜專家論壇：除非早逝，否則老去！ 哲學家如何看死亡與衰老 死亡嘉年華",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609170225319733846260",
+  "title": "免費講座|預約一場歐洲春日浪漫!漫步荷比童話|臺中1114",
+  "url": "https://www.accupass.com/event/2609170225319733846260",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "免費講座｜預約一場歐洲春日浪漫！漫步荷比童話｜台中1114 荷蘭",
   "kid_required": true
  },
  {
