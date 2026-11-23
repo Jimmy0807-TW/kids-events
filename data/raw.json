@@ -1241,28 +1241,6 @@
  },
  {
   "source": "觀光署",
-  "uid": "觀光署:Event_376550000A_001045",
-  "title": "花蓮南瓜暨原農好物推廣市集",
-  "url": "",
-  "org": "交通部觀光署",
-  "gov": true,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-21",
-    "end": "2026-11-23",
-    "city": "花蓮縣",
-    "venue": "花蓮市 遠東百貨 和平廣場"
-   }
-  ],
-  "text": "花蓮南瓜暨原農好物推廣市集 「115年花蓮南瓜暨原農好物推廣市集」將於11月21日至22日在花蓮遠東百貨和平廣場熱鬧登場！活動集結花蓮優質農產品、原住民族特色美食及南瓜主題展示，邀請民眾一起逛市集、品嚐在地風味，感受花蓮農業的多元魅力。",
-  "kid_required": true
- },
- {
-  "source": "觀光署",
   "uid": "觀光署:Event_382000000A_004068",
   "title": "2026新北歡樂耶誕城",
   "url": "",
@@ -1349,7 +1327,7 @@
     "venue": "中西區"
    }
   ],
-  "text": "2026台南聖誕燈節 2026台南聖誕燈節暨全市聖誕月相關主題活動資訊 聖誕佳節即將到來！熱情歡迎您蒞臨全糖市-台南歡度聖誕跨年假期，與我們同享溫馨幸福時光，向2026完美告別，迎向2027新里程 !!2026台南聖誕節慶地圖google map https://ppt.cc/fEz8Xx聖誕月期間主題聖誕燈飾及精彩活動看這裡!!(活動彙整僅供參考,相關訊息請依各活動主辦單位公布為準)2026台南聖誕燈節 展示日期：2026/11/27~2027/1/3每日17:30~22:30亮燈主題聖誕樹：聖誕意象燈飾布置： 2026台南聖誕燈節 2026/12/6 (日)15:00~19:30 聖誕闖關園遊會15:00~20:30 聖誕甜蜜市集18:30~20:30 聖誕點燈晚會地點：中西區環河街廣八廣場及河樂廣場西側 2026/12/12 (六)15:00~19:30 聖誕甜蜜市集17:30~19:30 聖誕點燈晚會地點：新營文化中心廣場及綠川廊道2026/12/24(四)中西區運河河樂燈區聖誕樹旁 19:00~21:00 聖誕平安夜報佳音2026/12/25(五) 新營文化中心廣場14:00",
+  "text": "2026台南聖誕燈節 2026台南聖誕燈節暨全市聖誕月相關主題活動資訊 聖誕佳節即將到來！熱情歡迎您蒞臨全糖市-台南歡度聖誕跨年假期，與我們同享溫馨幸福時光，向2026完美告別，迎向2027新里程 !!2026台南聖誕節慶地圖google map https://ppt.cc/fKWFcx聖誕月期間主題聖誕燈飾及精彩活動看這裡!!(活動彙整僅供參考,相關訊息請依各活動主辦單位公布為準)2026台南聖誕燈節 展示日期：2026/11/27~2027/1/3每日17:30~22:30亮燈主題聖誕樹：聖誕意象燈飾布置： 2026台南聖誕燈節 2026/12/6 (日)15:00~19:30 聖誕闖關園遊會15:00~20:30 聖誕甜蜜市集18:30~20:30 聖誕點燈晚會地點：中西區環河街廣八廣場及河樂廣場西側 2026/12/12 (六)15:00~19:30 聖誕甜蜜市集17:30~19:30 聖誕點燈晚會地點：新營文化中心廣場及綠川廊道2026/12/24(四)中西區運河河樂燈區聖誕樹旁 19:00~21:00 聖誕平安夜報佳音2026/12/25(五) 新營文化中心廣場14:00",
   "kid_required": true
  },
  {
@@ -1900,12 +1878,6 @@
    {
     "start": "2026-12-11",
     "end": "2026-12-11",
-    "city": "新北市",
-    "venue": "南洋觀光美食街(新北市中和區華新街1號) 活動日期及排程: 活動日期 活動名稱 活動講師 報名日期 10 月16日(五)"
-   },
-   {
-    "start": "2026-11-23",
-    "end": "2026-11-23",
     "city": "新北市",
     "venue": "南洋觀光美食街(新北市中和區華新街1號) 活動日期及排程: 活動日期 活動名稱 活動講師 報名日期 10 月16日(五)"
    }
@@ -2510,6 +2482,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611200604351315277080",
+  "title": "2026桃園捷運鶇鶇童樂會 黏黏史萊姆親子DIY",
+  "url": "https://www.accupass.com/event/2611200604351315277080",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-05",
+    "end": "2026-12-05",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "2026桃園捷運鶇鶇童樂會 黏黏史萊姆親子DIY",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610210757021020538029",
   "title": "伊萊克斯親子廚房:聖誕麋鹿泡芙",
   "url": "https://www.accupass.com/event/2610210757021020538029",
@@ -2638,28 +2632,6 @@
    }
   ],
   "text": "2026-2027雙年賞蝶季系列活動｜賞蝶親子體驗活動 賞蝶季",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609190552021935605725",
-  "title": "2026紙廠電影院-中興57影展|免費電影放映・戶外特映・映後座談",
-  "url": "https://www.accupass.com/event/2609190552021935605725",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-07",
-    "end": "2026-12-12",
-    "city": "宜蘭縣",
-    "venue": ""
-   }
-  ],
-  "text": "2026紙廠電影院－中興57影展｜免費電影放映・戶外特映・映後座談 影展",
   "kid_required": true
  },
  {
@@ -2818,6 +2790,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611040436232509604160",
+  "title": "【實體操作】我的孩子需要視覺訓練嗎?視覺問題 x 雙眼協調 x 訓練方式",
+  "url": "https://www.accupass.com/event/2611040436232509604160",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-29",
+    "end": "2026-11-29",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "【實體操作】我的孩子需要視覺訓練嗎？視覺問題 x 雙眼協調 x 訓練方式 視覺功能訓練",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610161626072208310180",
   "title": "孩子扁平足,一定要治療嗎?不只看腳型,更看孩子怎麼走|學齡前足部發展與居家練習",
   "url": "https://www.accupass.com/event/2610161626072208310180",
@@ -2861,28 +2855,6 @@
    }
   ],
   "text": "« 2026 街頭玩童 » 鹽埕兒童街區遊戲日 野餐",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611100428257197253550",
-  "title": "【實體教學】兒童專注力訓練師認證輔導《免費課程體驗及說明會》",
-  "url": "https://www.accupass.com/event/2611100428257197253550",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-24",
-    "end": "2026-11-24",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "【實體教學】兒童專注力訓練師認證輔導《免費課程體驗及說明會》 免費",
   "kid_required": true
  },
  {
@@ -2931,6 +2903,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611200941161497605383",
+  "title": "2026 SHEKINAH KIDS 夏凱納平安夜兒童聖誕晚會💖",
+  "url": "https://www.accupass.com/event/2611200941161497605383",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-24",
+    "end": "2026-12-24",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "2026 SHEKINAH KIDS 夏凱納平安夜兒童聖誕晚會💖 唱跳",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2607070513311472114300",
   "title": "肌能系貼紮技術 神經與兒童領域專題班(臺中場)",
   "url": "https://www.accupass.com/event/2607070513311472114300",
@@ -2949,28 +2943,6 @@
    }
   ],
   "text": "肌能系貼紮技術 神經與兒童領域專題班(台中場) EDF",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2605150802437361083230",
-  "title": "[孩子過敏]總是一下好、一下又來?家有過敏兒,爸媽少走冤枉路講座",
-  "url": "https://www.accupass.com/event/2605150802437361083230",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-05-26",
-    "end": "2026-12-31",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "［孩子過敏］總是一下好、一下又來?家有過敏兒，爸媽少走冤枉路講座 皮膚過敏",
   "kid_required": true
  },
  {
@@ -3019,28 +2991,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611040436232509604160",
-  "title": "【實體操作】我的孩子需要視覺訓練嗎?視覺問題 x 雙眼協調 x 訓練方式",
-  "url": "https://www.accupass.com/event/2611040436232509604160",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-29",
-    "end": "2026-11-29",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "【實體操作】我的孩子需要視覺訓練嗎？視覺問題 x 雙眼協調 x 訓練方式 視覺功能訓練",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2608050848131302334573",
   "title": "兒童專注力焦點訓練(2~6年級親子)-202611期(高雄班)",
   "url": "https://www.accupass.com/event/2608050848131302334573",
@@ -3062,6 +3012,28 @@
    }
   ],
   "text": "兒童專注力焦點訓練(2~6年級親子)-202611期(高雄班) 專注力訓練",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611100428257197253550",
+  "title": "【實體教學】兒童專注力訓練師認證輔導《免費課程體驗及說明會》",
+  "url": "https://www.accupass.com/event/2611100428257197253550",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-24",
+    "end": "2026-11-24",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "【實體教學】兒童專注力訓練師認證輔導《免費課程體驗及說明會》 免費",
   "kid_required": true
  },
  {
@@ -3088,28 +3060,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611061804132113117292",
-  "title": "Ta-da!一本不正經?親子手工書製作工作坊 —— 創造我的百變故事盒 @外埔",
-  "url": "https://www.accupass.com/event/2611061804132113117292",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-12-20",
-    "end": "2026-12-20",
-    "city": "臺中市",
-    "venue": ""
-   }
-  ],
-  "text": "Ta-da！一本不正經？親子手工書製作工作坊 —— 創造我的百變故事盒 ＠外埔 工作坊",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2608180535451663839841",
   "title": "【富小孩養成基地】年度共學活動",
   "url": "https://www.accupass.com/event/2608180535451663839841",
@@ -3132,6 +3082,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611061804132113117292",
+  "title": "Ta-da!一本不正經?親子手工書製作工作坊 —— 創造我的百變故事盒 @外埔",
+  "url": "https://www.accupass.com/event/2611061804132113117292",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-20",
+    "end": "2026-12-20",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "Ta-da！一本不正經？親子手工書製作工作坊 —— 創造我的百變故事盒 ＠外埔 工作坊",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2608140737162685433640",
   "title": "【臺北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動",
   "url": "https://www.accupass.com/event/2608140737162685433640",
@@ -3150,28 +3122,6 @@
    }
   ],
   "text": "【台北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動 親子理財",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609290908339306700300",
-  "title": "【Open Site打開遺址】親子考古任務(華語場/臺語場)",
-  "url": "https://www.accupass.com/event/2609290908339306700300",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-14",
-    "end": "2026-12-19",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "【Open Site打開遺址】親子考古任務（華語場/台語場） 導覽",
   "kid_required": true
  },
  {
@@ -3308,28 +3258,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609030722305019497420",
-  "title": "舒喜市集【臺灣故鄉祭】",
-  "url": "https://www.accupass.com/event/2609030722305019497420",
-  "org": "",
-  "gov": false,
-  "price": 0,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-28",
-    "end": "2026-11-29",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "舒喜市集【台灣故鄉祭】 免費入場",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610180730232042342204",
   "title": "稻埕食光漫步小市集-11月",
   "url": "https://www.accupass.com/event/2610180730232042342204",
@@ -3348,6 +3276,28 @@
    }
   ],
   "text": "稻埕食光漫步小市集-11月 文創市集",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609030722305019497420",
+  "title": "舒喜市集【臺灣故鄉祭】",
+  "url": "https://www.accupass.com/event/2609030722305019497420",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-28",
+    "end": "2026-11-29",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "舒喜市集【台灣故鄉祭】 免費入場",
   "kid_required": true
  },
  {
@@ -3374,28 +3324,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610300751591605467151",
-  "title": "《高雄福華名品》聖誕市集手作",
-  "url": "https://www.accupass.com/event/2610300751591605467151",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-12-19",
-    "end": "2026-12-20",
-    "city": "高雄市",
-    "venue": ""
-   }
-  ],
-  "text": "《高雄福華名品》聖誕市集手作 交換禮物",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2608170824454282588400",
   "title": "療癒滾滾苔球課程(親子班)",
   "url": "https://www.accupass.com/event/2608170824454282588400",
@@ -3418,6 +3346,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609190552021935605725",
+  "title": "2026紙廠電影院-中興57影展|免費電影放映・戶外特映・映後座談",
+  "url": "https://www.accupass.com/event/2609190552021935605725",
+  "org": "",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-07",
+    "end": "2026-12-12",
+    "city": "宜蘭縣",
+    "venue": ""
+   }
+  ],
+  "text": "2026紙廠電影院－中興57影展｜免費電影放映・戶外特映・映後座談 影展",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2611091401511048207600",
   "title": "【戶外療癒】12/4 草地 · 日落 · 海洋療癒",
   "url": "https://www.accupass.com/event/2611091401511048207600",
@@ -3436,28 +3386,6 @@
    }
   ],
   "text": "【戶外療癒】12/4 草地 · 日落 · 海洋療癒 ＃自然療癒",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2609271549291413889911",
-  "title": "🌴【臺南戶外體驗】微風景攝影散步任務|邊走邊拍邊聊 × 認識不同「E / I」異性",
-  "url": "https://www.accupass.com/event/2609271549291413889911",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-12-26",
-    "end": "2026-12-27",
-    "city": "臺南市",
-    "venue": ""
-   }
-  ],
-  "text": "🌴【台南戶外體驗】微風景攝影散步任務｜邊走邊拍邊聊 × 認識不同「E / I」異性 學習",
   "kid_required": true
  },
  {
@@ -3524,6 +3452,28 @@
    }
   ],
   "text": "🌴【台中戶外體驗】微風景攝影散步任務｜邊走邊拍邊聊 × 認識不同「E / I」異性 學習",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2609271549291413889911",
+  "title": "🌴【臺南戶外體驗】微風景攝影散步任務|邊走邊拍邊聊 × 認識不同「E / I」異性",
+  "url": "https://www.accupass.com/event/2609271549291413889911",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-26",
+    "end": "2026-12-27",
+    "city": "臺南市",
+    "venue": ""
+   }
+  ],
+  "text": "🌴【台南戶外體驗】微風景攝影散步任務｜邊走邊拍邊聊 × 認識不同「E / I」異性 學習",
   "kid_required": true
  },
  {
@@ -3792,6 +3742,29 @@
    }
   ],
   "text": "自由入場 臺北花博農民市集 市集活動 115-12-05 ~ 115-12-06 10:00-18:00 長廊廣場 活動說明 臺北花博農民市集自 101 年起於花博圓山園區舉辦，是臺北市具代表性的產地直銷市集之一。來自全臺各地農會與小農於週末攜帶當季蔬果、農產加工品及特色農漁產品來到花博，讓市民朋友不必遠行，也能在城市裡認識各地風土與農業故事。 走進市集，不只是購買食材，更像是一場貼近土地的週末旅行。從當季水果、友善耕作農產到地方特色伴手禮，許多生產者親自在攤位分享種植歷程、挑選技巧與料理方式，讓民眾有機會認識農產品背後的人情與風味。 除了農產品展售外，現場亦結合花博音樂會、農學講堂及不定期主",
+  "kid_required": true,
+  "outing_hint": true
+ },
+ {
+  "source": "花博公園",
+  "uid": "花博公園:4602",
+  "title": "花博農民市集‧TAIPEI EXPO‧Far...",
+  "url": "https://www.expopark.taipei/News_Photo_Content.aspx?n=247&sms=9029&s=4602",
+  "org": "臺北市會展產業發展基金會",
+  "gov": false,
+  "price": 0,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2027-01-23",
+    "end": "2027-01-24",
+    "city": "臺北市",
+    "venue": "花博公園 長廊廣場"
+   }
+  ],
+  "text": "自由入場 花博農民市集‧TAIPEI EXPO‧Far... 市集活動 116-01-23 ~ 116-01-24 1000 - 1800 長廊廣場 活動時間 交通與提醒 Information 活動說明 自由入場 週末的採買清單，也能是一趟認識產地的小旅行。花博農民市集位於花博公園圓山園區長廊廣場，來自臺灣各地的農民與農會帶來蔬果、農產加工品及地方農特產品，讓平常下廚的家庭、喜歡尋找地方風味的旅人，都能在城市裡逛逛不同產地的收成。 從日常採買到年節送禮，可依家中需要安排逛市集的行程。挑選時不妨多問一句：「這個怎麼挑？買回家怎麼保存？」和攤主聊聊品種、產地與料理方式，再決定適合自己的份量。帶孩",
   "kid_required": true,
   "outing_hint": true
  },
