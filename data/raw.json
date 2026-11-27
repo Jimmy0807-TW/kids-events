@@ -219,7 +219,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-27",
+    "start": "2026-11-28",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -241,7 +241,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-28",
+    "start": "2026-11-29",
     "end": "2029-12-30",
     "city": "臺南市",
     "venue": "藍晒圖文創園區"
@@ -351,7 +351,7 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-27",
+    "start": "2026-11-28",
     "end": "2028-12-31",
     "city": "臺中市",
     "venue": "人類文化廳二樓"
@@ -1376,6 +1376,50 @@
  },
  {
   "source": "觀光署",
+  "uid": "觀光署:Event_382000000A_004129",
+  "title": "2026新北耶誕市集X亞洲電子競技公開賽",
+  "url": "",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-27",
+    "end": "2026-11-29",
+    "city": "新北市",
+    "venue": "板橋區 新北市政府市民廣場"
+   }
+  ],
+  "text": "2026新北耶誕市集X亞洲電子競技公開賽 活動日期：11/27（五）－11/29（日）",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
+  "uid": "觀光署:Event_382000000A_004130",
+  "title": "新北歡樂耶誕城 萌幻巨星耶誕演唱會",
+  "url": "",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-12",
+    "end": "2026-12-13",
+    "city": "新北市",
+    "venue": "萬里區"
+   }
+  ],
+  "text": "新北歡樂耶誕城 萌幻巨星耶誕演唱會 超人氣歌手互尬拼場，從潮流到嘻哈、文青到R&B，今年更首度融合虛擬歌手，與當紅團體進行虛實共演！最精采的表演只在2026新北歡樂耶誕城!",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
   "uid": "觀光署:Event_387000000A_010058",
   "title": "115-116年探索臺中之美 引客獎勵方案",
   "url": "",
@@ -1583,6 +1627,31 @@
  },
  {
   "source": "觀光署",
+  "uid": "觀光署:Event_397000000A_008248",
+  "title": "第七屆 Kahuzas 音樂節|嘎呼拉斯",
+  "url": "",
+  "org": "交通部觀光署",
+  "gov": true,
+  "price": null,
+  "age": [
+   12,
+   15
+  ],
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-05",
+    "end": "2026-12-06",
+    "city": "高雄市",
+    "venue": "六龜區 寶來國中操場"
+   }
+  ],
+  "text": "第七屆 Kahuzas 音樂節｜嘎呼拉斯 一年一度的 Kahuzas 音樂節又來了！今年再次相聚在高雄寶來國中操場，從午後一路唱到夜晚，用歌聲、舞蹈與音樂，讓不同世代、不同文化在這片土地上再次相遇。「Kahuzas」不只是一場音樂節，更是一個讓大家回來、聚在一起的日子。今年除了在地學校、合唱團與表演團隊之外，也特別邀請到生祥樂隊、Saujaljui 戴曉君、滅火器樂團，一起來到山城，用音樂和大家度過這個午後！活動日期：2026.12.05（六）活動時間：15:00－19:30活動地點：高雄寶來國中操場",
+  "kid_required": true
+ },
+ {
+  "source": "觀光署",
   "uid": "觀光署:Event_A15010000H_081661",
   "title": "2026草嶺古道芒花季",
   "url": "https://events.necoast-nsa.gov.tw/flower26/",
@@ -1601,28 +1670,6 @@
    }
   ],
   "text": "2026草嶺古道芒花季 為讓遊客欣賞大片芒花壯闊盛開之景，感受草嶺古道那段跨越百年山海時光長廊的記憶，自2002年開始舉辦，每年度總吸引約8萬人次遊客前往欣賞滿山芒花搖曳的迷人風采，近年來已成為東北角地區觀光旅遊品牌活動。",
-  "kid_required": true
- },
- {
-  "source": "觀光署",
-  "uid": "觀光署:Event_A15010000H_081713",
-  "title": "2026新北歡樂耶誕城",
-  "url": "https://christmasland.ntpc.gov.tw/map.php",
-  "org": "交通部觀光署",
-  "gov": true,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-11-13",
-    "end": "2026-12-27",
-    "city": "新北市",
-    "venue": "板橋區 新北市市民廣場"
-   }
-  ],
-  "text": "2026新北歡樂耶誕城 新北歡樂耶誕城自西元2011年開辦以來，迄今已邁入第15屆，從地區性活動到現在的國際亮點活動，將城市結合耶誕節歡樂氣氛，促進周邊商圈發展。",
   "kid_required": true
  },
  {
@@ -2752,28 +2799,6 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611200752155268165860",
-  "title": "2026夏凱納聖誕雙語親子PARTY-聖誕大冒險 Christmas Adventure",
-  "url": "https://www.accupass.com/event/2611200752155268165860",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-12-13",
-    "end": "2026-12-13",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "2026夏凱納聖誕雙語親子PARTY-聖誕大冒險 Christmas Adventure 唱跳",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610210757021020538029",
   "title": "伊萊克斯親子廚房:聖誕麋鹿泡芙",
   "url": "https://www.accupass.com/event/2610210757021020538029",
@@ -2858,6 +2883,28 @@
    }
   ],
   "text": "2026-2027雙年賞蝶季系列活動｜賞蝶親子體驗活動 賞蝶季",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611200752155268165860",
+  "title": "2026夏凱納聖誕雙語親子PARTY-聖誕大冒險 Christmas Adventure",
+  "url": "https://www.accupass.com/event/2611200752155268165860",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-13",
+    "end": "2026-12-13",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "2026夏凱納聖誕雙語親子PARTY-聖誕大冒險 Christmas Adventure 唱跳",
   "kid_required": true
  },
  {
@@ -3151,6 +3198,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611270900549473736000",
+  "title": "《翻轉孩子未來 希望劇場》公益兒童劇場活動",
+  "url": "https://www.accupass.com/event/2611270900549473736000",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-06",
+    "end": "2026-12-06",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "《翻轉孩子未來 希望劇場》公益兒童劇場活動",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2611200941161497605383",
   "title": "2026 SHEKINAH KIDS 夏凱納平安夜兒童聖誕晚會💖",
   "url": "https://www.accupass.com/event/2611200941161497605383",
@@ -3374,6 +3443,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611230933294482088700",
+  "title": "兒童籃球訓練營隊體驗營",
+  "url": "https://www.accupass.com/event/2611230933294482088700",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-28",
+    "end": "2026-11-28",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "兒童籃球訓練營隊體驗營 運動",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2611200544301183026483",
   "title": "【親子聖誕手作|Q版花圈 DIY】",
   "url": "https://www.accupass.com/event/2611200544301183026483",
@@ -3414,6 +3505,28 @@
    }
   ],
   "text": "【台北-下午小童場】12/12 親子金錢探險日 | 富小孩養成基地系列活動 親子理財",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611230441541349644884",
+  "title": "換個方式認識我的孩子-親子手做X繪畫分析體驗",
+  "url": "https://www.accupass.com/event/2611230441541349644884",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-12",
+    "end": "2026-12-12",
+    "city": "臺北市",
+    "venue": ""
+   }
+  ],
+  "text": "換個方式認識我的孩子-親子手做X繪畫分析體驗 親子手作 #紙娃娃DIY #週末親子時光 #親子共玩",
   "kid_required": true
  },
  {
@@ -3506,6 +3619,28 @@
  },
  {
   "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611250847511257336135",
+  "title": "日王市集-王船手繪DIY體驗",
+  "url": "https://www.accupass.com/event/2611250847511257336135",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-25",
+    "end": "2026-12-26",
+    "city": "屏東縣",
+    "venue": ""
+   }
+  ],
+  "text": "日王市集-王船手繪DIY體驗 親子手作DIY",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
   "uid": "ACCUPASS:2610150721431826384040",
   "title": "ECHOCORE 6.0 頻率共振市集|曖昧頻率 Ambiguous Frequency・12/12–12/13 士林無盡紋身",
   "url": "https://www.accupass.com/event/2610150721431826384040",
@@ -3524,28 +3659,6 @@
    }
   ],
   "text": "ECHOCORE 6.0 頻率共振市集｜曖昧頻率 Ambiguous Frequency・12/12–12/13 士林無盡紋身 免費",
-  "kid_required": true
- },
- {
-  "source": "ACCUPASS",
-  "uid": "ACCUPASS:2610180730232042342204",
-  "title": "稻埕食光漫步小市集-11月",
-  "url": "https://www.accupass.com/event/2610180730232042342204",
-  "org": "",
-  "gov": false,
-  "price": null,
-  "age": null,
-  "reg_start": null,
-  "reg_end": null,
-  "sessions": [
-   {
-    "start": "2026-08-08",
-    "end": "2026-11-27",
-    "city": "臺北市",
-    "venue": ""
-   }
-  ],
-  "text": "稻埕食光漫步小市集-11月 文創市集",
   "kid_required": true
  },
  {
@@ -3594,9 +3707,9 @@
  },
  {
   "source": "ACCUPASS",
-  "uid": "ACCUPASS:2611080810265131094280",
-  "title": "百工百業職人市集|一日職人體驗所",
-  "url": "https://www.accupass.com/event/2611080810265131094280",
+  "uid": "ACCUPASS:2611270647582121270810",
+  "title": "小島轉運幸福市集|年末療癒・幸福補給・新年開運",
+  "url": "https://www.accupass.com/event/2611270647582121270810",
   "org": "",
   "gov": false,
   "price": null,
@@ -3605,13 +3718,35 @@
   "reg_end": null,
   "sessions": [
    {
-    "start": "2026-11-29",
-    "end": "2026-11-29",
-    "city": "桃園市",
+    "start": "2026-12-06",
+    "end": "2026-12-06",
+    "city": "臺北市",
     "venue": ""
    }
   ],
-  "text": "百工百業職人市集｜一日職人體驗所 職人",
+  "text": "小島轉運幸福市集｜年末療癒・幸福補給・新年開運 身心靈市集",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611270145551822724078",
+  "title": "🎄 臺中園道文具館限定|2026誠品禮物市集 🎄",
+  "url": "https://www.accupass.com/event/2611270145551822724078",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-04",
+    "end": "2027-01-04",
+    "city": "臺中市",
+    "venue": ""
+   }
+  ],
+  "text": "🎄 台中園道文具館限定｜2026誠品禮物市集 🎄 禮物",
   "kid_required": true
  },
  {
@@ -3634,6 +3769,50 @@
    }
   ],
   "text": "療癒滾滾苔球課程(親子班) 綠植",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611251324052020975059",
+  "title": "市集限定!水晶戒指DIY|桃園青埔場",
+  "url": "https://www.accupass.com/event/2611251324052020975059",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-12-25",
+    "end": "2026-12-27",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "市集限定！水晶戒指DIY｜桃園青埔場 桃園活動",
+  "kid_required": true
+ },
+ {
+  "source": "ACCUPASS",
+  "uid": "ACCUPASS:2611080810265131094280",
+  "title": "百工百業職人市集|一日職人體驗所",
+  "url": "https://www.accupass.com/event/2611080810265131094280",
+  "org": "",
+  "gov": false,
+  "price": null,
+  "age": null,
+  "reg_start": null,
+  "reg_end": null,
+  "sessions": [
+   {
+    "start": "2026-11-29",
+    "end": "2026-11-29",
+    "city": "桃園市",
+    "venue": ""
+   }
+  ],
+  "text": "百工百業職人市集｜一日職人體驗所 職人",
   "kid_required": true
  },
  {
